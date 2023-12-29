@@ -6,10 +6,29 @@ import './App.css'
 function App() {
   return (
     <>
-      <span>My Latest Projects</span>
-      <section>🚀 Teach League</section>
-      <section>👨🏻‍🏫 Class Website</section>
-      <section>👻 Costume Contest Scoreboard</section>
+      <h1 className="title">My Latest Projects</h1>
+      <section>
+        <h2>🚀 Teach League</h2>
+        <a
+          href="https://teach-league.web.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          link
+        </a>
+      </section>
+      <section>
+        <h2>👨🏻‍🏫 Class Website</h2>
+        <a href="https://eitans.website/" target="_blank" rel="noreferrer">
+          link
+        </a>
+      </section>
+      <section>
+        <h2>👻 Costume Contest Scoreboard</h2>
+        <a href="" target="_blank" rel="noreferrer">
+          link
+        </a>
+      </section>
     </>
   );
 }
