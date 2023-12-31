@@ -9,17 +9,12 @@ import "./App.css";
 function App() {
   return (
     <Container>
-      <h1 className="title">My Latest Projects</h1>
-      <p className="text-align:left">
+      <h1 className="main-title">My Latest Projects</h1>
+      <p className="intro-text">
         My name is Eitan Fire. Here are some of the my latest apps I have built
         to help me solve challenges as a teacher.
       </p>
-      <p>
-        {" "}
-        Recently I have been creating new projects using Vite. I make modern web
-        apps React to{" "}
-      </p>
-      <Projects />
+      <Projects className="" />
     </Container>
   );
 }

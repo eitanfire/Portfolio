@@ -7,7 +7,7 @@ import { Container, Col, Row, Card, CardBody } from "reactstrap";
 const Projects = () => {
   return (
     <Container>
-      <Row className="mb-3">
+      <Row className=" mb-3">
         <h2 className="title">🚀 Teach League</h2>
         <Col className="col col-xs-8" sm="8">
           <img
@@ -16,22 +16,23 @@ const Projects = () => {
             alt="Teach League screenshot"
           ></img>
         </Col>
-        <Col className="col col-xs-2" sm="2">
+        <Col className="project-links col col-xs-3" sm='3'>
           {" "}
           <a
             href="https://teach-league.web.app/"
             target="_blank"
             rel="noreferrer"
           >
-            link
+            <i className="fa fa-circle-play"></i> Live Demo
           </a>
           <div>
             <a
+              // className="btn btn-social-icon btn-github"
               href="https://github.com/eitanfire/legendary-quest.git"
               target="_blank"
               rel="noreferrer"
             >
-              GitHub
+              <i className="fa fa-github"></i> GitHub
             </a>
           </div>
         </Col>
@@ -86,6 +87,11 @@ const Projects = () => {
         <Col className="col col-xs-6">
           {" "}
           <p>
+            <p>
+              {" "}
+              Recently I have been creating new projects using Vite. I make
+              modern web apps React to{" "}
+            </p>
             I aim to write clean code in a functional style but I won't
             hesitaste to make use of class based components when working with
             legacy code such as the Scoreboard which I started with a tutorial.

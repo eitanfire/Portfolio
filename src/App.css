@@ -47,8 +47,13 @@ width: 12rem;
 text-align: left;
 }
 
+.main-title {
+margin-top: 4rem;
+}
+
 .title {
-  text-align: center;
+  text-align: left;
+  padding-top: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-top: 1px solid black;
@@ -57,4 +62,15 @@ text-align: left;
 
 .description {
   text-align: left;
+}
+
+.project-links {
+  text-align: left;
+}
+
+.intro-text {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
 }
