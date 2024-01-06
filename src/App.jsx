@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useState } from "react";
 import TL from "./assets/img/tl-ss.png";
 import Class from "./assets/img/class-website-ss.png";
 import Leaderboard from "./assets/img/leaderboard--ss.png";
 import { Container, Col, Row, Card, CardBody } from "reactstrap";
-import Projects from './components/Projects';
+import Projects from "./components/Projects";
 import "./App.css";
 
 function App() {
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App
+export default App;

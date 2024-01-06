@@ -42,13 +42,13 @@
 }
 
 .screenshots {
-height:auto;
-width: 12rem;
-text-align: left;
+  height: auto;
+  width: 12rem;
+  text-align: left;
 }
 
 .main-title {
-margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .title {
@@ -57,7 +57,6 @@ margin-top: 4rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-top: 1px solid black;
-
 }
 
 .description {
@@ -71,6 +70,6 @@ margin-top: 4rem;
 .intro-text {
   margin-top: 4rem;
   margin-bottom: 4rem;
-    text-align: center;
-    font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }

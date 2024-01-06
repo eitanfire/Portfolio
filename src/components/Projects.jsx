@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from "react";
 import TL from "../assets/img/tl-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
@@ -16,7 +16,7 @@ const Projects = () => {
             alt="Teach League screenshot"
           ></img>
         </Col>
-        <Col className="project-links col col-xs-3" sm='3'>
+        <Col className="project-links col col-xs-3" sm="3">
           {" "}
           <a
             href="https://teach-league.web.app/"
@@ -153,6 +153,6 @@ const Projects = () => {
       </Row>
     </Container>
   );
-}
+};
 
 export default Projects;
