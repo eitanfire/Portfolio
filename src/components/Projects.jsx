@@ -41,16 +41,26 @@ const Projects = () => {
         <Col className="col col-xs-6">
           {" "}
           <p>
-            I aim to write clean code in a functional style but I won't
-            hesitaste to make use of class based components when working with
-            legacy code such as the Scoreboard which I started with a tutorial.
+            As a teacher with 14 years of experience I am eager to offer support
+            and mentorship to other educators in the field. This web app shares
+            the high-quality curriculum I have built over the years.
+          </p>
+          <p>
+            I help teachers stay sharp as professionals by curating illuminating
+            articles and ultimately to support their own voices.
           </p>
         </Col>
         <Col className="col col-xs-6">
           <p>
-            As a teacher a whiteboard coding interview is not quite as
-            terrifying as having a school full of students tensely watching me
-            debug a program to find out the winner of the costume contest!
+            I used the Google Classroom API to provide them with an emergency
+            lesson plan they can easily assign to their students.
+          </p>
+          <p>
+
+          </p>
+          <p>
+            Users can click on the light bulb to toggle between a light and dark
+            theme.
           </p>
         </Col>
       </Row>
@@ -87,21 +97,22 @@ const Projects = () => {
         <Col className="col col-xs-6">
           {" "}
           <p>
-            <p>
-              {" "}
-              Recently I have been creating new projects using Vite. I make
-              modern web apps React to{" "}
-            </p>
-            I aim to write clean code in a functional style but I won't
-            hesitaste to make use of class based components when working with
-            legacy code such as the Scoreboard which I started with a tutorial.
+            As a high school teacher I wanted to help my students get quickly
+            oriented to be successful in class. I used the date API to
+            conditionally render a component that lets them know if it is an A
+            day or a B day within the block schedule we follow. I leveraged this
+            same API to keep all other date related information seemlessly
+            updated such as the information foound it on the "About Me" page.
           </p>
         </Col>
         <Col className="col col-xs-6">
           <p>
-            As a teacher a whiteboard coding interview is not quite as
-            terrifying as having a school full of students tensely watching me
-            debug a program to find out the winner of the costume contest!
+            I created an accordion that gives students quick access to
+            assignemnts and documents they will need for the day. The calendar
+            shows important school events and also shows the due dates for any
+            assignments their teachers assign on Google Classroom. The carousel
+            raises community spirit by "shouting out" students and staff for
+            taking pride in their community
           </p>
         </Col>
       </Row>
