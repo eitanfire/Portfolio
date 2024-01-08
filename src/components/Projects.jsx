@@ -7,17 +7,9 @@ import { Container, Col, Row, Card, CardBody } from "reactstrap";
 const Projects = () => {
   return (
     <Container>
-      <Row className=" mb-3">
-        <h2 className="title">🚀 Teach League</h2>
-        <Col className="col col-xs-8" sm="8">
-          <img
-            className="screenshots"
-            src={TL}
-            alt="Teach League screenshot"
-          ></img>
-        </Col>
-        <Col className="project-links col col-xs-3" sm="3">
-          {" "}
+      <h2 className="title">🚀 Teach League</h2>
+      <Row className="mb-3">
+        <Col className="project-links col col-xs-1" sm="1">
           <a
             href="https://teach-league.web.app/"
             target="_blank"
@@ -36,35 +28,44 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-      </Row>
-      <Row className="description">
-        <Col className="col col-xs-6">
-          {" "}
-          <p>
-            As a teacher with 14 years of experience I am eager to offer support
-            and mentorship to other educators in the field. This web app shares
-            the high-quality curriculum I have built over the years.
-          </p>
-          <p>
-            I help teachers stay sharp as professionals by curating illuminating
-            articles and ultimately to support their own voices.
-          </p>
+        <Col className="col col-xs-1" sm="1">
+          <img
+            className="screenshots"
+            src={TL}
+            alt="Teach League screenshot"
+          ></img>
         </Col>
-        <Col className="col col-xs-6">
-          <p>
-            I used the Google Classroom API to provide them with an emergency
-            lesson plan they can easily assign to their students.
-          </p>
-          <p>
-
-          </p>
-          <p>
-            Users can click on the light bulb to toggle between a light and dark
-            theme.
-          </p>
+        {/* </Row>
+      <Row> */}
+        <Col className="description col col-xs-2" sm="2">
+          <Col>
+            <p>
+              As a teacher with 14 years of experience I am eager to offer
+              support and mentorship to other educators in the field. This web
+              app shares the high-quality curriculum I have built over the
+              years.
+            </p>
+            <p>
+              I help teachers stay sharp as professionals by curating
+              illuminating articles and ultimately to support their own voices.
+            </p>
+          </Col>
+          <Col className="col">
+            <p>
+              I used the Google Classroom API to provide them with an emergency
+              lesson plan they can easily assign to their students.
+            </p>
+            <p></p>
+            <p>
+              Users can click on the light bulb to toggle between a light and
+              dark theme.
+            </p>
+          </Col>
         </Col>
       </Row>
-      <Row className="mb-5">
+      <Row
+      // className="mb-5"
+      >
         <h2 className="title">👨🏻‍🏫 Class Website</h2>
         <Col className="col col-xs-8" sm="8">
           <img
@@ -74,7 +75,6 @@ const Projects = () => {
           ></img>
         </Col>
         <Col className="col col-xs-2" sm="2">
-          {" "}
           <a
             href="https://teach-league.web.app/"
             target="_blank"
@@ -95,7 +95,6 @@ const Projects = () => {
       </Row>
       <Row className="description">
         <Col className="col col-xs-6">
-          {" "}
           <p>
             As a high school teacher I wanted to help my students get quickly
             oriented to be successful in class. I used the date API to
@@ -126,7 +125,6 @@ const Projects = () => {
           ></img>
         </Col>
         <Col className="col col-xs-2" sm="2">
-          {" "}
           <a
             href="https://teach-league.web.app/"
             target="_blank"
