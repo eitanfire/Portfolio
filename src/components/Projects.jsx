@@ -1,5 +1,5 @@
-import { useState } from "react";
 import TL from "../assets/img/tl-ss.png";
+import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
 import { Container, Col, Row, Card, CardBody } from "reactstrap";
@@ -28,7 +28,14 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-        <Col className="col col-xs-1" sm="1">
+        <Col className="col col-xs-2" sm="2">
+          <img
+            className="screenshots"
+            src={TLLight}
+            alt="Teach League screenshot"
+          ></img>
+        </Col>
+        <Col className="col col-xs-2" sm="2">
           <img
             className="screenshots"
             src={TL}
@@ -37,19 +44,16 @@ const Projects = () => {
         </Col>
         {/* </Row>
       <Row> */}
-        <Col className="description col col-xs-2" sm="2">
-          <Col>
-            <p>
-              As a teacher with 14 years of experience I am eager to offer
-              support and mentorship to other educators in the field. This web
-              app shares the high-quality curriculum I have built over the
-              years.
-            </p>
-            <p>
-              I help teachers stay sharp as professionals by curating
-              illuminating articles and ultimately to support their own voices.
-            </p>
-          </Col>
+        <Col className="description col col-xs-8" sm="9">
+          <p>
+            As a teacher with 14 years of experience I am eager to offer support
+            and mentorship to other educators in the field. This web app shares
+            the high-quality curriculum I have built over the years.
+          </p>
+          <p>
+            I help teachers stay sharp as professionals by curating illuminating
+            articles and ultimately to support their own voices.
+          </p>
           <Col className="col">
             <p>
               I used the Google Classroom API to provide them with an emergency
@@ -96,11 +100,11 @@ const Projects = () => {
       <Row className="description">
         <Col className="col col-xs-6">
           <p>
-            As a high school teacher I wanted to help my students get quickly
-            oriented to be successful in class. I used the date API to
-            conditionally render a component that lets them know if it is an A
-            day or a B day within the block schedule we follow. I leveraged this
-            same API to keep all other date related information seemlessly
+            I created this class website to support my students in getting the
+            information they need to be successful in class. I used the date API
+            to conditionally render a component that lets them know if it is an
+            A day or a B day within the block schedule we follow. I leveraged
+            this same API to keep all other date related information seemlessly
             updated such as the information foound it on the "About Me" page.
           </p>
         </Col>
