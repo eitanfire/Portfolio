@@ -10,10 +10,10 @@
 }
 
 .screenshots {
+  margin-top: .7rem;
   height: auto;
-  width: 12rem;
-  text-align: left;
-  background-color: fuchsia;
+  width: 14rem;
+  border: thick double;
 }
 
 .main-title {
@@ -33,11 +33,19 @@
 .description {
   background-color: blue;
   text-align: left;
+  margin-right: 1rem;
 }
 
-.project-links {
-  text-align: left;
-  background-color: red;
+.project-links {  
+  /* padding-top: 3rem; */
+text-align: left;
+  /* background-color: red; */
+  /* margin-right: 7rem; */
+}
+
+.fa {
+font-size:x-large;
+color: rgb(44, 135, 255);
 }
 
 .intro-text {

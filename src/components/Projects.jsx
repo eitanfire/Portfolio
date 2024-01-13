@@ -1,6 +1,7 @@
 import TL from "../assets/img/tl-ss.png";
 import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
+import About from "../assets/img/class-website-about-me-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
 import { Container, Col, Row, Card, CardBody } from "reactstrap";
 
@@ -9,15 +10,18 @@ const Projects = () => {
     <Container>
       <h2 className="title">🚀 Teach League</h2>
       <Row className="mb-3">
-        <Col className="project-links col col-xs-1" sm="1">
-          <a
-            href="https://teach-league.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fa fa-circle-play"></i> Live Demo
-          </a>
-          <div>
+        <Col className="col col-xs-1" sm="1">
+          <div className="project-links">
+            <a
+              href="https://teach-league.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Demo
+            </a>
+          </div>
+          <br></br>
+          <div className="project-links">
             <a
               // className="btn btn-social-icon btn-github"
               href="https://github.com/eitanfire/legendary-quest.git"
@@ -28,23 +32,28 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-        <Col className="col col-xs-2" sm="2">
-          <img
-            className="screenshots"
-            src={TLLight}
-            alt="Teach League screenshot"
-          ></img>
-        </Col>
-        <Col className="col col-xs-2" sm="2">
-          <img
-            className="screenshots"
-            src={TL}
-            alt="Teach League screenshot"
-          ></img>
+        <Col
+        // className="vstack"
+        >
+          <Col className="col col-xs-2" sm="2">
+            <img
+              className="screenshots"
+              src={TLLight}
+              alt="Teach League screenshot"
+            ></img>
+          </Col>
+          <br></br>
+          <Col className="col col-xs-2" sm="2">
+            <img
+              className="screenshots"
+              src={TL}
+              alt="Teach League screenshot"
+            ></img>
+          </Col>
         </Col>
         {/* </Row>
       <Row> */}
-        <Col className="description col col-xs-8" sm="9">
+        <Col className="description col col-xs-7" sm="8">
           <p>
             As a teacher with 14 years of experience I am eager to offer support
             and mentorship to other educators in the field. This web app shares
