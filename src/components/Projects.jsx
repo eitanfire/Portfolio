@@ -10,115 +10,120 @@ const Projects = () => {
     <Container>
       <h2 className="title">🚀 Teach League</h2>
       <Row className="mb-3">
-        <Col className="col col-xl-2">
-          <div className="project-links d-md-none">
-            <a
-              href="https://teach-league.web.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-circle-play"></i> Live Demo
-            </a>
-          </div>
-          <br></br>
-          <div className="project-links d-md-none d-block-lg">
-            <a
-              // className="btn btn-social-icon btn-github"
-              href="https://github.com/eitanfire/legendary-quest.git"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-github"></i> GitHub
-            </a>
-          </div>
-        </Col>
-        <Col className="col col-xl-2">
-          <div className="project-links-md d-none d-md-block d-lg-none hstack">
-            <a
-              href="https://teach-league.web.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-circle-play"></i> Live Demo
-            </a>
-          </div>
-          <br></br>
-          <div className="project-links-md d-none d-md-block d-lg-none hstack">
-            <a
-              // className="btn btn-social-icon btn-github"
-              href="https://github.com/eitanfire/legendary-quest.git"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-github"></i> GitHub
-            </a>
-          </div>
-        </Col>
-        <Col
-        // className="vstack"
-        >
-          <Col className="col col-2 d-md-none d-xl-block">
-            <img
-              className="screenshots"
-              src={TLLight}
-              alt="Teach League screenshot"
-            ></img>
-          </Col>
-          <br></br>
-          <Col className="col col-2 d-md-none d-xl-block">
-            <img
-              className="screenshots"
-              src={TL}
-              alt="Teach League screenshot"
-            ></img>
-          </Col>
-        </Col>
-        <Col className="hstack">
-          <Col className="d-none d-md-block d-xl-none">
-            <img
-              className="screenshots-md"
-              src={TLLight}
-              alt="Teach League screenshot"
-            ></img>
-          </Col>
-          <br></br>
-          <Col className="d-none d-md-block d-xl-none">
-            <img
-              className="screenshots-md"
-              src={TL}
-              alt="Teach League screenshot"
-            ></img>
-          </Col>
-        </Col>
-        {/* </Row>
-      <Row> */}
-        <Col className="description col-12 col-xl-7">
-          <p>
-            As a teacher with 14 years of experience I am eager to offer support
-            and mentorship to other educators in the field. This web app shares
-            the high-quality curriculum I have built over the years.
-          </p>
-          <p>
-            I help teachers stay sharp as professionals by curating illuminating
-            articles and ultimately to support their own voices.
-          </p>
+        {/* Old Styling*/}
+        <Row className="mb-3">
           <Col className="col">
-            <p>
-              I used the Google Classroom API to provide them with an emergency
-              lesson plan they can easily assign to their students.
-            </p>
-            <p></p>
-            <p>
-              Users can click on the light bulb to toggle between a light and
-              dark theme.
-            </p>
+            <div className="project-links d-md-none d-lg-block">
+              <a
+                href="https://teach-league.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-circle-play"></i> Live Demo
+              </a>
+            </div>
+            <br></br>
+            <div className="project-links d-md-none d-lg-block">
+              <a
+                // className="btn btn-social-icon btn-github"
+                href="https://github.com/eitanfire/legendary-quest.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-github"></i> GitHub
+              </a>
+            </div>
           </Col>
-        </Col>
-      </Row>
-      <Row
-      // className="mb-5"
-      >
-        <h2 className="title">👨🏻‍🏫 Class Website</h2>
+          <Col
+          // className="vstack"
+          >
+            <Col
+              className="col col-12 
+        hstack"
+            >
+              <div className="project-links-md d-none d-md-block d-lg-none">
+                <a
+                  href="https://teach-league.web.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa fa-circle-play"></i> Live Demo
+                </a>
+              </div>
+              <br></br>
+              <div className="project-links-md d-none d-md-block d-lg-none">
+                <a
+                  // className="btn btn-social-icon btn-github"
+                  href="https://github.com/eitanfire/legendary-quest.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa fa-github"></i> GitHub
+                </a>
+              </div>
+            </Col>
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src={TLLight}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col>
+                <img
+                  className="screenshots"
+                  src={TL}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+            </Col>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md"
+                  src={TLLight}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md"
+                  src={TL}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+            </Col>
+          </Col>
+          {/* </Row>
+      <Row> */}
+          <Col className="description col col-12 col-xl-8">
+            <p>
+              As a teacher with 14 years of experience I am eager to offer
+              support and mentorship to other educators in the field. This web
+              app shares the high-quality curriculum I have built over the
+              years.
+            </p>
+            <p>
+              I help teachers stay sharp as professionals by curating
+              illuminating articles and ultimately to support their own voices.
+            </p>
+            <Col className="col">
+              <p>
+                I used the Google Classroom API to provide them with an
+                emergency lesson plan they can easily assign to their students.
+              </p>
+              <p></p>
+              <p>
+                Users can click on the light bulb to toggle between a light and
+                dark theme.
+              </p>
+            </Col>
+          </Col>
+        </Row>
+        {/* <h2 className="title">👨🏻‍🏫 Class Website</h2>
         <Col className="col col-xs-8" sm="8">
           <img
             className="screenshots"
@@ -233,7 +238,7 @@ const Projects = () => {
               alt="Teach League screenshot"
             ></img>
           </Col>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );

@@ -5,8 +5,12 @@
   text-align: center;
 }
 
-.card {
+/* .card {
   padding: 2em;
+} */
+
+.screenshot-container {
+/* background-color: aqua; */
 }
 
 .screenshots {
@@ -53,20 +57,23 @@ margin-right:2rem;
 font-size:1.25rem;
 text-align: left;
 margin-top: 2.6rem;
-background-color: rgb(221, 11, 11);
+/* background-color: rgb(221, 11, 11); */
 
 }
 
 .project-links-md {  
+  position: relative;
+  left: 33%;
 font-size:1.25rem;
 text-align: left;
-margin-top: 2.6rem;
-background-color: black;
+/* background-color: black; */
+margin-right:2rem;
+
 }
 
 .fa {
-font-size:x-large;
-color: rgb(44, 135, 255);
+/* font-size:x-large; */
+/* color: rgb(44, 135, 255); */
 }
 
 .intro-text {
