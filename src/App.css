@@ -12,13 +12,25 @@
 .screenshots {
   margin-top: .7rem;
   height: auto;
-  width: 14rem;
+  width: 13rem;
   border: thick double;
+}
+
+.screenshots-xs-sm {
+
+}
+
+.screenshots-md {
+  margin-top: .7rem;
+  height: auto;
+  width: 20rem;
+  border: thick double;
+margin-right:2rem;
 }
 
 .main-title {
   margin-top: 4rem;
-  background-color: rgb(207, 213, 28);
+  /* background-color: rgb(207, 213, 28); */
 }
 
 .title {
@@ -27,20 +39,29 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-top: 1px solid black;
-  background-color: rgb(176, 36, 141);
+  /* background-color: rgb(176, 36, 141); */
 }
 
 .description {
-  background-color: blue;
+  /* background-color: blue; */
   text-align: left;
+  padding-top: 1rem;
   margin-right: 1rem;
 }
 
 .project-links {  
-  /* padding-top: 3rem; */
+font-size:1.25rem;
 text-align: left;
-  /* background-color: red; */
-  /* margin-right: 7rem; */
+margin-top: 2.6rem;
+background-color: rgb(221, 11, 11);
+
+}
+
+.project-links-md {  
+font-size:1.25rem;
+text-align: left;
+margin-top: 2.6rem;
+background-color: black;
 }
 
 .fa {
@@ -53,5 +74,5 @@ color: rgb(44, 135, 255);
   margin-bottom: 4rem;
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgb(34, 197, 188);
+  /* background-color: rgb(34, 197, 188); */
 }
