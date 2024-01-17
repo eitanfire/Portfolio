@@ -23,7 +23,6 @@ const Projects = () => {
           <br></br>
           <div className="project-links d-md-none d-lg-block">
             <a
-              // className="btn btn-social-icon btn-github"
               href="https://github.com/eitanfire/legendary-quest.git"
               target="_blank"
               rel="noreferrer"
@@ -32,9 +31,7 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-        <Col
-        // className="vstack"
-        >
+        <Col>
           <Col
             className="col col-12 
         hstack"
@@ -51,7 +48,6 @@ const Projects = () => {
             <br></br>
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                // className="btn btn-social-icon btn-github"
                 href="https://github.com/eitanfire/legendary-quest.git"
                 target="_blank"
                 rel="noreferrer"
@@ -80,7 +76,7 @@ const Projects = () => {
           <Col className="hstack">
             <Col className="d-none d-md-block d-xl-none">
               <img
-                className="screenshots-md"
+                className="screenshots-md-lg"
                 src={TLLight}
                 alt="Teach League screenshot"
               ></img>
@@ -88,15 +84,13 @@ const Projects = () => {
             <br></br>
             <Col className="d-none d-md-block d-xl-none">
               <img
-                className="screenshots-md"
+                className="screenshots-md-lg"
                 src={TL}
                 alt="Teach League screenshot"
               ></img>
             </Col>
           </Col>
         </Col>
-        {/* </Row>
-      <Row> */}
         <Col className="description col col-12 col-xl-8">
           <p>
             As a teacher with 14 years of experience, I am eager to offer
@@ -125,8 +119,134 @@ const Projects = () => {
       </Row>
       <h2 className="title">👨🏻‍🏫 Class Website</h2>
       <Row className="mb-3">
+        <Col className="description col d-none d-xl-block col-xl-8">
+          <p>
+            I created this class website to support my students in getting the
+            information they need to be successful in class. I used the date API
+            to conditionally render a component that lets them know if it is an
+            A day or a B day within the block schedule we follow. I leveraged
+            this same API to keep all other date-related information seamlessly
+            updated such as the information found on the "About Me" page. The
+            layout of this web app adjusts responsively according to screen
+            size.
+          </p>
+          <Col className="col">
+            <p>
+              I created an accordion that gives students quick access to
+              assignments and documents they need for the day. The calendar
+              shows important school events and the due dates for any
+              assignments their teachers assign on Google Classroom. The
+              carousel raises community spirit by "shouting out" students and
+              staff for taking pride in their community.
+            </p>
+          </Col>
+        </Col>
+        <Col className="col col-12 col-xl hstack">
+          <div className="project-links-md d-none d-md-block d-lg-none">
+            <a
+              href="https://teach-league.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Demo
+            </a>
+          </div>
+          <br></br>
+          <div className="project-links-md d-none d-md-block d-lg-none">
+            <a
+              href="https://github.com/eitanfire/legendary-quest.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div>
+        </Col>
+        <Col>
+          <Col className="screenshot-container col d-md-none d-xl-block">
+            <Col>
+              <img
+                className="screenshots"
+                src={Class}
+                alt="Teach League screenshot"
+              ></img>
+            </Col>
+            <br></br>
+            <Col>
+              <img
+                className="screenshots"
+                src={About}
+                alt="Teach League screenshot"
+              ></img>
+            </Col>
+          </Col>
+          <Col className="hstack">
+            <Col className="d-none d-md-block d-xl-none">
+              <img
+                className="screenshots-md-lg"
+                src={Class}
+                alt="Teach League screenshot"
+              ></img>
+            </Col>
+            <br></br>
+            <Col className="d-none d-md-block d-xl-none">
+              <img
+                className="screenshots-md-lg"
+                src={About}
+                alt="Teach League screenshot"
+              ></img>
+            </Col>
+          </Col>
+        </Col>
+        <Col className="col">
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://teach-league.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Demo
+            </a>
+          </div>
+          <br></br>
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://github.com/eitanfire/legendary-quest.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div>
+        </Col>
+
+        <Col className="description col col-12 d-xl-none">
+          <p>
+            I created this class website to support my students in getting the
+            information they need to be successful in class. I used the date API
+            to conditionally render a component that lets them know if it is an
+            A day or a B day within the block schedule we follow. I leveraged
+            this same API to keep all other date-related information seamlessly
+            updated such as the information found on the "About Me" page. The
+            layout of this web app adjusts responsively according to screen
+            size.
+          </p>
+          <Col className="col">
+            <p>
+              I created an accordion that gives students quick access to
+              assignments and documents they need for the day. The calendar
+              shows important school events and the due dates for any
+              assignments their teachers assign on Google Classroom. The
+              carousel raises community spirit by "shouting out" students and
+              staff for taking pride in their community.
+            </p>
+          </Col>
+        </Col>
+      </Row>
+
+      {/* <h2 className="title">👨🏻‍🏫 Class Website</h2>
+      <Row className="mb-3">
         <Col
-        // className="vstack"
         >
           <Col className="description col col-12 col-xl-8">
             <p>
@@ -149,8 +269,6 @@ const Projects = () => {
             </p>
           </Col>
           <Col
-            className="col col-12 
-        hstack"
           >
             <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
               <Col>
@@ -172,7 +290,7 @@ const Projects = () => {
             <Col className="hstack">
               <Col className="d-none d-md-block d-xl-none">
                 <img
-                  className="screenshots-md"
+                  className="screenshots-md-lg"
                   src={Class}
                   alt="Teach League screenshot"
                 ></img>
@@ -180,7 +298,7 @@ const Projects = () => {
               <br></br>
               <Col className="d-none d-md-block d-xl-none">
                 <img
-                  className="screenshots-md"
+                  className="screenshots-md-lg"
                   src={About}
                   alt="Teach League screenshot"
                 ></img>
@@ -198,7 +316,6 @@ const Projects = () => {
             <br></br>
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                // className="btn btn-social-icon btn-github"
                 href="https://github.com/eitanfire/legendary-quest.git"
                 target="_blank"
                 rel="noreferrer"
@@ -221,7 +338,6 @@ const Projects = () => {
           <br></br>
           <div className="project-links d-md-none d-lg-block">
             <a
-              // className="btn btn-social-icon btn-github"
               href="https://github.com/eitanfire/legendary-quest.git"
               target="_blank"
               rel="noreferrer"
@@ -246,7 +362,6 @@ const Projects = () => {
           <br></br>
           <div className="project-links-md d-none d-md-block d-lg-none">
             <a
-              // className="btn btn-social-icon btn-github"
               href="https://github.com/eitanfire/legendary-quest.git"
               target="_blank"
               rel="noreferrer"
@@ -255,7 +370,7 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-      </Row>
+      </Row> */}
       <h2 className="title">👻 Costume Contest Scoreboard</h2>
       <Row className="mb-3">
         <Col className="col">
@@ -320,7 +435,7 @@ const Projects = () => {
           <Col className="hstack">
             <Col className="d-none d-md-block d-xl-none">
               <img
-                className="screenshots-md"
+                className="screenshots-md-lg"
                 src={Leaderboard}
                 alt="Teach League screenshot"
               ></img>
