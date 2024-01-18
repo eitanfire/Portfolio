@@ -28,6 +28,10 @@
 margin-right:2rem;
 }
 
+.about-screenshot {
+height: 10rem;
+width: auto;
+}
 .main-title {
   margin-top: 4rem;
   /* background-color: rgb(207, 213, 28); */
