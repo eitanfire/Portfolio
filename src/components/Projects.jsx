@@ -143,18 +143,14 @@ const Projects = () => {
         </Col>
         <Col className="col col-12 col-xl hstack">
           <div className="project-links-md d-none d-md-block d-lg-none">
-            <a
-              href="https://teach-league.web.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://eitans.website/" target="_blank" rel="noreferrer">
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
           <br></br>
           <div className="project-links-md d-none d-md-block d-lg-none">
             <a
-              href="https://github.com/eitanfire/legendary-quest.git"
+              href="https://github.com/eitanfire/Eitans-Website"
               target="_blank"
               rel="noreferrer"
             >
