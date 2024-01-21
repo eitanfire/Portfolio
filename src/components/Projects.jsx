@@ -3,7 +3,7 @@ import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import About from "../assets/img/class-website-about-me-sm-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
-import { Container, Col, Row, Card, CardBody } from "reactstrap";
+import { Container, Col, Row } from "reactstrap";
 
 const Projects = () => {
   return (
