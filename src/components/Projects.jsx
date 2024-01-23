@@ -164,7 +164,7 @@ const Projects = () => {
               <img
                 className="screenshots"
                 src={Class}
-                alt="Teach League screenshot"
+                alt="Class website screenshot"
               ></img>
             </Col>
             <br></br>
@@ -172,7 +172,7 @@ const Projects = () => {
               <img
                 className="screenshots about-screenshot"
                 src={About}
-                alt="Teach League screenshot"
+                alt="About me screenshot"
               ></img>
             </Col>
           </Col>
@@ -181,7 +181,7 @@ const Projects = () => {
               <img
                 className="screenshots-md-lg"
                 src={Class}
-                alt="Teach League screenshot"
+                alt="Class website screenshot"
               ></img>
             </Col>
             <br></br>
@@ -189,7 +189,7 @@ const Projects = () => {
               <img
                 className="screenshots-md-lg"
                 src={About}
-                alt="Teach League screenshot"
+                alt="About me screenshot"
               ></img>
             </Col>
           </Col>
@@ -255,7 +255,7 @@ const Projects = () => {
           <div className="project-links d-md-none d-lg-block">
             <a
               // className="btn btn-social-icon btn-github"
-              href="https://github.com/eitanfire/legendary-quest.git"
+              href="https://github.com/eitanfire/costume-contest-scoreboard"
               target="_blank"
               rel="noreferrer"
             >
@@ -296,7 +296,7 @@ const Projects = () => {
               <img
                 className="screenshots"
                 src={Leaderboard}
-                alt="Teach League screenshot"
+                alt="Leaderboard screenshot"
               ></img>
             </Col>
           </Col>
@@ -305,7 +305,7 @@ const Projects = () => {
               <img
                 className="screenshots-md-lg"
                 src={Leaderboard}
-                alt="Teach League screenshot"
+                alt="Leaderboard screenshot"
               ></img>
             </Col>
             <br></br>
