@@ -244,7 +244,7 @@ const Projects = () => {
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
-              href="https://teach-league.web.app/"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
