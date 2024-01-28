@@ -3,6 +3,7 @@ import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import About from "../assets/img/class-website-about-me-sm-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
+import Transparent from "../assets/img/Color-Explosion.png";
 import { Container, Col, Row } from "reactstrap";
 
 const Projects = () => {
@@ -243,11 +244,7 @@ const Projects = () => {
       <Row className="mb-3">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
-            <a
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="" target="_blank" rel="noreferrer">
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
@@ -263,19 +260,13 @@ const Projects = () => {
             </a>
           </div>
         </Col>
-        <Col
-        // className="vstack"
-        >
+        <Col>
           <Col
             className="col col-12 
         hstack"
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
-              <a
-                href="https://teach-league.web.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="" target="_blank" rel="noreferrer">
                 <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
@@ -300,16 +291,24 @@ const Projects = () => {
               ></img>
             </Col>
           </Col>
-          <Col className="hstack">
-          {/* TODO Center screenshot at md breakpoint */}
-            <Col className="d-none d-md-block d-xl-none">
-              <img
-                className="screenshots-md-lg"
-                src={Leaderboard}
-                alt="Leaderboard screenshot"
-              ></img>
+          <Col className="vstack">
+            <Col className="hstack ">
+              <Col className="d-none d-md-block col-md-1 d-xl-none">
+                <img
+                  className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
+                  src={Transparent}
+                  alt="Leaderboard screenshot"
+                ></img>
+              </Col>
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={Leaderboard}
+                  alt="Leaderboard screenshot"
+                ></img>
+              </Col>
+              <br></br>
             </Col>
-            <br></br>
           </Col>
         </Col>
         {/* </Row>

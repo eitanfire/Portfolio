@@ -29,6 +29,22 @@
 margin-right:2rem;
 }
 
+/* .leaderboard-screenshot-md {
+position:relative;
+right: 50%;
+} */
+
+.transparent-screenshots-md-lg {
+  z-index: -1;
+  background-color: transparent;
+color: transparent;
+height: 0;}
+
+.leaderboard-project-links-md {
+position:relative;
+right: 50%;
+}
+
 .about-screenshot {
 height: 10rem;
 width: auto;
