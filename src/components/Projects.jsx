@@ -301,6 +301,7 @@ const Projects = () => {
             </Col>
           </Col>
           <Col className="hstack">
+          {/* TODO Center screenshot at md breakpoint */}
             <Col className="d-none d-md-block d-xl-none">
               <img
                 className="screenshots-md-lg"
