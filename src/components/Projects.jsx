@@ -120,7 +120,7 @@ const Projects = () => {
       </Row>
       <h2 className="title">👨🏻‍🏫 Class Website</h2>
       <Row className="mb-3">
-        <Col className="description col d-none d-xl-block col-xl-8">
+        <Col className="description col d-none d-xl-block col-xl-6">
           <p>
             I created this class website to support my students in getting the
             information they need to be successful in class. I used the date API
@@ -313,7 +313,7 @@ const Projects = () => {
         </Col>
         {/* </Row>
       <Row> */}
-        <Col className="description col col-12 col-xl-8">
+        <Col className="description col col-12 col-xl-6">
           <p>
             I aim to write clean code in a functional style but I won't hesitate
             to use class-based components when working with legacy code such as
