@@ -29,6 +29,13 @@
 margin-right:2rem;
 }
 
+.class-website-screenshot-container-xl-xxl {
+position:relative;
+/* top: 1000%; */
+/* left: 58rem; */
+
+}
+
 /* .leaderboard-screenshot-md {
 position:relative;
 right: 50%;
@@ -38,7 +45,8 @@ right: 50%;
   z-index: -1;
   background-color: transparent;
 color: transparent;
-height: 0;}
+height: 0;
+}
 
 .leaderboard-project-links-md {
 position:relative;

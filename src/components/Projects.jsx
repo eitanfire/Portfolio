@@ -57,40 +57,46 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
-            <Col>
-              <img
-                className="screenshots"
-                src={TLLight}
-                alt="Teach League screenshot"
-              ></img>
+          <a
+            href="https://teach-league.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src={TLLight}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col>
+                <img
+                  className="screenshots"
+                  src={TL}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
             </Col>
-            <br></br>
-            <Col>
-              <img
-                className="screenshots"
-                src={TL}
-                alt="Teach League screenshot"
-              ></img>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={TLLight}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={TL}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
             </Col>
-          </Col>
-          <Col className="hstack">
-            <Col className="d-none d-md-block d-xl-none">
-              <img
-                className="screenshots-md-lg"
-                src={TLLight}
-                alt="Teach League screenshot"
-              ></img>
-            </Col>
-            <br></br>
-            <Col className="d-none d-md-block d-xl-none">
-              <img
-                className="screenshots-md-lg"
-                src={TL}
-                alt="Teach League screenshot"
-              ></img>
-            </Col>
-          </Col>
+          </a>
         </Col>
         <Col className="description col col-12 col-xl-8">
           <p>
@@ -119,8 +125,8 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">👨🏻‍🏫 Class Website</h2>
-      <Row className="mb-3">
-        <Col className="description col d-none d-xl-block col-xl-6">
+      <Row className=" mb-3">
+        <Col className="description col d-none d-xl-block col-xl-8">
           <p>
             I created this class website to support my students in getting the
             information they need to be successful in class. I used the date API
@@ -160,7 +166,7 @@ const Projects = () => {
           </div>
         </Col>
         <Col>
-          <Col className="screenshot-container col d-md-none d-xl-block">
+          <Col className="screenshot-container class-website-screenshot-container-xl-xxl col d-md-none d-xl-block col-xl-2">
             <Col>
               <img
                 className="screenshots"
@@ -196,7 +202,7 @@ const Projects = () => {
           </Col>
         </Col>
         <Col className="col">
-          <div className="project-links d-md-none d-lg-block">
+          <div className="project-links d-md-none d-lg-block col-xl-2">
             <a
               href="https://teach-league.web.app/"
               target="_blank"
