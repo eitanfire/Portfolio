@@ -203,18 +203,14 @@ const Projects = () => {
         </Col>
         <Col className="col">
           <div className="project-links d-md-none d-lg-block col-xl-2">
-            <a
-              href="https://teach-league.web.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://eitans.website/" target="_blank" rel="noreferrer">
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
           <br></br>
           <div className="project-links d-md-none d-lg-block">
             <a
-              href="https://github.com/eitanfire/legendary-quest.git"
+              href="https://github.com/eitanfire/Eitans-Website"
               target="_blank"
               rel="noreferrer"
             >
@@ -250,7 +246,11 @@ const Projects = () => {
       <Row className="mb-3">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://costume-contest-scoreboard.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
@@ -272,7 +272,11 @@ const Projects = () => {
         hstack"
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://costume-contest-scoreboard.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
@@ -280,7 +284,7 @@ const Projects = () => {
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 // className="btn btn-social-icon btn-github"
-                href="https://github.com/eitanfire/legendary-quest.git"
+                href="https://github.com/eitanfire/costume-contest-scoreboard"
                 target="_blank"
                 rel="noreferrer"
               >
