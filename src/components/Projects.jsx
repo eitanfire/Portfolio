@@ -321,8 +321,6 @@ const Projects = () => {
             </Col>
           </Col>
         </Col>
-        {/* </Row>
-      <Row> */}
         <Col className="description col col-12 col-xl-6">
           <p>
             I aim to write clean code in a functional style but I won't hesitate
