@@ -294,12 +294,12 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
-            <a
-              href="https://github.com/eitanfire/costume-contest-scoreboard"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <a
+            href="https://github.com/eitanfire/costume-contest-scoreboard"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
               <Col>
                 <img
                   className="screenshots"
@@ -307,27 +307,27 @@ const Projects = () => {
                   alt="Leaderboard screenshot"
                 ></img>
               </Col>
-            </a>
-          </Col>
-          <Col className="vstack">
-            <Col className="hstack ">
-              <Col className="d-none d-md-block col-md-1 d-xl-none">
-                <img
-                  className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
-                  src={Transparent}
-                  alt="Leaderboard screenshot"
-                ></img>
-              </Col>
-              <Col className="d-none d-md-block d-xl-none">
-                <img
-                  className="screenshots-md-lg"
-                  src={Leaderboard}
-                  alt="Leaderboard screenshot"
-                ></img>
-              </Col>
-              <br></br>
             </Col>
-          </Col>
+            <Col className="vstack">
+              <Col className="hstack ">
+                <Col className="d-none d-md-block col-md-1 d-xl-none">
+                  <img
+                    className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
+                    src={Transparent}
+                    alt="Leaderboard screenshot"
+                  ></img>
+                </Col>
+                <Col className="d-none d-md-block d-xl-none">
+                  <img
+                    className="screenshots-md-lg"
+                    src={Leaderboard}
+                    alt="Leaderboard screenshot"
+                  ></img>
+                </Col>
+                <br></br>
+              </Col>
+            </Col>
+          </a>
         </Col>
         <Col className="description col col-12 col-xl-6">
           <p>
