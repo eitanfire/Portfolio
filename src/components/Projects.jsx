@@ -166,40 +166,42 @@ const Projects = () => {
           </div>
         </Col>
         <Col>
-          <Col className="screenshot-container class-website-screenshot-container-xl-xxl col d-md-none d-xl-block col-xl-2">
-            <Col>
-              <img
-                className="screenshots"
-                src={Class}
-                alt="Class website screenshot"
-              ></img>
+          <a href="https://eitans.website/" target="_blank" rel="noreferrer">
+            <Col className="screenshot-container class-website-screenshot-container-xl-xxl col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src={Class}
+                  alt="Class website screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col>
+                <img
+                  className="screenshots about-screenshot"
+                  src={About}
+                  alt="About me screenshot"
+                ></img>
+              </Col>
             </Col>
-            <br></br>
-            <Col>
-              <img
-                className="screenshots about-screenshot"
-                src={About}
-                alt="About me screenshot"
-              ></img>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={Class}
+                  alt="Class website screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={About}
+                  alt="About me screenshot"
+                ></img>
+              </Col>
             </Col>
-          </Col>
-          <Col className="hstack">
-            <Col className="d-none d-md-block d-xl-none">
-              <img
-                className="screenshots-md-lg"
-                src={Class}
-                alt="Class website screenshot"
-              ></img>
-            </Col>
-            <br></br>
-            <Col className="d-none d-md-block d-xl-none">
-              <img
-                className="screenshots-md-lg"
-                src={About}
-                alt="About me screenshot"
-              ></img>
-            </Col>
-          </Col>
+          </a>
         </Col>
         <Col className="col">
           <div className="project-links d-md-none d-lg-block col-xl-2">
@@ -293,13 +295,19 @@ const Projects = () => {
             </div>
           </Col>
           <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
-            <Col>
-              <img
-                className="screenshots"
-                src={Leaderboard}
-                alt="Leaderboard screenshot"
-              ></img>
-            </Col>
+            <a
+              href="https://github.com/eitanfire/costume-contest-scoreboard"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Col>
+                <img
+                  className="screenshots"
+                  src={Leaderboard}
+                  alt="Leaderboard screenshot"
+                ></img>
+              </Col>
+            </a>
           </Col>
           <Col className="vstack">
             <Col className="hstack ">
