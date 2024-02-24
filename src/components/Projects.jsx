@@ -244,12 +244,12 @@ const Projects = () => {
           </Col>
         </Col>
       </Row>
-      <h2 className="title">👻 Costume Contest Scoreboard</h2>
+      <h2 className="title">👻 Halloween Contest Leaderboard</h2>
       <Row className="mb-3">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
-              href="https://costume-contest-scoreboard.web.app/"
+              href="https://halloween-contest-leaderboard.web.app/"
               target="_blank"
               rel="noreferrer"
             >
@@ -275,7 +275,7 @@ const Projects = () => {
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                href="https://costume-contest-scoreboard.web.app/"
+                href="https://halloween-contest-leaderboard.web.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -295,7 +295,7 @@ const Projects = () => {
             </div>
           </Col>
           <a
-            href="https://github.com/eitanfire/costume-contest-scoreboard"
+            href="https://halloween-contest-leaderboard.web.app/"
             target="_blank"
             rel="noreferrer"
           >
