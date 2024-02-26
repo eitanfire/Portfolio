@@ -4,7 +4,7 @@ const Technologies = () => {
   return (
     <Container>
       <Row>
-        <h2 className="technologies-title">Made with these Technologies</h2>
+        <h2 className="technologies-title">Latest Technologies</h2>
         <Col>
           <section className="technologies-section">
             <h2 className="technologies-subsection-title">• Front-End</h2>◊

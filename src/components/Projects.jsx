@@ -100,53 +100,48 @@ const Projects = () => {
         </Col>
         <Col className="description col col-12 col-xl-8">
           <p>
-            As a teacher with 14 years of experience, I am eager to offer
-            support and mentorship to my colleagues. This web app shares the
-            high-quality curriculum I have built over the years.
+            This web app allows educators to search by credit through a database
+            of high-quality curricula I have built and curated over my 14 years
+            of experience as a teacher and is adapted to further support
+            educators with illuminating content and an opt-in email newsletter.
+            Ultimately this platform will elevate the voices of all educators,
+            but Faker.js has been excellent in the meantime for adding Lorem
+            Ipsum and generic user data as I have been designing this project.
+            This app also uses Google Classroom API to provide teachers with an
+            emergency lesson plan they can easily assign to their students.
           </p>
           <p>
-            I help teachers stay sharp as professionals by curating illuminating
-            articles and ultimately to support their voices.
+            Users can click on the light bulb to toggle between a light and dark
+            theme. Attention is paid to maximizing accessibility and ease of use
+            in the interface for all users. For example, check out how the tab
+            title changes on the homepage when you navigate to the Teacher’s
+            Lounge section.
           </p>
-          <Col className="col">
-            <p>
-              I used the Google Classroom API to provide them with an emergency
-              lesson plan they can easily assign to their students.
-            </p>
-            <p></p>
-            <p>
-              Users can click on the light bulb to toggle between a light and
-              dark theme and this preference will be saved to the local storage
-              of their device so pages can be reloaded without reverting. This
-              website is optimized for the screen size found in the full range
-              of devices.
-            </p>
-          </Col>
         </Col>
       </Row>
       <h2 className="title">👨🏻‍🏫 Class Website</h2>
       <Row className=" mb-3">
         <Col className="description col d-none d-xl-block col-xl-8">
           <p>
-            I created this class website to support my students in getting the
-            information they need to be successful in class. I used the date API
-            to conditionally render a component that lets them know if it is an
-            A day or a B day within the block schedule we follow. I leveraged
-            this same API to keep all other date-related information seamlessly
-            updated such as the information found on the "About Me" page. The
-            layout of this web app adjusts responsively according to screen
-            size.
+            I developed this website to help my students more easily access
+            relevant school and course information. Students can quickly locate
+            learning activities on the top fold of the homepage. Scrolling down
+            the calendar shows due dates for any assignments originated in
+            Google Classroom and school-wide events. I took a data-driven
+            approach to our school’s end-of-day ritual by recording community
+            shout-outs and displaying them on the carousel under the homepage
+            header. Community members can also add shout-outs directly by
+            clicking the button on the left menu.
           </p>
-          <Col className="col">
-            <p>
-              I created an accordion that gives students quick access to
-              assignments and documents they need for the day. The calendar
-              shows important school events and the due dates for any
-              assignments their teachers assign on Google Classroom. The
-              carousel raises community spirit by "shouting out" students and
-              staff for taking pride in their community.
-            </p>
-          </Col>
+          <p>
+            I use the date API to conditionally render a component that informs
+            students if it is an A day or a B day according to their schedule. I
+            leveraged this same API to keep all other date-related information
+            seamlessly updated such as my years teaching on the read more page,
+            as another example. The layout of each page adjusts responsively
+            according to screen size so students can still access and use the
+            website on their phones or tablets.
+          </p>
         </Col>
         <Col className="col col-12 col-xl hstack">
           <div className="project-links-md d-none d-md-block d-lg-none">
@@ -223,25 +218,25 @@ const Projects = () => {
 
         <Col className="description col col-12 d-xl-none">
           <p>
-            I created this class website to support my students in getting the
-            information they need to be successful in class. I used the date API
-            to conditionally render a component that lets them know if it is an
-            A day or a B day within the block schedule we follow. I leveraged
-            this same API to keep all other date-related information seamlessly
-            updated such as the information found on the "About Me" page. The
-            layout of this web app adjusts responsively according to screen
-            size.
+            I developed this website to help my students more easily access
+            relevant school and course information. Students can quickly locate
+            learning activities on the top fold of the homepage. Scrolling down
+            the calendar shows due dates for any assignments originated in
+            Google Classroom and school-wide events. I took a data-driven
+            approach to our school’s end-of-day ritual by recording community
+            shout-outs and displaying them on the carousel under the homepage
+            header. Community members can also add shout-outs directly by
+            clicking the button on the left menu.
           </p>
-          <Col className="col">
-            <p>
-              I created an accordion that gives students quick access to
-              assignments and documents they need for the day. The calendar
-              shows important school events and the due dates for any
-              assignments their teachers assign on Google Classroom. The
-              carousel raises community spirit by "shouting out" students and
-              staff for taking pride in their community.
-            </p>
-          </Col>
+          <p>
+            I use the date API to conditionally render a component that informs
+            students if it is an A day or a B day according to their schedule. I
+            leveraged this same API to keep all other date-related information
+            seamlessly updated such as my years teaching on the read more page,
+            as another example. The layout of each page adjusts responsively
+            according to screen size so students can still access and use the
+            website on their phones or tablets.
+          </p>
         </Col>
       </Row>
       <h2 className="title">👻 Halloween Contest Leaderboard</h2>
@@ -331,12 +326,26 @@ const Projects = () => {
         </Col>
         <Col className="description col col-12 col-xl-6">
           <p>
-            I aim to write clean code in a functional style but I won't hesitate
-            to use class-based components when working with legacy code such as
-            the Scoreboard which I started with a tutorial. As a teacher, a
-            whiteboard coding interview is not quite as terrifying as having a
-            school full of students tensely watching me debug a program to find
-            out the costume contest winner!
+            A few years ago I started the tradition of a Halloween costume
+            contest at my school. Students compete by showing off their costumes
+            while I project an accompanying music video they’ve selected in the
+            background. Having tracked student scores manually for years, I
+            envisioned a program that could not only track scores but also
+            broadcast participants’ standings to spectators in real-time. I
+            could not find an app that already provided this kind of leaderboard
+            and that’s when I determined to solve this problem with programming.
+          </p>
+          <p>
+            I found a tutorial for creating a scoreboard using React,
+            JavaScript, CSS, and HTML. I aim to write clean code in a functional
+            style and I also don't hesitate to tackle class-based components
+            found in legacy code such as those used by the tutorial. Using its
+            initial guidance, I personalized my solution by successfully
+            creating a leaderboard that pairs participants’ names and scores, as
+            well as the link to the music videos they selected. I also ensured
+            the data was saved on local storage to prevent any loss in the event
+            of an accidental browser refresh. With all my bases covered, I was
+            free to MC the contest!
           </p>
         </Col>
       </Row>
