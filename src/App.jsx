@@ -4,6 +4,7 @@ import Class from "./assets/img/class-website-ss.png";
 import Leaderboard from "./assets/img/leaderboard--ss.png";
 import { Container, Col, Row, Card, CardBody } from "reactstrap";
 import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         My name is Eitan Fire. Here are some of my latest apps I have built to
         help me solve challenges as a teacher.
       </p>
+      <Technologies />
       <Projects className="" />
     </Container>
   );
