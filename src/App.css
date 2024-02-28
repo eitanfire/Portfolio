@@ -32,7 +32,7 @@
 .class-website-screenshot-container-xl-xxl {
   position: relative;
   /* top: 1000%; */
-  /* left: 58rem; */
+  /* right: 10rem; */
 }
 
 /* .leaderboard-screenshot-md {
@@ -52,6 +52,9 @@ right: 50%;
   right: 50%;
 }
 
+.xl-project-links-rightside {
+position:static;
+}
 .about-screenshot {
   height: 10rem;
   width: auto;
@@ -75,9 +78,9 @@ text-align: center;
 }
 
 .technologies-section {
-    text-align: left;
+    text-align:start;
       margin-bottom: 1rem;
-
+padding-left: 5%;
 }
 
 .title {

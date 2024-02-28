@@ -7,19 +7,19 @@ const Technologies = () => {
       <Row className="technologies">
         <Col>
           <section className="technologies-section">
-            <h2 className="technologies-subsection-title">Front-End</h2>
+            <h3 className="technologies-subsection-title">Front-End</h3>
             HTML, CSS, SCSS, JavaScript, JSX, Redux
           </section>
         </Col>
-        <Col>
+        <Col className="col col-12 col-sm-6 col-md-4 col-xl-4">
           <section className="technologies-section">
-            <h2 className="technologies-subsection-title">Frameworks</h2>
+            <h3 className="technologies-subsection-title">Frameworks</h3>
             React, React Native, Ruby on Rails, Bootstrap
           </section>
         </Col>
-        <Col>
+        <Col className="col col-12 col-md-4">
           <section className="technologies-section">
-            <h2 className="technologies-subsection-title">Back-End</h2>
+            <h3 className="technologies-subsection-title">Back-End</h3>
             NodeJS, Express, Firebase, Ruby, API, RESTful web services
           </section>
         </Col>

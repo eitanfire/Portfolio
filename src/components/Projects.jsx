@@ -105,10 +105,14 @@ const Projects = () => {
             of experience as a teacher and is adapted to further support
             educators with illuminating content and an opt-in email newsletter.
             Ultimately this platform will elevate the voices of all educators,
-            but Faker.js has been excellent in the meantime for adding Lorem
-            Ipsum and generic user data as I have been designing this project.
-            This app also uses Google Classroom API to provide teachers with an
-            emergency lesson plan they can easily assign to their students.
+            but{" "}
+            <a href="https://fakerjs.dev/" target="_blank" rel="noreferrer">
+              Faker.js
+            </a>{" "}
+            has been excellent in the meantime for adding Lorem Ipsum and
+            generic user data as I have been designing this project. This app
+            also uses Google Classroom API to provide teachers with an emergency
+            lesson plan they can easily assign to their students.
           </p>
           <p>
             Users can click on the light bulb to toggle between a light and dark
@@ -137,8 +141,15 @@ const Projects = () => {
             I use the date API to conditionally render a component that informs
             students if it is an A day or a B day according to their schedule. I
             leveraged this same API to keep all other date-related information
-            seamlessly updated such as my years teaching on the read more page,
-            as another example. The layout of each page adjusts responsively
+            seamlessly updated such as my years teaching on the{" "}
+            <a
+              href="https://eitans.website/read-more"
+              target="_blank"
+              rel="noreferrer"
+            >
+              read more page
+            </a>
+            , as another example. The layout of each page adjusts responsively
             according to screen size so students can still access and use the
             website on their phones or tablets.
           </p>
@@ -199,13 +210,13 @@ const Projects = () => {
           </a>
         </Col>
         <Col className="col">
-          <div className="project-links d-md-none d-lg-block col-xl-2">
+          <div className="xl-project-links-rightside project-links d-md-none d-lg-block">
             <a href="https://eitans.website/" target="_blank" rel="noreferrer">
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
           <br></br>
-          <div className="project-links d-md-none d-lg-block">
+          <div className="xl-project-links-rightside project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/Eitans-Website"
               target="_blank"
@@ -232,10 +243,17 @@ const Projects = () => {
             I use the date API to conditionally render a component that informs
             students if it is an A day or a B day according to their schedule. I
             leveraged this same API to keep all other date-related information
-            seamlessly updated such as my years teaching on the read more page,
-            as another example. The layout of each page adjusts responsively
-            according to screen size so students can still access and use the
-            website on their phones or tablets.
+            seamlessly updated such as my years teaching on the{" "}
+            <a
+              href="https://eitans.website/read-more"
+              target="_blank"
+              rel="noreferrer"
+            >
+              read more page
+            </a>{" "}
+            page, as another example. The layout of each page adjusts
+            responsively according to screen size so students can still access
+            and use the website on their phones or tablets.
           </p>
         </Col>
       </Row>
@@ -324,7 +342,7 @@ const Projects = () => {
             </Col>
           </a>
         </Col>
-        <Col className="description col col-12 col-xl-6">
+        <Col className="description col col-12 col-xl-8">
           <p>
             A few years ago I started the tradition of a Halloween costume
             contest at my school. Students compete by showing off their costumes
