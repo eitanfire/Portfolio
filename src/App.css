@@ -61,16 +61,20 @@ right: 50%;
   /* background-color: rgb(207, 213, 28); */
 }
 
+.technologies {
+    border: 2px solid black;
+}
+
 .technologies-subsection-title {
 text-align: center;
 } 
 
 .technologies-title {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .technologies-section {
-  border: 1rem, solid, black;
     text-align: left;
       margin-bottom: 1rem;
 
