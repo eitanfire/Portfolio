@@ -123,7 +123,7 @@ const Projects = () => {
           </p>
         </Col>
       </Row>
-      <h2 className="title">👨🏻‍🏫 Class Website</h2>
+      <h2 className="title">👨🏻‍🏫 Class Dashboard</h2>
       <Row className=" mb-3">
         <Col className="description col d-none d-xl-block col-xl-8">
           <p>

@@ -12,7 +12,7 @@ function App() {
     <Container>
       <h1 className="main-title">My Latest Projects</h1>
       <p className="intro-text">
-        My name is Eitan Fire. Here are some of my latest apps I have built to
+        My name is Eitan Fire. Here are some of the latest apps I have built to
         help me solve challenges as a teacher.
       </p>
       <Technologies />
