@@ -26,6 +26,6 @@ const Technologies = () => {
       </Row>
     </Container>
   );
-}
+};
 
-export default Technologies
+export default Technologies;
