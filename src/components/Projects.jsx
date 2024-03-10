@@ -3,6 +3,8 @@ import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import About from "../assets/img/class-website-about-me-sm-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
+import Therapy from "../assets/img/body-therapy-arts-ss.png";
+import Lotus from "../assets/img/lotus.png";
 import Transparent from "../assets/img/Color-Explosion.png";
 import { Container, Col, Row } from "reactstrap";
 
@@ -365,6 +367,100 @@ const Projects = () => {
             of an accidental browser refresh. With all my bases covered, I was
             free to MC the contest!
           </p>
+        </Col>
+      </Row>
+      <h2 className="title">🧘🏽‍♀️Body Therapy Arts</h2>
+      <Row className=" mb-3">
+        <Col className="description col d-none d-xl-block col-xl-8">
+          <p></p>
+        </Col>
+        <Col className="col col-12 col-xl hstack">
+          <div className="project-links-md d-none d-md-block d-lg-none">
+            <a
+              href="https://body-therapy-arts-encinitas.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Demo
+            </a>
+          </div>
+          {/* <br></br> */}
+          {/* <div className="project-links-md d-none d-md-block d-lg-none">
+            <a
+              href="https://github.com/eitanfire/Eitans-Website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div> */}
+        </Col>
+        <Col>
+          <a
+            href="https://body-therapy-arts-encinitas.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Col className="screenshot-container class-website-screenshot-container-xl-xxl col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src={Therapy}
+                  alt="Class website screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col>
+                <img
+                  className="screenshots about-screenshot"
+                  src={Lotus}
+                  alt="About me screenshot"
+                ></img>
+              </Col>
+            </Col>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={Therapy}
+                  alt="Class website screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={Lotus}
+                  alt="About me screenshot"
+                ></img>
+              </Col>
+            </Col>
+          </a>
+        </Col>
+        <Col className="col">
+          <div className="xl-project-links-rightside project-links d-md-none d-lg-block">
+            <a
+              href="https://body-therapy-arts-encinitas.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Demo
+            </a>
+          </div>
+          {/* <br></br> */}
+          {/* <div className="xl-project-links-rightside project-links d-md-none d-lg-block">
+            <a
+              href="https://github.com/eitanfire/Eitans-Website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div> */}
+        </Col>
+
+        <Col className="description col col-12 d-xl-none">
+          <p></p>
         </Col>
       </Row>
     </Container>
