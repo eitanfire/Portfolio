@@ -372,7 +372,14 @@ const Projects = () => {
       <h2 className="title">🧘🏽‍♀️Body Therapy Arts</h2>
       <Row className=" mb-3">
         <Col className="description col d-none d-xl-block col-xl-8">
-          <p></p>
+          <p>
+            Body Therapy Arts has been offering a range of holistic services to
+            Encinitas, CA for over 30 years. They are in need of a more
+            efficient and modern solution to their marketing needs than their
+            current site provides. This project is in progress so be sure to
+            check in the near future for how it develops. Because I am building
+            this for a client I can’t share the source code.
+          </p>
         </Col>
         <Col className="col col-12 col-xl hstack">
           <div className="project-links-md d-none d-md-block d-lg-none">
@@ -460,7 +467,14 @@ const Projects = () => {
         </Col>
 
         <Col className="description col col-12 d-xl-none">
-          <p></p>
+          <p>
+            Body Therapy Arts has been offering a range of holistic services to
+            Encinitas, CA for over 30 years. They are in need of a more
+            efficient and modern solution to their marketing needs than their
+            current site provides. This project is in progress so be sure to
+            check in the near future for how it develops. Because I am building
+            this for a client I can’t share the source code.
+          </p>
         </Col>
       </Row>
     </Container>
