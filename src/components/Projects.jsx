@@ -416,14 +416,14 @@ const Projects = () => {
                   alt="Class website screenshot"
                 ></img>
               </Col>
-              <br></br>
+              {/* <br></br>
               <Col>
                 <img
                   className="screenshots about-screenshot"
                   src={Lotus}
                   alt="About me screenshot"
                 ></img>
-              </Col>
+              </Col> */}
             </Col>
             <Col className="hstack">
               <Col className="d-none d-md-block d-xl-none">
