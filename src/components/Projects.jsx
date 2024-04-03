@@ -100,6 +100,15 @@ const Projects = () => {
             </Col>
           </a>
         </Col>
+        <br></br> <br></br>
+        <Col>
+          <h3>Technologies Utilized</h3>
+          <div>
+            {" "}
+            <i className="fa fa-github">GitHub</i>{" "}
+            <i className="fa-brands fa-html5">HTML</i>
+          </div>
+        </Col>
         <Col className="description col col-12 col-xl-8">
           <p>
             This web app allows educators to search by credit through a database
