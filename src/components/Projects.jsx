@@ -100,13 +100,23 @@ const Projects = () => {
             </Col>
           </a>
         </Col>
-        <br></br> <br></br>
+        {/* <br></br> <br></br> */}
         <Col>
-          <h3>Technologies Utilized</h3>
+          <h3 className="technologies-utilized-title">Technologies Utilized</h3>
           <div>
             {" "}
-            <i className="fa fa-github">GitHub</i>{" "}
-            <i className="fa-brands fa-html5">HTML</i>
+            <i className="fa-brands fa-html5"> </i> HTML{" "}
+            <i className="fa-brands fa-bootstrap"> </i> Bootstrap{" "}
+            <i className="fa-brands fa-css3-alt"> </i>C SS{" "}
+            <i className="fa-brands fa-js"> </i> Javascript{" "}
+            <i className="fa-brands fa-react"> </i> React{" "}
+            <i className="fa-brands fa-redux"> </i> Redux{" "}
+            <i className="fa-brands fa-firestore"> </i> Firestore{" "}
+            <i className="fa-brands fa-firebase"> </i> Firebase Auth{" "}
+            <i className="fa-brands fa-node"> </i> NodeJS{" "}
+            <i className="fa-brands fa-express"> </i> Express{" "}
+            <i className="fa-brands fa-google"> </i> Google Calendar API{" "}
+            <i className="fa fa-github"> </i> GitHub{" "}
           </div>
         </Col>
         <Col className="description col col-12 col-xl-8">

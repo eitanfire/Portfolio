@@ -8,7 +8,7 @@ const Technologies = () => {
         <Col>
           <section className="technologies-section">
             <h3 className="technologies-subsection-title">Front-End</h3>
-            Semantic HTML, CSS, SCSS, JavaScript, JSX, Redux
+            Semantic HTML, CSS, SCSS, JavaScript, JSX, React Redux
           </section>
         </Col>
         <Col className="col col-12 col-sm-6 col-md-4 col-xl-4">

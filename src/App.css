@@ -53,7 +53,7 @@ right: 50%;
 }
 
 .xl-project-links-rightside {
-position:static;
+  position: static;
 }
 .about-screenshot {
   height: 10rem;
@@ -65,12 +65,12 @@ position:static;
 }
 
 .technologies {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .technologies-subsection-title {
-text-align: center;
-} 
+  text-align: left;
+}
 
 .technologies-title {
   text-align: center;
@@ -78,9 +78,9 @@ text-align: center;
 }
 
 .technologies-section {
-    text-align:start;
-      margin-bottom: 1rem;
-padding-left: 5%;
+  text-align: start;
+  margin-bottom: 1rem;
+  padding-left: 5%;
 }
 
 .title {
@@ -126,4 +126,26 @@ padding-left: 5%;
   text-align: left;
   font-size: 1.5rem;
   /* background-color: rgb(34, 197, 188); */
+}
+
+.technologies-utilized-title {
+  margin-top: 1rem;
+}
+
+.main-title,
+.technologies-title,
+.technologies-utilized-title,
+.technologies-subsection-title,
+/* .title, */
+i {
+  background: -webkit-linear-gradient(#09203f, #537895);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(34, 6, 61);
+}
+
+i {
+  font-size: 1.25rem;
+    margin-top: 1rem;
 }
