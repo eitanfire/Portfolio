@@ -137,6 +137,7 @@ right: 50%;
 .technologies-utilized-title,
 .technologies-subsection-title,
 /* .title, */
+svg,
 i {
   background: -webkit-linear-gradient(#09203f, #537895);
   background-clip: text;
