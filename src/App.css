@@ -135,10 +135,11 @@ right: 50%;
 .main-title,
 .technologies-title,
 .technologies-utilized-title,
-.technologies-subsection-title,
+.technologies-subsection-title
 /* .title, */
-svg,
-i {
+/* svg,
+i  */
+{
   background: -webkit-linear-gradient(#09203f, #537895);
   background-clip: text;
   -webkit-background-clip: text;
@@ -146,7 +147,11 @@ i {
   color: rgb(34, 6, 61);
 }
 
-i {
+/* i {
   font-size: 1.25rem;
     margin-top: 1rem;
+} */
+
+.center-text {
+  text-align: center;
 }
