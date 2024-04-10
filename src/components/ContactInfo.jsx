@@ -1,13 +1,13 @@
-const handleCopyClick = (event) => {
-  event.preventDefault(); // Prevent the default behavior of the anchor tag
+// const handleCopyClick = (event) => {
+//   event.preventDefault(); // Prevent the default behavior of the anchor tag
 
-  const emailInput = document.getElementById("emailInput");
-  emailInput.select();
-  document.execCommand("copy");
-  emailInput.setSelectionRange(0, 0);
+//   const emailInput = document.getElementById("emailInput");
+//   emailInput.select();
+//   document.execCommand("copy");
+//   emailInput.setSelectionRange(0, 0);
 
-  window.alert("Email address copied!"); // Show a popup message
-};
+//   window.alert("Email address copied!"); // Show a popup message
+// };
 
 const ContactInfo = () => {
   return (
@@ -39,9 +39,9 @@ const ContactInfo = () => {
       <a href="mailto:eitanfire@gmail.com" target="_blank" rel="noreferrer">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
-      <a href="mailto:eitanfire@gmail.com" id="emailInput">
+      {/* <a href="mailto:eitanfire@gmail.com" id="emailInput">
         <i className="fa fa-copy" onClick={handleCopyClick} />
-      </a>
+      </a> */}
     </contact-links>
   );
 };
