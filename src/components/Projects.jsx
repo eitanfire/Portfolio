@@ -7,11 +7,13 @@ import Therapy from "../assets/img/body-therapy-arts-ss.png";
 import Lotus from "../assets/img/lotus.png";
 import Transparent from "../assets/img/Color-Explosion.png";
 import { Container, Col, Row } from "reactstrap";
-import { reduxIcon } from "../svgIcons";
+import IconList from "./IconsList";
+// import { reduxIcon } from "../svgIcons";
 
 const Projects = () => {
   return (
     <Container>
+    {/* <IconList /> */}
       <h2 className="title">🚀 Teach League</h2>
       <Col>
         <h3 className="technologies-utilized-title">Technologies Utilized</h3>
