@@ -7,7 +7,7 @@ const Technologies = () => {
       <Row className="technologies">
         <Col>
           <section className="technologies-section">
-            <h3 className="technologies-subsection-title">Front-End</h3>
+            <h3 className="technologies-subsection-title">Front - End</h3>
             Semantic HTML, CSS, SCSS, JavaScript, JSX, React Redux
           </section>
         </Col>
@@ -19,8 +19,8 @@ const Technologies = () => {
         </Col>
         <Col className="col col-12 col-md-4">
           <section className="technologies-section">
-            <h3 className="technologies-subsection-title">Back-End</h3>
-            NodeJS, Express, Firebase, Ruby, API, RESTful web services
+            <h3 className="technologies-subsection-title">Back - End</h3>
+            NoSQL, NodeJS, Express, Firebase, Ruby, RESTful web services, JSON
           </section>
         </Col>
       </Row>
