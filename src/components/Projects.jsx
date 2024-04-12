@@ -13,7 +13,7 @@ import IconList from "./IconsList";
 const Projects = () => {
   return (
     <Container>
-    {/* <IconList /> */}
+      {/* <IconList /> */}
       <h2 className="title">🚀 Teach League</h2>
       <Col>
         <h3 className="technologies-utilized-title">Technologies Utilized</h3>

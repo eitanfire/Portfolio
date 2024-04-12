@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import { Container, Col, Row } from "reactstrap";
 
 const IconList = () => {
@@ -9,7 +8,7 @@ const IconList = () => {
     { className: "fa-brands fa-bootstrap", text: "Bootstrap" },
     { className: "fa-brands fa-css3-alt", text: "CSS" },
     { className: "fa-brands fa-js", text: "Javascript" },
-    { className: "fa-brands fa-react", text: "React"},
+    { className: "fa-brands fa-react", text: "React" },
   ];
 
   return (
@@ -18,9 +17,9 @@ const IconList = () => {
       {icons.map((icon, index) => (
         <div key={index}>
           {/* Render the icon */}
-      
-              <i className={icon.className}></i>
-           
+
+          <i className={icon.className}></i>
+
           {/* Render the text */}
           {icon.text}
         </div>
