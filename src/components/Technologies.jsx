@@ -14,7 +14,8 @@ const Technologies = () => {
         <Col className="col col-12 col-sm-6 col-md-4 col-xl-4">
           <section className="technologies-section">
             <h3 className="technologies-subsection-title">Frameworks</h3>
-            React, React Native, Ruby on Rails, Bootstrap, Git
+            React, React Native, Ruby on Rails, Reactstrap, Bootstrap, Git,
+            GitHub
           </section>
         </Col>
         <Col className="col col-12 col-md-4">
