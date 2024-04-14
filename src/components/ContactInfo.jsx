@@ -13,7 +13,7 @@ const ContactInfo = () => {
   return (
     <contact-links>
       <a
-        href="https://drive.google.com/file/d/15gQWYnI_VTZlpQb0wy_KdIxgGwa5P9nA/view?usp=sharing"
+        href="https://drive.google.com/file/d/1X7FGKxASFayUJf7Xf5le-ZqC1JzrfKXO/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
