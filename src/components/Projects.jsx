@@ -33,7 +33,7 @@ const renderIconsByText = (text) => {
     <Container>
       <h2 className="title">🚀 Teach League</h2>
       <Col>
-        <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+        {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
         <div className="col col-12">
           {/* <IconList icons={icons} /> */}
 
