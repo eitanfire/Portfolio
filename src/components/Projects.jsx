@@ -34,7 +34,7 @@ const renderIconsByText = (text) => {
       <h3 className="technologies-utilized-title">Technologies Utilized</h3>
       <div className="tech-icons">
         <Row>
-          <Col className="col col-md-12 col-lg-6 hstack">
+          <Col className="col col-md-12 col-lg-7 hstack">
             {renderIconsByText("HTML")}
             {renderIconsByText("Bootstrap")}
             {renderIconsByText("CSS")}
@@ -42,7 +42,7 @@ const renderIconsByText = (text) => {
             {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
           </Col>
-          <Col className="col col-11 col-lg-6 hstack">
+          <Col className="col col-sm-11 col-10 mx-auto col-lg-5 col-lg-5 hstack">
             {renderIconsByText("Express")}
             {renderIconsByText("Redux")}
             {renderIconsByText("Firestore")}

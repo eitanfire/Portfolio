@@ -163,6 +163,11 @@ i {
  width: auto;
 }
 
+.google-api-icon {
+  position: absolute;
+margin-top: 10rem;
+}
+
 /* .tech-icons {
  position:static;
  left: 100%;
