@@ -6,7 +6,8 @@ import Leaderboard from "../assets/img/leaderboard--ss.png";
 import Therapy from "../assets/img/body-therapy-arts-ss.png";
 import Lotus from "../assets/img/lotus.png";
 import { Container, Col, Row } from "reactstrap";
-import IconList from "./IconsList";
+import { icons } from "../icons";
+// import IconList from "./IconsList";
 // import { reduxIcon } from "../svgIcons";
 
 const Projects = () => {
@@ -14,43 +15,42 @@ const Projects = () => {
 const renderIconsByText = (text) => {
     const filteredIcons = icons.filter((icon) => icon.text === text);
     return filteredIcons.map((icon, index) => (
-      <Col key={index} xs="auto">
-        {icon.image ? (
-          <img
-            src={icon.image}
-            className={icon.className}
-            alt={icon.text}
-          />
-        ) : (
-          <i className={icon.className}></i>
-        )}
-        <p>{icon.text}</p>
-      </Col>
+      <Container>
+        <Col className="tech-icons" key={index} xs="">
+          {icon.image ? (
+            <img src={icon.image} className={icon.className} alt={icon.text} />
+          ) : (
+            <i className={icon.className}></i>
+          )}
+          <p>{icon.text}&nbsp;&nbsp;</p>
+        </Col>
+      </Container>
     ));
   };
 
   return (
     <Container>
       <h2 className="title">🚀 Teach League</h2>
-      <Col>
-        {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
-        <div className="col col-12">
-          {/* <IconList icons={icons} /> */}
-
-          {/* {renderIconsByText("HTML")}
-          {renderIconsByText("Bootstrap")}
-          {renderIconsByText("CSS")}
-          {renderIconsByText("Javascript")}
-          {renderIconsByText("React")}
-          {renderIconsByText("NodeJS")}
-          {renderIconsByText("Express")}
-          {renderIconsByText("Redux")}
-          {renderIconsByText("Firestore")}
-          {renderIconsByText("Firebase Auth")}
-          {renderIconsByText("Google Calendar API")}
-          {renderIconsByText("GitHub")}{" "} */}
-        </div>
-      </Col>
+      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
+            {renderIconsByText("Bootstrap")}
+            {renderIconsByText("CSS")}
+            {renderIconsByText("Javascript")}
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+          </Col>
+          <Col className="col col-11 col-lg-6 hstack">
+            {renderIconsByText("Express")}
+            {renderIconsByText("Redux")}
+            {renderIconsByText("Firestore")}
+            {renderIconsByText("Firebase Auth")}
+            {renderIconsByText("Google Classroom API")}
+          </Col>
+        </Row>
+      </div>
       <Row className="mb-3">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
@@ -166,6 +166,23 @@ const renderIconsByText = (text) => {
         </Col>
       </Row>
       <h2 className="title">👨🏻‍🏫 Class Dashboard</h2>
+      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
+            {renderIconsByText("Bootstrap")}
+            {renderIconsByText("CSS")}
+            {renderIconsByText("Javascript")}
+          </Col>
+          <Col className="col col-12 col-lg-6 mx-auto hstack">
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+            {renderIconsByText("Express")}
+            {renderIconsByText("Google Calendar API")}
+          </Col>
+        </Row>
+      </div>
       <Row className=" mb-3">
         <Col className="description col d-none d-xl-block col-xl-8">
           <p>
@@ -300,6 +317,22 @@ const renderIconsByText = (text) => {
         </Col>
       </Row>
       <h2 className="title">👻 Halloween Contest Leaderboard</h2>
+      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
+            {renderIconsByText("Bootstrap")}
+            {renderIconsByText("CSS")}
+          </Col>
+          <Col className="col col-lg-6 mx-auto hstack">
+            {renderIconsByText("Javascript")}
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+            {renderIconsByText("Express")}
+          </Col>
+        </Row>
+      </div>
       <Row className="mb-3">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
@@ -411,6 +444,22 @@ const renderIconsByText = (text) => {
         </Col>
       </Row>
       <h2 className="title">🧘🏽‍♀️Body Therapy Arts</h2>
+      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
+            {renderIconsByText("Bootstrap")}
+            {renderIconsByText("CSS")}
+          </Col>
+          <Col className="col col-12 col-lg-6 mx-auto hstack">
+            {renderIconsByText("Javascript")}
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+            {renderIconsByText("Express")}
+          </Col>
+        </Row>
+      </div>
       <Row className=" mb-3">
         <Col className="description col d-none d-xl-block col-xl-8">
           <p>

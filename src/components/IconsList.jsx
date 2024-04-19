@@ -4,6 +4,7 @@ import reduxIcon from "../assets/img/icons8-redux-50.png";
 import firestoreIcon from "../assets/img/icons8-firestore-48.png";
 import nodejsIcon from "../assets/img/icons8-node-js-32.png";
 import calendarIcon from "../assets/img/icons8-google-calendar-50.png";
+import { icons } from '../icons';
 
 const IconList = () => {
   const icons = [

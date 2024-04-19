@@ -17,7 +17,7 @@ const ContactInfo = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="fa-solid fa-image-portrait"></i> Resume
+        <i className="fa-solid fa-image-portrait fa-sm"></i> Resume
       </a>
       {" • "}
       <a href="https://github.com/eitanfire" target="_blank" rel="noreferrer">

@@ -136,26 +136,42 @@ right: 50%;
 .technologies-title,
 .technologies-utilized-title,
 .technologies-subsection-title
+/* .png-icon,
+i  */
 /* .title, */
-/* svg,
-i  */ {
+/* svg*/  
+{
   background: -webkit-linear-gradient(#09203f, #537895);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: rgb(34, 6, 61);
+  /* filter: (100%);  */
 }
 
-/* i {
-  font-size: 1.25rem;
-    margin-top: 1rem;
-} */
+i {
+  font-size: 1.75rem;
+    /* margin-top: 1rem; */
+}
 
 .center-text {
   text-align: center;
 }
 
 .png-icon {
- height: 20%;
+ height: 1.75rem;
+ width: auto;
+}
 
-      }
+/* .tech-icons {
+ position:static;
+ left: 100%;
+} */
+
+.wrapper {
+max-width:100%;
+}
+
+cite {
+  font-size: smaller;
+}

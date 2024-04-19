@@ -1,7 +1,4 @@
 import { useState } from "react";
-import TL from "./assets/img/tl-ss.png";
-import Class from "./assets/img/class-website-ss.png";
-import Leaderboard from "./assets/img/leaderboard--ss.png";
 import { Container, Col, Row, Card, CardBody } from "reactstrap";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
@@ -10,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Container>
+    <Container className="wrapper col col-12">
       <ConactInfo />
       <h1 className="main-title">My Latest Projects</h1>
       <p className="intro-text">
@@ -30,6 +27,38 @@ function App() {
       <Technologies />
       <Projects className="" />
       <ConactInfo />
+      <br></br>
+      <br></br>
+      <cite>
+        <a target="_blank" href="https://icons8.com/icon/FQlr_bFSqEdG/node-js">
+          Node Js
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/SQEEoDcpUD6c/cloud-firestore"
+        >
+          Firestore
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/UJGaYqXaHWdp/google-calendar"
+        >
+          Google Calendar
+        </a>
+        {" & "}
+        <a
+          target="_blank"
+          href="https://icons8.com/icon/31054/google-classroom"
+        >
+          Google Classroom
+        </a>{" "}
+        icons by{" "}
+        <a target="_blank" href="https://icons8.com">
+          Icons8
+        </a>
+      </cite>
     </Container>
   );
 }
