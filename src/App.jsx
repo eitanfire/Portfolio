@@ -3,6 +3,7 @@ import { Container, Col, Row, Card, CardBody } from "reactstrap";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import ConactInfo from "./components/ContactInfo";
+import CiteIcons8 from "./components/CiteIcons8";
 import "./App.css";
 
 function App() {
@@ -29,36 +30,7 @@ function App() {
       <ConactInfo />
       <br></br>
       <br></br>
-      <cite>
-        <a target="_blank" href="https://icons8.com/icon/FQlr_bFSqEdG/node-js">
-          Node Js
-        </a>
-        {", "}
-        <a
-          target="_blank"
-          href="https://icons8.com/icon/SQEEoDcpUD6c/cloud-firestore"
-        >
-          Firestore
-        </a>
-        {", "}
-        <a
-          target="_blank"
-          href="https://icons8.com/icon/UJGaYqXaHWdp/google-calendar"
-        >
-          Google Calendar
-        </a>
-        {" & "}
-        <a
-          target="_blank"
-          href="https://icons8.com/icon/31054/google-classroom"
-        >
-          Google Classroom
-        </a>{" "}
-        icons by{" "}
-        <a target="_blank" href="https://icons8.com">
-          Icons8
-        </a>
-      </cite>
+      <CiteIcons8 />
     </Container>
   );
 }
