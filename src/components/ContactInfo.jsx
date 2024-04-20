@@ -12,10 +12,10 @@ const ContactInfo = () => {
     event.preventDefault(); // Prevent the default behavior of the click event
 
     const emailInput = document.getElementById("emailInput");
-    emailInput.select();
-    document.execCommand("copy");
+    const email = emailInput.textContent.trim(); // Get the text content of the span and trim any whitespace
+    navigator.clipboard.writeText(email); // Copy the trimmed email to the clipboard
     setEmailVisible(false);
-    localStorage.setItem("copiedEmail", emailInput.value);
+    localStorage.setItem("copiedEmail", email);
     alert("Email address copied!");
   };
 
@@ -49,19 +49,15 @@ const ContactInfo = () => {
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
-        <i className="fa fa-search"></i>
+        <i className="fa fa-search">&nbsp;</i>
       </a>{" "}
       {isEmailVisible && (
-        <span>
-          <input
-            type="text"
-            id="emailInput"
-            value="eitanfire@gmail.com"
-            readOnly
-          />
-          <a href="#" onClick={handleCopyClick}>
-            <i className="fa fa-copy" />
-          </a>
+        <span
+          id="emailInput"
+          style={{ cursor: "pointer" }}
+          onClick={handleCopyClick}
+        >
+          eitanfire@gmail.com
         </span>
       )}
     </div>
