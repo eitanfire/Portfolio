@@ -1,17 +1,26 @@
-// const handleCopyClick = (event) => {
-//   event.preventDefault(); // Prevent the default behavior of the anchor tag
-
-//   const emailInput = document.getElementById("emailInput");
-//   emailInput.select();
-//   document.execCommand("copy");
-//   emailInput.setSelectionRange(0, 0);
-
-//   window.alert("Email address copied!"); // Show a popup message
-// };
+import React, { useState } from "react";
 
 const ContactInfo = () => {
+  const [isEmailVisible, setEmailVisible] = useState(false);
+
+  const handleMagnifyingGlassClick = (event) => {
+    event.preventDefault(); // Prevent the default behavior of the click event
+    setEmailVisible(true);
+  };
+
+  const handleCopyClick = (event) => {
+    event.preventDefault(); // Prevent the default behavior of the click event
+
+    const emailInput = document.getElementById("emailInput");
+    emailInput.select();
+    document.execCommand("copy");
+    setEmailVisible(false);
+    localStorage.setItem("copiedEmail", emailInput.value);
+    alert("Email address copied!");
+  };
+
   return (
-    <contact-links>
+    <div>
       <a
         href="https://drive.google.com/file/d/1X7FGKxASFayUJf7Xf5le-ZqC1JzrfKXO/view?usp=sharing"
         target="_blank"
@@ -36,13 +45,26 @@ const ContactInfo = () => {
         <i className="fa fa-phone"></i> Phone
       </a>
       {" • "}
-      <a href="mailto:eitanfire@gmail.com" target="_blank" rel="noreferrer">
+      <a href="mailto:eitanfire@gmail.com">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
-      {/* <a href="mailto:eitanfire@gmail.com" id="emailInput">
-        <i className="fa fa-copy" onClick={handleCopyClick} />
-      </a> */}
-    </contact-links>
+      <a href="#" onClick={handleMagnifyingGlassClick}>
+        <i className="fa fa-search"></i>
+      </a>{" "}
+      {isEmailVisible && (
+        <span>
+          <input
+            type="text"
+            id="emailInput"
+            value="eitanfire@gmail.com"
+            readOnly
+          />
+          <a href="#" onClick={handleCopyClick}>
+            <i className="fa fa-copy" />
+          </a>
+        </span>
+      )}
+    </div>
   );
 };
 
