@@ -139,8 +139,7 @@ right: 50%;
 /* .png-icon,
 i  */
 /* .title, */
-/* svg*/  
-{
+/* svg*/ {
   background: -webkit-linear-gradient(#09203f, #537895);
   background-clip: text;
   -webkit-background-clip: text;
@@ -151,7 +150,7 @@ i  */
 
 i {
   font-size: 1.75rem;
-    /* margin-top: 1rem; */
+  /* margin-top: 1rem; */
 }
 
 .center-text {
@@ -159,13 +158,13 @@ i {
 }
 
 .png-icon {
- height: 1.75rem;
- width: auto;
+  height: 1.75rem;
+  width: auto;
 }
 
 .google-api-icon {
   position: absolute;
-margin-top: 10rem;
+  margin-top: 10rem;
 }
 
 /* .tech-icons {
@@ -174,7 +173,7 @@ margin-top: 10rem;
 } */
 
 .wrapper {
-max-width:100%;
+  max-width: 100%;
 }
 
 cite {

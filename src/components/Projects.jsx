@@ -7,12 +7,9 @@ import Therapy from "../assets/img/body-therapy-arts-ss.png";
 import Lotus from "../assets/img/lotus.png";
 import { Container, Col, Row } from "reactstrap";
 import { icons } from "../icons";
-// import IconList from "./IconsList";
-// import { reduxIcon } from "../svgIcons";
 
 const Projects = () => {
-
-const renderIconsByText = (text) => {
+  const renderIconsByText = (text) => {
     const filteredIcons = icons.filter((icon) => icon.text === text);
     return filteredIcons.map((icon, index) => (
       <Container>
@@ -139,7 +136,6 @@ const renderIconsByText = (text) => {
             </Col>
           </a>
         </Col>
-        {/* <br></br> <br></br> */}
         <Col className="description col col-12 col-xl-8">
           <p>
             This web app allows educators to search by credit through a database
@@ -481,16 +477,6 @@ const renderIconsByText = (text) => {
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
-          {/* <br></br> */}
-          {/* <div className="project-links-md d-none d-md-block d-lg-none">
-            <a
-              href="https://github.com/eitanfire/Eitans-Website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-github"></i> GitHub
-            </a>
-          </div> */}
         </Col>
         <Col>
           <a
@@ -506,14 +492,6 @@ const renderIconsByText = (text) => {
                   alt="Class website screenshot"
                 ></img>
               </Col>
-              {/* <br></br>
-              <Col>
-                <img
-                  className="screenshots about-screenshot"
-                  src={Lotus}
-                  alt="About me screenshot"
-                ></img>
-              </Col> */}
             </Col>
             <Col className="hstack">
               <Col className="d-none d-md-block d-xl-none">
@@ -544,16 +522,6 @@ const renderIconsByText = (text) => {
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
-          {/* <br></br> */}
-          {/* <div className="xl-project-links-rightside project-links d-md-none d-lg-block">
-            <a
-              href="https://github.com/eitanfire/Eitans-Website"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-github"></i> GitHub
-            </a>
-          </div> */}
         </Col>
 
         <Col className="description col col-12 d-xl-none">

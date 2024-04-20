@@ -4,7 +4,6 @@ import reduxIcon from "../assets/img/icons8-redux-50.png";
 import firestoreIcon from "../assets/img/icons8-firestore-48.png";
 import nodejsIcon from "../assets/img/icons8-node-js-32.png";
 import calendarIcon from "../assets/img/icons8-google-calendar-50.png";
-import { icons } from '../icons';
 
 const IconList = () => {
   const icons = [
@@ -16,11 +15,10 @@ const IconList = () => {
     { className: "fa-brands fa-node fa-lg", text: "NodeJS" },
     { className: "png-icon", text: "Express", image: nodejsIcon },
     { className: "png-icon", text: "Redux", image: reduxIcon },
-    { className: "png-icon", text: "Firestore", image: firestoreIcon,},
+    { className: "png-icon", text: "Firestore", image: firestoreIcon },
     { className: "fa-solid fa-lock", text: "Firebase Auth" },
     { className: "png-icon", text: "Google Calendar API", image: calendarIcon },
     { className: "fa fa-github", text: "GitHub" },
   ];
-}
+};
 export default IconList;
-
