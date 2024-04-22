@@ -3,11 +3,11 @@ import { Container, Col, Row } from "reactstrap";
 const Technologies = () => {
   return (
     <Container>
-      <h2 className="technologies-title">Latest Technologies</h2>
+      {/* <h2 className="technologies-title">Latest Technologies</h2> */}
       <Row className="technologies">
         <Col>
           <section className="technologies-section">
-            <h3 className="technologies-subsection-title">Front - End</h3>
+            <h3 className="technologies-subsection-title">Frontend</h3>
             Semantic HTML, CSS, SCSS, JavaScript, JSX, React Redux
           </section>
         </Col>
@@ -20,7 +20,7 @@ const Technologies = () => {
         </Col>
         <Col className="col col-12 col-md-4">
           <section className="technologies-section">
-            <h3 className="technologies-subsection-title">Back - End</h3>
+            <h3 className="technologies-subsection-title">Backend</h3>
             NoSQL, NodeJS, Express, Firebase, Ruby, RESTful web services, JSON
           </section>
         </Col>

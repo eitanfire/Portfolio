@@ -167,10 +167,11 @@ i {
   margin-top: 10rem;
 }
 
-/* .tech-icons {
- position:static;
- left: 100%;
-} */
+.tech-icons {
+ /* position:static;
+ left: 100%; */
+ filter: invert(100%);
+}
 
 .wrapper {
   max-width: 100%;

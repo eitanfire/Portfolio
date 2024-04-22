@@ -29,7 +29,6 @@ function App() {
       <Projects className="" />
       <ConactInfo />
       <br></br>
-      <br></br>
       <CiteIcons8 />
     </Container>
   );

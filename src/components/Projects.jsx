@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <Container>
       <h2 className="title">🚀 Teach League</h2>
-      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-7 hstack">
@@ -48,7 +48,7 @@ const Projects = () => {
           </Col>
         </Row>
       </div>
-      <Row className="mb-3">
+      <Row className="row-content align-items-center">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
@@ -162,7 +162,7 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">👨🏻‍🏫 Class Dashboard</h2>
-      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-6 hstack">
@@ -179,7 +179,7 @@ const Projects = () => {
           </Col>
         </Row>
       </div>
-      <Row className=" mb-3">
+      <Row className="mb-3">
         <Col className="description col d-none d-xl-block col-xl-8">
           <p>
             I developed this website to help my students more easily access
@@ -313,7 +313,7 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">👻 Halloween Contest Leaderboard</h2>
-      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-6 hstack">
@@ -440,7 +440,7 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">🧘🏽‍♀️Body Therapy Arts</h2>
-      <h3 className="technologies-utilized-title">Technologies Utilized</h3>
+      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-6 hstack">
