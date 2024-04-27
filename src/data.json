@@ -1,0 +1,157 @@
+[
+  {
+    "title": "Teach League",
+    "tech-icons": [
+      { "className": "fa-brands fa-html5", "icon": null, "title": "HTML" },
+      {
+        "className": "fa-brands fa-bootstrap",
+        "icon": null,
+        "title": "Bootstrap"
+      },
+      { "className": "fa-brands fa-css3-alt", "icon": null, "title": "CSS" },
+      { "className": "fa-brands fa-js", "icon": null, "title": "Javascript" },
+      { "className": "fa-brands fa-react", "icon": null, "title": "React" },
+      { "className": "fa-brands fa-node", "icon": null, "title": "NodeJS" },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-node-js-32.png",
+        "title": "Express"
+      },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-redux-50.png",
+        "title": "Redux"
+      },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-firestore-48.png",
+        "title": "Firestore"
+      },
+      {
+        "className": "fa-solid fa-lock",
+        "icon": null,
+        "title": "Firebase Auth"
+      },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-google-calendar-50.png",
+        "title": "Google Calendar API"
+      },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-google-classroom-32.png",
+        "title": "Google Classroom API"
+      }
+    ],
+    "project-links": [
+      { "url": "https://teach-league.web.app/", "label": "Live Demo" },
+      {
+        "url": "https://github.com/eitanfire/legendary-quest.git",
+        "label": "GitHub"
+      }
+    ],
+    "screenshots": ["../assets/img/tl-light-ss.png", "../assets/img/tl-ss.png"],
+    "description": "This web app allows educators to search by credit through a database of high-quality curricula I have built and curated over my 14 years of experience as a teacher and is adapted to further support educators with illuminating content and an opt-in email newsletter. Ultimately this platform will elevate the voices of all educators, but Faker.js has been excellent in the meantime for adding Lorem Ipsum and generic user data as I have been designing this project. This app also uses Google Classroom API to provide teachers with an emergency lesson plan they can easily assign to their students. Users can click on the light bulb to toggle between a light and dark theme. Attention is paid to maximizing accessibility and ease of use in the interface for all users. For example, check out how the tab title changes on the homepage when you navigate to the Teacher’s Lounge section."
+  },
+  {
+    "title": "Class Dashboard",
+    "tech-icons": [
+      { "className": "fa-brands fa-html5", "icon": null, "title": "HTML" },
+      {
+        "className": "fa-brands fa-bootstrap",
+        "icon": null,
+        "title": "Bootstrap"
+      },
+      { "className": "fa-brands fa-css3-alt", "icon": null, "title": "CSS" },
+      { "className": "fa-brands fa-js", "icon": null, "title": "Javascript" },
+      { "className": "fa-brands fa-react", "icon": null, "title": "React" },
+      { "className": "fa-brands fa-node", "icon": null, "title": "NodeJS" },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-node-js-32.png",
+        "title": "Express"
+      },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-google-calendar-50.png",
+        "title": "Google Calendar API"
+      }
+    ],
+    "project-links": [
+      { "url": "https://eitans.website/", "label": "Live Demo" },
+      {
+        "url": "https://github.com/eitanfire/Eitans-Website",
+        "label": "GitHub"
+      }
+    ],
+    "screenshots": [
+      "../assets/img/class-website-ss.png",
+      "../assets/img/class-website-about-me-sm-ss.png"
+    ],
+    "description": "I developed this website to help my students more easily access relevant school and course information. Students can quickly locate learning activities on the top fold of the homepage. Scrolling down the calendar shows due dates for any assignments originated in Google Classroom and school-wide events. I took a data-driven approach to our school’s end-of-day ritual by recording community shout-outs and displaying them on the carousel under the homepage header. Community members can also add shout-outs directly by clicking the button on the left menu. I use the date API to conditionally render a component that informs students if it is an A day or a B day according to their schedule. I leveraged this same API to keep all other date-related information seamlessly updated such as my years teaching on the read more page, as another example. The layout of each page adjusts responsively according to screen size so students can still access and use the website on their phones or tablets."
+  },
+  {
+    "title": "Halloween Contest Leaderboard",
+    "tech-icons": [
+      { "className": "fa-brands fa-html5", "icon": null, "title": "HTML" },
+      {
+        "className": "fa-brands fa-bootstrap",
+        "icon": null,
+        "title": "Bootstrap"
+      },
+      { "className": "fa-brands fa-css3-alt", "icon": null, "title": "CSS" },
+      { "className": "fa-brands fa-js", "icon": null, "title": "Javascript" },
+      { "className": "fa-brands fa-react", "icon": null, "title": "React" },
+      { "className": "fa-brands fa-node", "icon": null, "title": "NodeJS" },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-node-js-32.png",
+        "title": "Express"
+      }
+    ],
+    "project-links": [
+      {
+        "url": "https://halloween-contest-leaderboard.web.app/",
+        "label": "Live Demo"
+      },
+      {
+        "url": "https://github.com/eitanfire/costume-contest-scoreboard",
+        "label": "GitHub"
+      }
+    ],
+    "screenshots": ["../assets/img/leaderboard--ss.png"],
+    "description": "A few years ago I started the tradition of a Halloween costume contest at my school. Students compete by showing off their costumes while I project an accompanying music video they’ve selected in the background. Having tracked student scores manually for years, I envisioned a program that could not only track scores but also broadcast participants’ standings to spectators in real-time. I could not find an app that already provided this kind of leaderboard and that’s when I determined to solve this problem with programming. I found a tutorial for creating a scoreboard using React, JavaScript, CSS, and HTML. I aim to write clean code in a functional style and I also don't hesitate to tackle class-based components found in legacy code such as those used by the tutorial. Using its initial guidance, I personalized my solution by successfully creating a leaderboard that pairs participants’ names and scores, as well as the link to the music videos they selected. I also ensured the data was saved on local storage to prevent any loss in the event of an accidental browser refresh. With all my bases covered, I was free to MC the contest!"
+  },
+  {
+    "title": "Body Therapy Arts",
+    "tech-icons": [
+      { "className": "fa-brands fa-html5", "icon": null, "title": "HTML" },
+      {
+        "className": "fa-brands fa-bootstrap",
+        "icon": null,
+        "title": "Bootstrap"
+      },
+      { "className": "fa-brands fa-css3-alt", "icon": null, "title": "CSS" },
+      { "className": "fa-brands fa-js", "icon": null, "title": "Javascript" },
+      { "className": "fa-brands fa-react", "icon": null, "title": "React" },
+      { "className": "fa-brands fa-node", "icon": null, "title": "NodeJS" },
+      {
+        "className": "png-icon",
+        "icon": "../assets/img/icons8-node-js-32.png",
+        "title": "Express"
+      }
+    ],
+    "project-links": [
+      {
+        "url": "https://body-therapy-arts-encinitas.web.app/",
+        "label": "Live Demo"
+      },
+      {
+        "url": "https://github.com/eitanfire/body-therapy-arts",
+        "label": "GitHub"
+      }
+    ],
+    "screenshots": ["../assets/img/body-therapy-arts-ss.png"],
+    "description": "My mother-in-law operates a healing arts center called Body Therapy Arts. I designed this website as a gift to help her promote the services of her small business. The homepage includes a promotional video, an introduction to the practitioners, and a schedule of events. I wanted the website to reflect the calm and welcoming atmosphere of the center, so I used soft colors and gentle animations throughout. To streamline booking, I integrated a booking widget directly into the website. The website is fully responsive, so clients can easily access it from their desktop, tablet, or smartphone."
+  }
+]

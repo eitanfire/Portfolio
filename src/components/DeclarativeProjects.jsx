@@ -28,22 +28,21 @@ const Projects = () => {
   return (
     <Container>
       <h2 className="title">
-        {/* 🚀  */}
-        Teach League
-      </h2>
+      {/* 🚀  */}
+      Teach League</h2>
       {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-7 hstack">
-            {/* {renderIconsByText("HTML")} */}
+            {renderIconsByText("HTML")}
             {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
-            {/* {renderIconsByText("Javascript")} */}
+            {renderIconsByText("CSS")}
+            {renderIconsByText("Javascript")}
             {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
-            {renderIconsByText("Express")}
           </Col>
           <Col className="col col-sm-11 col-10 mx-auto col-lg-5 col-lg-5 hstack">
+            {renderIconsByText("Express")}
             {renderIconsByText("Redux")}
             {renderIconsByText("Firestore")}
             {renderIconsByText("Firebase Auth")}
@@ -165,21 +164,20 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">
-        {/* 👨🏻‍🏫  */}
-        Class Dashboard
-      </h2>
+      {/* 👨🏻‍🏫  */}
+      Class Dashboard</h2>
       {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
-          <Col className="col col-md-12 col-lg-7 hstack">
-            {/* {/* {renderIconsByText("HTML")} */}
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
             {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
-            {/* {renderIconsByText("Javascript")} */}
+            {renderIconsByText("CSS")}
+            {renderIconsByText("Javascript")}
+          </Col>
+          <Col className="col col-12 col-lg-6 mx-auto hstack">
             {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
-          </Col>
-          <Col className="col col-12 col-lg-5 hstack">
             {renderIconsByText("Express")}
             {renderIconsByText("Google Calendar API")}
           </Col>
@@ -319,20 +317,19 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">
-        {/* 👻  */}
-        Halloween Contest Leaderboard
-      </h2>
+      {/* 👻  */}
+      Halloween Contest Leaderboard</h2>
       {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
-          <Col className="col-6 hstack">
-            {/* {renderIconsByText("HTML")} */}
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
             {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
-            {renderIconsByText("React")}
+            {renderIconsByText("CSS")}
           </Col>
-          <Col className="col-6 mx-auto hstack">
-            {/* {renderIconsByText("Javascript")} */}
+          <Col className="col col-lg-6 mx-auto hstack">
+            {renderIconsByText("Javascript")}
+            {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
             {renderIconsByText("Express")}
           </Col>
@@ -449,20 +446,19 @@ const Projects = () => {
         </Col>
       </Row>
       <h2 className="title">
-        {/* 🧘🏽‍♀️ */}
-        Body Therapy Arts
-      </h2>
+      {/* 🧘🏽‍♀️ */}
+      Body Therapy Arts</h2>
       {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
-          <Col className="col-6 hstack">
-            {/* {renderIconsByText("HTML")} */}
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {renderIconsByText("HTML")}
             {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
-            {renderIconsByText("React")}
+            {renderIconsByText("CSS")}
           </Col>
-          <Col className="col-6 mx-auto hstack">
-            {/* {renderIconsByText("Javascript")} */}
+          <Col className="col col-12 col-lg-6 mx-auto hstack">
+            {renderIconsByText("Javascript")}
+            {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
             {renderIconsByText("Express")}
           </Col>
