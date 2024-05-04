@@ -8,15 +8,13 @@
   background-color: rgb(215, 213, 213);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Questrial|Quicksand|Raleway|Roboto');
-body, #text-container, #markdown-container {
-    font-family: 
-    'Roboto',
-    /* 'Questrial',  */
-    /* 'Raleway',  */
-    /* 'Quicksand'  */
-    sans-serif !important;
-    font-size: 13px;
+@import url("https://fonts.googleapis.com/css?family=Questrial|Quicksand|Raleway|Roboto");
+body,
+#text-container,
+#markdown-container {
+  font-family: "Roboto",
+    /* 'Questrial',  */ /* 'Raleway',  */ /* 'Quicksand'  */ sans-serif !important;
+  font-size: 13px;
 }
 
 .questrial-regular {
@@ -35,8 +33,8 @@ body, #text-container, #markdown-container {
 
 .screenshots {
   /* margin-top: 0.7rem; */
-  height: auto;
-  width: 13rem;;
+  height: 10rem;
+  width: 13rem;
   border: thick double;
 }
 
@@ -100,7 +98,7 @@ right: 50%;
 .technologies-section {
   text-align: start;
   margin-bottom: 1rem;
-padding: 15px
+  padding: 15px;
 }
 
 .title {
@@ -190,16 +188,21 @@ i {
 }
 
 .tech-icons {
- /* position:static;
+  /* position:static;
  left: 100%; */
- filter: invert(100%);
+  filter: invert(100%);
 }
 
 .wrapper {
   /* max-width: 100%; */
-    max-width: 1280px;
+  max-width: 1280px;
 }
 
 cite {
   font-size: smaller;
+}
+
+.row-content {
+  /* position:sticky; */
+  top: 0;
 }

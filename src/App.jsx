@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Col, Row, Card, CardBody } from "reactstrap";
 import Projects from "./components/Projects";
+import DeclarativeProjects from "./components/DeclarativeProjects";
 import Technologies from "./components/Technologies";
 import ConactInfo from "./components/ContactInfo";
 import CiteIcons8 from "./components/CiteIcons8";
@@ -27,6 +28,7 @@ function App() {
         solve challenges as a teacher.
       </p>
       <Technologies />
+      {/* <DeclarativeProjects /> */}
       <Projects className="" />
       <ConactInfo />
       <br></br>
