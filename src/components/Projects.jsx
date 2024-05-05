@@ -458,7 +458,11 @@ const Projects = () => {
           </div>
           <br></br>
           <div className="project-links d-md-none d-lg-block">
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/eitanfire/body-therapy-arts.git"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa fa-github"></i> GitHub
             </a>
           </div>
@@ -479,7 +483,11 @@ const Projects = () => {
             </div>
             <br></br>
             <div className="project-links-md d-none d-md-block d-lg-none">
-              <a href="" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/eitanfire/body-therapy-arts.git"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa fa-github"></i> GitHub
               </a>
             </div>
@@ -494,15 +502,15 @@ const Projects = () => {
                 {/* using transparent image here for correct formatting */}
                 <img
                   className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
-                  src={Leaderboard}
-                  alt="Leaderboard screenshot"
+                  src={Lotus}
+                  alt="Transparent screenshot"
                 ></img>
               </Col>
               <Col>
                 <img
                   className="screenshots"
                   src={Therapy}
-                  alt="Teach League screenshot"
+                  alt="Body Arts Therapy screenshot"
                 ></img>
               </Col>
             </Col>
@@ -510,15 +518,15 @@ const Projects = () => {
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
-                  src={TLLight}
-                  alt="Teach League screenshot"
+                  src={Therapy}
+                  alt="Body Arts Therapy screenshot"
                 ></img>
               </Col>
               <br></br>
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
-                  src={TL}
+                  src={Lotus}
                   alt="Teach League screenshot"
                 ></img>
               </Col>
@@ -527,26 +535,11 @@ const Projects = () => {
         </Col>
         <Col className="description col col-12 col-xl-8">
           <p>
-            This web app allows educators to search by credit through a database
-            of high-quality curricula I have built and curated over my 14 years
-            of experience as a teacher and is adapted to further support
-            educators with illuminating content and an opt-in email newsletter.
-            Ultimately this platform will elevate the voices of all educators,
-            but{" "}
-            <a href="https://fakerjs.dev/" target="_blank" rel="noreferrer">
-              Faker.js
-            </a>{" "}
-            has been excellent in the meantime for adding Lorem Ipsum and
-            generic user data as I have been designing this project. This app
-            also uses Google Classroom API to provide teachers with an emergency
-            lesson plan they can easily assign to their students.
-          </p>
-          <p>
-            Users can click on the light bulb to toggle between a light and dark
-            theme. Attention is paid to maximizing accessibility and ease of use
-            in the interface for all users. For example, check out how the tab
-            title changes on the homepage when you navigate to the Teacher’s
-            Lounge section.
+            Body Therapy Arts has been offering a range of holistic services to
+            Encinitas, CA for over 30 years. They are in need of a more
+            efficient and modern solution to their marketing needs than their
+            current site provides. This project is in progress so be sure to
+            check in the near future for how it develops.
           </p>
         </Col>
       </Row>
