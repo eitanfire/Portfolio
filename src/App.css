@@ -5,15 +5,20 @@
   text-align: center;
   color: #414141;
   text-shadow: 0px 1px white;
-  background-color: rgb(215, 213, 213);
+  background-color: rgb(238, 238, 238);
 }
 
 @import url("https://fonts.googleapis.com/css?family=Questrial|Quicksand|Raleway|Roboto");
 body,
 #text-container,
 #markdown-container {
-  font-family: "Roboto",
-    /* 'Questrial',  */ /* 'Raleway',  */ /* 'Quicksand'  */ sans-serif !important;
+  font-family: 
+  "Questrial",
+    /* 'Questrial',
+    Roboto  */ 
+    /* 'Raleway',  */ 
+    /* 'Quicksand'  */ 
+    sans-serif !important;
   font-size: 13px;
 }
 
@@ -83,7 +88,17 @@ right: 50%;
 }
 .main-title {
   margin-top: 4rem;
-  /* background-color: rgb(207, 213, 28); */
+}
+
+.j-from-projects {
+  font-family: 
+  "Raleway",
+    /* 'Questrial',
+    Roboto  */ 
+    /* 'Raleway',  */ 
+    /* 'Quicksand'  */ 
+    sans-serif !important;
+  font-size: 90%;
 }
 
 .technologies {

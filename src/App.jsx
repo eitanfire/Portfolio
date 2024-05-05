@@ -11,7 +11,9 @@ function App() {
   return (
     <Container className="wrapper col col-12">
       <ConactInfo />
-      <h1 className="main-title">Eitan Fire's Latest Projects</h1>
+      <h1 className="main-title">
+        Eitan Fire's Latest Pro<span className="j-from-projects">j</span>ects
+      </h1>
       {/* <h2 className="intro-text">
         I am seeking a React & JavaScript developer role.
       </h2> */}
