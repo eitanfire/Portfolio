@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container, Col, Row } from "reactstrap";
 
 const ContactInfo = () => {
   const [isEmailVisible, setEmailVisible] = useState(false);
@@ -20,7 +21,7 @@ const ContactInfo = () => {
   };
 
   return (
-    <div>
+    <Container className="text-break">
       <a
         href="https://drive.google.com/file/d/1X7FGKxASFayUJf7Xf5le-ZqC1JzrfKXO/view?usp=sharing"
         target="_blank"
@@ -44,7 +45,8 @@ const ContactInfo = () => {
       <a href="tel:+13038177843">
         <i className="fa fa-phone"></i> Phone
       </a>
-      {" • "}
+      <span className="d-none d-sm-inline">{" • "}</span>
+      <span className="d-block d-sm-none"></span>
       <a href="mailto:eitanfire@gmail.com">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
@@ -60,7 +62,7 @@ const ContactInfo = () => {
           eitanfire@gmail.com
         </span>
       )}
-    </div>
+    </Container>
   );
 };
 

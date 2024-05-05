@@ -203,8 +203,14 @@ i {
 }
 
 cite {
-  font-size: smaller;
+    font-size:80%;
 }
+
+@media all and (max-width: 537px) { 
+  cite  {
+  font-size:70%;
+}
+} 
 
 .row-content {
   padding-top: 2rem;
