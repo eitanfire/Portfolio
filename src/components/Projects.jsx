@@ -51,7 +51,7 @@ const Projects = () => {
           </Col>
         </Row>
       </div>
-      <Row className="row-content">
+      <Row className="row-content row-content-by-spaced-out-tech-icons">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
@@ -185,7 +185,7 @@ const Projects = () => {
           </Col>
         </Row>
       </div>
-      <Row className="row-content">
+      <Row className="row-content row-content-by-spaced-out-tech-icons">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a href="https://eitans.website/" target="_blank" rel="noreferrer">
@@ -315,7 +315,7 @@ const Projects = () => {
           </Col>
         </Row>
       </div>
-      <Row className="mb-3">
+      <Row className="row-content">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
@@ -490,14 +490,14 @@ const Projects = () => {
             rel="noreferrer"
           >
             <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
-              <Col>
+              <Col className="d-none d-md-block col-md-1 d-xl-none">
+                {/* using transparent image here for correct formatting */}
                 <img
-                  className="screenshots"
-                  src={TLLight}
-                  alt="Body Therapy Arts screenshots"
+                  className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
+                  src={Leaderboard}
+                  alt="Leaderboard screenshot"
                 ></img>
               </Col>
-              <br></br>
               <Col>
                 <img
                   className="screenshots"
