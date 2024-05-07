@@ -23,7 +23,7 @@ const ContactInfo = () => {
   return (
     <Container className="text-break">
       <a
-        href="https://drive.google.com/file/d/1X7FGKxASFayUJf7Xf5le-ZqC1JzrfKXO/view?usp=sharing"
+        href="https://drive.google.com/file/d/1eUg1pCRkmCz-n5FRsJgMrkrIFduHU1YI/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
