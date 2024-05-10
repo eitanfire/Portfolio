@@ -34,7 +34,7 @@ const Projects = () => {
       {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
-          <Col className="col col-md-12 col-lg-7 hstack">
+          <Col className="col col-md-12 col-lg-6 hstack">
             {/* {renderIconsByText("HTML")} */}
             {renderIconsByText("Bootstrap")}
             {/* {renderIconsByText("CSS")} */}
@@ -43,7 +43,7 @@ const Projects = () => {
             {renderIconsByText("NodeJS")}
             {renderIconsByText("Express")}
           </Col>
-          <Col className="col col-sm-11 col-10 mx-auto col-lg-5 col-lg-5 hstack">
+          <Col className="col-12 col-lg-5 col-lg-6 hstack">
             {renderIconsByText("Redux")}
             {renderIconsByText("Firestore")}
             {renderIconsByText("Firebase Auth")}

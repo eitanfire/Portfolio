@@ -4,7 +4,7 @@
   padding: 2rem;
   text-align: center;
   color: #414141;
-  text-shadow: 0px 1px white;
+  text-shadow: 0px 2px white;
   background-color: rgb(238, 238, 238);
 }
 
@@ -12,13 +12,10 @@
 body,
 #text-container,
 #markdown-container {
-  font-family: 
-  "Questrial",
+  font-family: "Questrial",
     /* 'Questrial',
-    Roboto  */ 
-    /* 'Raleway',  */ 
-    /* 'Quicksand'  */ 
-    sans-serif !important;
+    Roboto  */ /* 'Raleway',  */ /* 'Quicksand'  */
+      sans-serif !important;
   font-size: 13px;
 }
 
@@ -38,7 +35,7 @@ body,
 
 .screenshots {
   margin-top: -1.25rem;
-    margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 
   height: 10rem;
   width: 13rem;
@@ -46,7 +43,6 @@ body,
 }
 
 .screenshots-md-lg {
-  
   background-color: rgb(227, 220, 211);
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -91,13 +87,10 @@ right: 50%;
 }
 
 .j-from-projects {
-  font-family: 
-  "Raleway",
+  font-family: "Raleway",
     /* 'Questrial',
-    Roboto  */ 
-    /* 'Raleway',  */ 
-    /* 'Quicksand'  */ 
-    sans-serif !important;
+    Roboto  */ /* 'Raleway',  */ /* 'Quicksand'  */
+      sans-serif !important;
   font-size: 90%;
 }
 
@@ -201,13 +194,18 @@ i {
   width: auto;
 }
 
+.fa-lock {
+  height:1.5rem;
+}
+
+.project-links
 .google-api-icon {
   position: absolute;
   margin-top: 10rem;
 }
 
 .tech-icons {
- height: 5rem;
+  height: 5rem;
 }
 
 .wrapper {
@@ -218,25 +216,25 @@ i {
 }
 
 cite {
-    font-size:80%;
+  font-size: 80%;
 }
 
-@media all and (max-width: 537px) { 
-  cite  {
-  font-size:70%;
+@media all and (max-width: 537px) {
+  cite {
+    font-size: 70%;
+  }
 }
-} 
 
 .row-content {
   padding-top: 2rem;
 }
 
-@media all and (max-width: 765px) { 
-  .row-content-by-spaced-out-tech-icons  {
-position: relative;
-top: 1.5rem;
+@media all and (max-width: 765px) {
+  .row-content-by-spaced-out-tech-icons {
+    position: relative;
+    top: 1.5rem;
     /* background-color: blueviolet; */
-}
+  }
 }
 
 /* @media (min-width:738px) and (max-width: 759px) { 
@@ -247,8 +245,8 @@ top: 1.5rem;
 }
 */
 
-@media all and (max-width: 974px) { 
-  .row-content-by-spaced-out-tech-icons  {
-  padding-top: 5rem;
+@media all and (max-width: 974px) {
+  .row-content-by-spaced-out-tech-icons {
+    padding-top: 5rem;
+  }
 }
-} 
