@@ -24,32 +24,18 @@ const ContactInfo = () => {
   };
 
   return (
-    <Container 
-    className=""
-    >
-      <PhoneContact />
-      <CredentialInfo />
-      {/* <a href="tel:+13038177843">
-        <i className="fa fa-phone"></i> Phone
-      </a>
-      <span className="d-none d-sm-inline">{" • "}</span> */}
-      {/* <span className="d-block d-sm-none"></span>
-      <a href="mailto:eitanfire@gmail.com">
-        <i className="fa fa-envelope-o"></i> Email
-      </a>{" "}
-      <a href="#" onClick={handleMagnifyingGlassClick}>
-        <i className="fa fa-search">&nbsp;</i>
-      </a>{" "}
-      {isEmailVisible && (
-        <span
-          id="emailInput"
-          style={{ cursor: "pointer" }}
-          onClick={handleCopyClick}
-        >
-          eitanfire@gmail.com
-        </span>
-      )} */}
-      <EmailContact />
+    <Container className="">
+      <Row className="contact-info">
+        <Col className="col-4 col-md-4 phone-contact">
+          <PhoneContact />
+        </Col>
+        <Col className="col-4 col-md-3 credential-contact">
+          <CredentialInfo />
+        </Col>
+        <Col className="col-4 col-md-4 email-contact">
+          <EmailContact />
+        </Col>
+      </Row>
     </Container>
   );
 };

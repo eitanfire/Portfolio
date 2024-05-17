@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container, Col, Row } from "reactstrap";
 
 const PhoneContact = () => {
   const [isPhoneVisible, setPhoneVisible] = useState(false);
@@ -28,13 +29,14 @@ const PhoneContact = () => {
         <i className="fa fa-search">&nbsp;</i>
       </a>{" "}
       {isPhoneVisible && (
-        <span
+        <Col 
+        className="12"
           id="phoneInput"
           style={{ cursor: "pointer" }}
           onClick={handleCopyClick}
         >
           (303) 817-7843
-        </span>
+        </Col>
       )}
     </div>
   );

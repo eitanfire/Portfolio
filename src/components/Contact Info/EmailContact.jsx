@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container, Col, Row } from "reactstrap";
 
 const EmailContact = () => {
   const [isEmailVisible, setEmailVisible] = useState(false);
@@ -21,20 +22,21 @@ const EmailContact = () => {
 
   return (
     <div>
-      <a href="mailto:info@bodytherapyarts.com">
+      <a href="mailto:eitanfire@.gmail.com">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
         <i className="fa fa-search">&nbsp;</i>
       </a>{" "}
       {isEmailVisible && (
-        <span
+        <Col
+          className="12"
           id="emailInput"
           style={{ cursor: "pointer" }}
           onClick={handleCopyClick}
         >
-          info@bodytherapyarts.com{" "}
-        </span>
+          eitanfire@.gmail.com{" "}
+        </Col>
       )}
     </div>
   );
