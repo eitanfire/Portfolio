@@ -25,42 +25,25 @@ body,
   font-style: normal;
 }
 
-/* .card {
-  padding: 2em;
-} */
-
 .contact-info {
-  /* display:flex; */
-    text-align: left;
+  text-align: left;
   padding-left: 7.5%;
   height: 1rem;
 }
 
 .phone-contact {
-  text-align:right;
-  /* padding-left: 100%; */
-  /* position: inline; */
-  /* background-color: blue; */
-/* align-self:flex-end; */
-/* margin-left: 18%; */
-  /* margin-left: 5%; */
+  text-align: right;
 }
 
 .email-contact {
   text-align: left;
-    /* background-color: rgb(173, 48, 156); */
-  /* margin-right: 10%; */
 }
 
 .credential-contact {
-    text-align: center;
-  /* background-color: aqua; */
-/* flex-shrink: 2; */
-  /* margin-left: 5%; */
+  text-align: center;
 }
 
 .screenshot-container {
-  /* background-color: aqua; */
 }
 
 .screenshots {
@@ -84,14 +67,7 @@ body,
 
 .class-website-screenshot-container-xl-xxl {
   position: relative;
-  /* top: 1000%; */
-  /* right: 10rem; */
 }
-
-/* .leaderboard-screenshot-md {
-position:relative;
-right: 50%;
-} */
 
 .transparent-screenshots-md-lg {
   z-index: -1;
@@ -149,22 +125,16 @@ right: 50%;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid black;
-  /* background-color: rgb(176, 36, 141); */
 }
 
 .description {
-  /* background-color: blue; */
   text-align: left;
-  /* padding-top: 1rem; */
   margin-right: 1rem;
-  /* padding-bottom: 0.25 em; */
 }
 
 .project-links {
   font-size: 1.25rem;
   text-align: left;
-  /* margin-top: 2.6rem; */
-  /* background-color: rgb(221, 11, 11); */
 }
 
 .project-links-md {
@@ -172,13 +142,10 @@ right: 50%;
   left: 33%;
   font-size: 1.25rem;
   text-align: left;
-  /* background-color: black; */
   margin-right: 2rem;
 }
 
 .fa {
-  /* font-size:x-large; */
-  /* color: rgb(44, 135, 255); */
 }
 
 .intro-text {
@@ -186,7 +153,6 @@ right: 50%;
   margin-bottom: 4rem;
   text-align: left;
   font-size: 1.5rem;
-  /* background-color: rgb(34, 197, 188); */
 }
 
 .technologies-utilized-title {
@@ -212,7 +178,6 @@ i  */
 
 i {
   font-size: 1.75rem;
-  /* margin-top: 1rem; */
 }
 
 .center-text {
@@ -225,11 +190,10 @@ i {
 }
 
 .fa-lock {
-  height:1.5rem;
+  height: 1.5rem;
 }
 
-.project-links
-.google-api-icon {
+.project-links .google-api-icon {
   position: absolute;
   margin-top: 10rem;
 }
@@ -245,6 +209,10 @@ i {
 
 cite {
   font-size: 80%;
+      position: relative;
+
+      top: 1.25rem;
+
 }
 
 @media all and (max-width: 537px) {
