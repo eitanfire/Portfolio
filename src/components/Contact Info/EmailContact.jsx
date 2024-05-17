@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-import EmailContact from "../components/Contact Info/EmailContact";
-import PhoneContact from "../components/Contact Info/PhoneContact";
-import CredentialInfo from "./Contact Info/CredentialInfo";
-import { Container, Col, Row } from "reactstrap";
 
-const ContactInfo = () => {
+const EmailContact = () => {
   const [isEmailVisible, setEmailVisible] = useState(false);
 
   const handleMagnifyingGlassClick = (event) => {
@@ -24,17 +20,8 @@ const ContactInfo = () => {
   };
 
   return (
-    <Container 
-    className=""
-    >
-      <PhoneContact />
-      <CredentialInfo />
-      {/* <a href="tel:+13038177843">
-        <i className="fa fa-phone"></i> Phone
-      </a>
-      <span className="d-none d-sm-inline">{" • "}</span> */}
-      {/* <span className="d-block d-sm-none"></span>
-      <a href="mailto:eitanfire@gmail.com">
+    <div>
+      <a href="mailto:info@bodytherapyarts.com">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
@@ -46,12 +33,11 @@ const ContactInfo = () => {
           style={{ cursor: "pointer" }}
           onClick={handleCopyClick}
         >
-          eitanfire@gmail.com
+          info@bodytherapyarts.com{" "}
         </span>
-      )} */}
-      <EmailContact />
-    </Container>
+      )}
+    </div>
   );
 };
 
-export default ContactInfo;
+export default EmailContact;
