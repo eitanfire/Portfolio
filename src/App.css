@@ -159,23 +159,6 @@ body,
   margin-top: 1rem;
 }
 
-.main-title,
-.technologies-title,
-.technologies-utilized-title,
-.technologies-subsection-title
-/* .png-icon,
-i  */
-/* .title, */
-/* svg*/ {
-  /* color: #414141; */
-  /* background: -webkit-linear-gradient(#09203f, #537895);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: rgb(34, 6, 61); */
-  /* filter: (100%);  */
-}
-
 i {
   font-size: 1.75rem;
 }
