@@ -15,9 +15,7 @@ const CredentialInfo = () => {
           </a>
         </Col> 
         <Col 
-        // className="col-7"
         >
-          {/* {" • "} */}
           <a
             href="https://www.linkedin.com/in/eitanfire/"
             target="_blank"

@@ -196,10 +196,9 @@ i {
 
 cite {
   font-size: 80%;
-      position: relative;
+  position: relative;
 
-      top: 1.25rem;
-
+  top: 1.25rem;
 }
 
 @media all and (max-width: 537px) {
