@@ -37,8 +37,6 @@ const DeclarativeAndAlternatingProjects = () => {
           <Col className="col col-md-12 col-lg-7 hstack">
             {/* {renderIconsByText("HTML")} */}
             {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
-            {/* {renderIconsByText("Javascript")} */}
             {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
             {renderIconsByText("Express")}
