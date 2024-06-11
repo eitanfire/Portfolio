@@ -40,6 +40,7 @@ const Projects = () => {
             {/* {renderIconsByText("CSS")} */}
             {/* {renderIconsByText("Javascript")} */}
             {renderIconsByText("React")}
+            {renderIconsByText("Google Gemini API")}
             {renderIconsByText("NodeJS")}
             {renderIconsByText("Express")}
           </Col>

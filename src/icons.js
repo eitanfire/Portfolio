@@ -3,6 +3,7 @@ import firestoreIcon from "./assets/img/icons8-firestore-48.png";
 import nodejsIcon from "./assets/img/icons8-node-js-32.png";
 import calendarIcon from "./assets/img/icons8-google-calendar-50.png";
 import classroomIcon from "./assets/img/icons8-google-classroom-32.png";
+import aIIcon from "./assets/img/icons8-bard-50.png";
 
 export const icons = [
   { className: "fa-brands fa-html5", text: "HTML" },
@@ -17,5 +18,6 @@ export const icons = [
   { className: "fa-solid fa-lock fa-lg", text: "Firebase Auth" },
   { className: "png-icon", text: "Google Calendar API", image: calendarIcon },
   { className: "png-icon", text: "Google Classroom API", image: classroomIcon },
+  { className: "png-icon", text: "Google Gemini API", image: aIIcon },
   { className: "fa fa-github", text: "GitHub" },
 ];

@@ -21,11 +21,12 @@ const CiteIcons8 = () => {
         >
           Google Calendar
         </a>
+        {", "}
+        <a target="_blank" href="https://icons8.com/icon/set/bard/family-ios">
+          Google Gemini
+        </a>
         {" & "}
-        <a
-          target="_blank"
-          href="https://icons8.com/icon/31054/google-classroom"
-        >
+        <a target="_blank" href="https://icons8.com/icon/set/bard/family-ios">
           Google Classroom
         </a>{" "}
         icons by{" "}
