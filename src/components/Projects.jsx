@@ -142,12 +142,21 @@ const Projects = () => {
         </Col>
         <Col className="description col col-12 col-xl-8">
           <p>
-            This web app allows educators to search by credit through a database
-            of high-quality curricula I have built and curated over my 14 years
-            of experience as a teacher and is adapted to further support
-            educators with illuminating content and an opt-in email newsletter.
-            Ultimately this platform will elevate the voices of all educators,
-            but{" "}
+            This web app has educators covered from the beginning of class with
+            writing prompts{" "}
+            <a
+              href="https://teach-league.web.app/warmups"
+              target="_blank"
+              rel="noreferrer"
+            >
+              powered by AI
+            </a>{" "}
+            to the rest of the school year with a database of high-quality
+            curricula I have built and curated over my 14 years of experience as
+            a teacher fully searchable by topic. Followers who don't want to
+            miss out on the curated content o cutting-edge teaching practices
+            can opt-in to an emailed newsletter. Ultimately this platform will
+            elevate the voices of all educators in the chat forums, but{" "}
             <a href="https://fakerjs.dev/" target="_blank" rel="noreferrer">
               Faker.js
             </a>{" "}
