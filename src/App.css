@@ -215,14 +215,6 @@ cite {
   }
 }
 
-/* @media (min-width:738px) and (max-width: 759px) { 
-  .row-content-by-spaced-out-tech-icons  {
-  padding-top: 5rem;
-  background-color: rgb(21, 147, 156);
-}
-}
-*/
-
 @media all and (max-width: 974px) {
   .row-content-by-spaced-out-tech-icons {
     padding-top: 5rem;
