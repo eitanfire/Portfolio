@@ -22,12 +22,9 @@ function App() {
         help me solve challenges as a teacher.
       </p> */}
       <p className="intro-text">
-        I am seeking a React & JavaScript developer role. I am a motivated,
-        self-starting, and collaborative software engineer with over 14 years of
-        teaching experience seeking a full-stack developer role. I am passionate
-        about creating responsive and mobile-first design websites and web
-        applications. These are some of the latest apps I have built to help me
-        solve challenges as a teacher.
+        Software engineer with 14 years of teaching experience seeking a
+        full-stack developer role. I am passionate about creating responsive and
+        mobile-first design websites and web applications.
       </p>
       <Technologies />
       {/* <DeclarativeProjects /> */}

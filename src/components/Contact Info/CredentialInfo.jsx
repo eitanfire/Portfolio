@@ -7,15 +7,14 @@ const CredentialInfo = () => {
         <Col>
           {/* {" • "} */}
           <a
-            href="https://drive.google.com/file/d/1eUg1pCRkmCz-n5FRsJgMrkrIFduHU1YI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1UB5dnYMvSDuBjj3LPQ1IjKBFvjjGiRVy/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
             <i className="fa-solid fa-image-portrait fa-sm"></i> Resume
           </a>
-        </Col> 
-        <Col 
-        >
+        </Col>
+        <Col>
           <a
             href="https://www.linkedin.com/in/eitanfire/"
             target="_blank"
