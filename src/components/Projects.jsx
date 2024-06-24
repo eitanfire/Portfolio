@@ -154,7 +154,7 @@ const Projects = () => {
             to the rest of the school year with a database of high-quality
             curricula I have built and curated over my 14 years of experience as
             a teacher fully searchable by topic. Followers who don't want to
-            miss out on the curated content o cutting-edge teaching practices
+            miss out on curated content featuring cutting-edge teaching practices
             can opt-in to an emailed newsletter. Ultimately this platform will
             elevate the voices of all educators in the chat forums, but{" "}
             <a href="https://fakerjs.dev/" target="_blank" rel="noreferrer">
@@ -162,15 +162,14 @@ const Projects = () => {
             </a>{" "}
             has been excellent in the meantime for adding Lorem Ipsum and
             generic user data as I have been designing this project. This app
-            also uses Google Classroom API to provide teachers with an emergency
+            also uses the Google Classroom API to provide teachers with an emergency
             lesson plan they can easily assign to their students.
           </p>
           <p>
             Users can click on the light bulb to toggle between a light and dark
             theme. Attention is paid to maximizing accessibility and ease of use
             in the interface for all users. For example, check out how the tab
-            title changes on the homepage when you navigate to the Teacher’s
-            Lounge section.
+            title changes based on which page you are viewing.
           </p>
         </Col>
       </Row>
