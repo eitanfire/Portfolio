@@ -152,17 +152,17 @@ const Projects = () => {
               powered by AI
             </a>{" "}
             to the rest of the school year with a database of high-quality
-            curricula I have built and curated over my 14 years of experience as
-            a teacher fully searchable by topic. Followers who don't want to
-            miss out on curated content featuring cutting-edge teaching practices
-            can opt-in to an emailed newsletter. Ultimately this platform will
-            elevate the voices of all educators in the chat forums, but{" "}
+            curricula I have built and curated over 14 years of experience as a
+            teacher fully searchable by topic. Followers who want to experience
+            curated content featuring cutting-edge teaching practices can opt-in
+            to an emailed newsletter. Ultimately this platform will elevate the
+            voices of all educators in the chat forums, but{" "}
             <a href="https://fakerjs.dev/" target="_blank" rel="noreferrer">
               Faker.js
             </a>{" "}
             has been excellent in the meantime for adding Lorem Ipsum and
             generic user data as I have been designing this project. This app
-            also uses the Google Classroom API to provide teachers with an emergency
+            also uses the Google Classroom API to give teachers an emergency
             lesson plan they can easily assign to their students.
           </p>
           <p>

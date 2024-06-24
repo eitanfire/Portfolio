@@ -2,7 +2,31 @@ import { Container, Col, Row } from "reactstrap";
 
 const Technologies = () => {
   return (
+    // Technologies in list format
     <Container>
+      {/* <Row>
+        {" "}
+        <section className="technologies-section">
+          <h3 className="technologies-subsection-title">Frontend</h3>
+          Semantic HTML, CSS, SCSS, JavaScript, JSX, React Redux
+        </section>
+      </Row>
+      <Row>
+        <section className="technologies-section">
+          <h3 className="technologies-subsection-title">
+            Libraries, Frameworks & Version Control{" "}
+          </h3>
+          React, React Native, Ruby on Rails, Reactstrap, Bootstrap, Git, GitHub
+        </section>
+      </Row>
+      <Row>
+        <section className="technologies-section">
+          <h3 className="technologies-subsection-title">Backend</h3>
+          NoSQL, NodeJS, Express, Firebase, Ruby, RESTful web services, JSON
+        </section>
+      </Row> */}
+
+      {/* Technologies in box format */}
       {/* <h2 className="technologies-title">Latest Technologies</h2> */}
       <Row className="technologies">
         <Col>
