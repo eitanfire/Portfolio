@@ -35,7 +35,7 @@ const EmailContact = () => {
           style={{ cursor: "pointer" }}
           onClick={handleCopyClick}
         >
-          eitanfire@.gmail.com{" "}
+          eitanfire@gmail.com{" "}
         </Col>
       )}
     </div>
