@@ -22,7 +22,7 @@ const EmailContact = () => {
 
   return (
     <div>
-      <a href="mailto:eitanfire@.gmail.com">
+      <a href="mailto:eitanfire@gmail.com">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
