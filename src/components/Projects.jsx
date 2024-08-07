@@ -3,10 +3,12 @@ import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import About from "../assets/img/class-website-about-me-sm-ss.png";
 import Leaderboard from "../assets/img/leaderboard--ss.png";
-import Therapy from "../assets/img/body-therapy-arts-ss.png";
+import Therapy from "../assets/img/body-therapy-arts-homepage-ss.png";
 import Lotus from "../assets/img/lotus.png";
 import { Container, Col, Row } from "reactstrap";
 import { icons } from "../icons";
+import BTAHomepage from "../assets/img/body-therapy-arts-homepage-ss.png";
+import BTAServices from "../assets/img/body-therapy-arts-services-ss.png";
 
 const Projects = () => {
   const renderIconsByText = (text) => {
@@ -170,6 +172,127 @@ const Projects = () => {
             theme. Attention is paid to maximizing accessibility and ease of use
             in the interface for all users. For example, check out how the tab
             title changes based on which page you are viewing.
+          </p>
+        </Col>
+      </Row>
+      <h2 className="title">
+        {/* 🧘🏽‍♀️ */}
+        Body Therapy Arts
+      </h2>
+      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-7 hstack">
+            {/* {/* {renderIconsByText("HTML")} */}
+            {renderIconsByText("Bootstrap")}
+            {/* {renderIconsByText("CSS")} */}
+            {/* {renderIconsByText("Javascript")} */}
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+            {renderIconsByText("Typescript")}
+          </Col>
+          <Col className="col col-sm-11 col-10 mx-auto col-lg-5 col-lg-5 hstack">
+            {renderIconsByText("Express")}
+            {renderIconsByText("Google Maps API")}
+          </Col>
+        </Row>
+      </div>
+      <Row className="row-content row-content-by-spaced-out-tech-icons">
+        <Col className="col">
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://body-therapy-arts-encinitas.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Demo
+            </a>
+          </div>
+          <br></br>
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://github.com/eitanfire/body-therapy-arts"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div>
+        </Col>
+        <Col>
+          <Col
+            className="col col-12 
+        hstack"
+          >
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a
+                href="https://body-therapy-arts-encinitas.web.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-circle-play"></i> Live Demo
+              </a>
+            </div>
+            <br></br>
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a
+                href="https://github.com/eitanfire/body-therapy-arts.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-github"></i> GitHub
+              </a>
+            </div>
+          </Col>
+          <a
+            href="https://body-therapy-arts-encinitas.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src={BTAHomepage}
+                  alt="Body Therapy Arts screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col>
+                <img
+                  className="screenshots"
+                  src={BTAServices}
+                  alt="Body Therapy Arts screenshot"
+                ></img>
+              </Col>
+            </Col>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={BTAHomepage}
+                  alt="Body Therapy Arts screenshot"
+                ></img>
+              </Col>
+              <br></br>
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={BTAServices}
+                  alt="Body Therapy Arts screenshot"
+                ></img>
+              </Col>
+            </Col>
+          </a>
+        </Col>
+        <Col className="description col col-12 col-xl-8">
+          <p>
+            Body Therapy Arts has been offering a range of holistic services to
+            Encinitas, CA for over 30 years.
+     
+            Clients can use the Google map integrated into the site to locate the business. I have set up a CI/CD
+            pipeline to streamline maintenance and development. I am currently
+            converting this app to Typescript.
           </p>
         </Col>
       </Row>
@@ -431,124 +554,6 @@ const Projects = () => {
             the data was saved on local storage to prevent any loss in the event
             of an accidental browser refresh. With all my bases covered, I was
             free to MC the contest!
-          </p>
-        </Col>
-      </Row>
-      <h2 className="title">
-        {/* 🧘🏽‍♀️ */}
-        Body Therapy Arts
-      </h2>
-      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
-      <div className="tech-icons">
-        <Row>
-          <Col className="col-6 hstack">
-            {/* {renderIconsByText("HTML")} */}
-            {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
-            {renderIconsByText("React")}
-          </Col>
-          <Col className="col-6 mx-auto hstack">
-            {/* {renderIconsByText("Javascript")} */}
-            {renderIconsByText("NodeJS")}
-            {renderIconsByText("Express")}
-          </Col>
-        </Row>
-      </div>
-      <Row className="row-content">
-        <Col className="col">
-          <div className="project-links d-md-none d-lg-block">
-            <a
-              href="https://body-therapy-arts-encinitas.web.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-circle-play"></i> Live Demo
-            </a>
-          </div>
-          <br></br>
-          <div className="project-links d-md-none d-lg-block">
-            <a
-              href="https://github.com/eitanfire/body-therapy-arts.git"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-github"></i> GitHub
-            </a>
-          </div>
-        </Col>
-        <Col>
-          <Col
-            className="col col-12 
-        hstack"
-          >
-            <div className="project-links-md d-none d-md-block d-lg-none">
-              <a
-                href="https://body-therapy-arts-encinitas.web.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-circle-play"></i> Live Demo
-              </a>
-            </div>
-            <br></br>
-            <div className="project-links-md d-none d-md-block d-lg-none">
-              <a
-                href="https://github.com/eitanfire/body-therapy-arts.git"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-github"></i> GitHub
-              </a>
-            </div>
-          </Col>
-          <a
-            href="https://body-therapy-arts-encinitas.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
-              <Col className="d-none d-md-block col-md-1 d-xl-none">
-                {/* using transparent image here for correct formatting */}
-                <img
-                  className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
-                  src={Lotus}
-                  alt="Transparent screenshot"
-                ></img>
-              </Col>
-              <Col>
-                <img
-                  className="screenshots"
-                  src={Therapy}
-                  alt="Body Arts Therapy screenshot"
-                ></img>
-              </Col>
-            </Col>
-            <Col className="hstack">
-              <Col className="d-none d-md-block d-xl-none">
-                <img
-                  className="screenshots-md-lg"
-                  src={Therapy}
-                  alt="Body Arts Therapy screenshot"
-                ></img>
-              </Col>
-              <br></br>
-              <Col className="d-none d-md-block d-xl-none">
-                <img
-                  className="screenshots-md-lg"
-                  src={Lotus}
-                  alt="Teach League screenshot"
-                ></img>
-              </Col>
-            </Col>
-          </a>
-        </Col>
-        <Col className="description col col-12 col-xl-8">
-          <p>
-            Body Therapy Arts has been offering a range of holistic services to
-            Encinitas, CA for over 30 years. They are in need of a more
-            efficient and modern solution to their marketing needs than their
-            current site provides. This project is in progress so be sure to
-            check in the near future for how it develops.
           </p>
         </Col>
       </Row>

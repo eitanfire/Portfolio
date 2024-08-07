@@ -23,6 +23,14 @@ const CiteIcons8 = () => {
         <a
           target="_blank"
           rel="noreferrer"
+          href="https://icons8.com/icon/set/google-maps/ios"
+        >
+          Google Maps
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          rel="noreferrer"
           href="https://icons8.com/icon/UJGaYqXaHWdp/google-calendar"
         >
           Google Calendar
