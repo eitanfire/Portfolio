@@ -189,7 +189,7 @@ const Projects = () => {
             {/* {renderIconsByText("Javascript")} */}
             {renderIconsByText("React")}
             {renderIconsByText("NodeJS")}
-            {renderIconsByText("Typescript")}
+            {renderIconsByText("TypeScript")}
           </Col>
           <Col className="col col-sm-11 col-10 mx-auto col-lg-5 col-lg-5 hstack">
             {renderIconsByText("Express")}
@@ -292,7 +292,7 @@ const Projects = () => {
      
             Clients can use the Google map integrated into the site to locate the business. I have set up a CI/CD
             pipeline to streamline maintenance and development. I am currently
-            converting this app to Typescript.
+            converting this app to TypeScript.
           </p>
         </Col>
       </Row>

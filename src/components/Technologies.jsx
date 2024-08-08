@@ -32,7 +32,7 @@ const Technologies = () => {
         <Col>
           <section className="technologies-section">
             <h3 className="technologies-subsection-title">Frontend</h3>
-            Semantic HTML, CSS, SCSS, JavaScript, JSX, React Redux
+            Semantic HTML, CSS, SCSS, JavaScript, TypeScript, JSX, React Redux
           </section>
         </Col>
         <Col className="col col-12 col-sm-6 col-md-4 col-xl-4">
