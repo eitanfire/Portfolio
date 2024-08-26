@@ -14,13 +14,6 @@ function App() {
       <h1 className="main-title">
         Eitan Fire's Latest Pro<span className="j-from-projects">j</span>ects
       </h1>
-      {/* <h2 className="intro-text">
-        I am seeking a React & JavaScript developer role.
-      </h2> */}
-      {/* <p className="intro-text">
-        My name is Eitan Fire. Here are some of the latest apps I have built to
-        help me solve challenges as a teacher.
-      </p> */}
       <p className="intro-text">
         Software engineer with 14 years of teaching experience seeking a
         full-stack developer role. I am passionate about creating responsive and
