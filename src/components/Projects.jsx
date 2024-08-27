@@ -28,7 +28,7 @@ const Projects = () => {
   };
 
   return (
-    <Container>
+    <Container className="projects">
       <h2 className="title">
         {/* 🚀  */}
         Teach League

@@ -24,10 +24,9 @@ function App() {
       </p>
       <Technologies />
       {/* <DeclarativeProjects /> */}
-      <Projects className="" />
-      <ConactInfo />
-      <br></br>
+      <Projects />
       <CiteIcons8 />
+      <ConactInfo />
     </Container>
   );
 }
