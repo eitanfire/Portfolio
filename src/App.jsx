@@ -12,10 +12,13 @@ function App() {
     <Container className="wrapper col col-12">
       <ConactInfo />
       <h1 className="main-title">
-        Eitan Fire's Latest Pro<span className="j-from-projects">j</span>ects
+        Eitan Fire's{" "}
+        <span className="latest-projects">
+          Latest Pro<span className="j-from-projects">j</span>ects
+        </span>
       </h1>
       <p className="intro-text">
-        Software engineer with 14 years of teaching experience seeking a
+        I'm a software engineer with 14 years of teaching experience seeking a
         full-stack developer role. I am passionate about creating responsive and
         mobile-first design websites and web applications.
       </p>
