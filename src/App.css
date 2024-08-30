@@ -30,9 +30,12 @@ left: 0rem;
   }
 }
 
+body {
+  width: 0%;
+}
 /* @media only screen and (min-width: 0px) and (max-width: 500px) {
   body {
-  background-color: rgb(238, 238, 238);
+width: 0%;
   }
 } */
 
@@ -42,11 +45,27 @@ font-size: 10dvw;
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 406px) {
+@media only screen and (min-width: 0px) and (max-width: 575px) {
   .main-title {
-font-size: 16dvw;
+font-size: clamp( 13dvw, 14dvw, 15dvw);
 padding-left: 11%;
 padding-right: 11%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 12000px) {
+  .main-title {
+font-size: clamp( 16dvw, 17dvw, 18dvw);
+padding-left: 11%;
+padding-right: 11%;
+  }
+}
+
+@media only screen and (min-width:407px) and (max-width: 1800px) {
+  .main-title {
+font-size: clamp( 12dvw, 13dvw, 14dvw);
+/* padding-left: 11%;
+padding-right: 11%; */
   }
 }
 
@@ -73,16 +92,23 @@ h2 {
 }
 
 .contact-info {
+  font-size: larger;
   height: 1rem;
   margin-bottom: 18%;
-    font-size: 15dvw;
+    /* font-size: clamp(medium, large, larger); */
+        /* font-size: clamp(.8rem, 2.5vw, 2.8rem); */
+
+        padding-top: 10%;
+
     white-space: nowrap;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 501px) {
   .contact-info {
-    padding-top: 10%;
 font-size: 5dvw;
+height: 100%;
+  /* margin-bottom: 48%; */
+
   }
 }
 
@@ -146,7 +172,8 @@ font-size: 5dvw;
   width: auto;
 }
 .main-title {
-  margin-top: 5.5rem;
+  text-align: left;
+  /* margin-top: 5.5rem; */
 }
 
 .latest-projects {
@@ -187,7 +214,7 @@ padding-left: 4%;
 }
 
 .title {
-    font-size: 15dvw;
+    font-size: clamp(3dvw, 5dvw, 12dvw);
   text-align: left;
   padding-top: 1rem;
   margin-top: 1rem;
