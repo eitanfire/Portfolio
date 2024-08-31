@@ -12,7 +12,8 @@ function App() {
     <Container className="wrapper col col-12">
       <ConactInfo />
       <h1 className="main-title">
-        Eitan Fire's{" "}
+        <span className="eitan-fires">Eitan Fire's</span>
+        {"\n"}
         <span className="latest-projects">
           Latest Pro<span className="j-from-projects">j</span>ects
         </span>
