@@ -201,7 +201,7 @@ const Projects = () => {
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
-              href="https://body-therapy-arts-encinitas.web.app/"
+              href="https://bodytherapyarts.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -226,7 +226,7 @@ const Projects = () => {
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                href="https://body-therapy-arts-encinitas.web.app/"
+                href="https://bodytherapyarts.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -245,7 +245,7 @@ const Projects = () => {
             </div>
           </Col>
           <a
-            href="https://body-therapy-arts-encinitas.web.app/"
+            href="https://bodytherapyarts.com/"
             target="_blank"
             rel="noreferrer"
           >

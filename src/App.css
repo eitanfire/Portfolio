@@ -1,5 +1,11 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
 #root {
-  position: absolute;
+  position: inline;
   /* width: 100%; */
   /* margin: 0 auto; */
   /* padding: 2rem; */
@@ -7,7 +13,7 @@
   color: #414141;
   /* background-color: rgb(238, 238, 238); */
   /* padding-left: 11%; */
-  padding-right: 11%;
+  /* padding-right: 11%; */
 }
 
 @import url("https://fonts.googleapis.com/css?family=Questrial|Quicksand|Raleway|Roboto");
@@ -24,11 +30,24 @@ body,
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   .wrapper {
     max-width: 0%;
+      /* display: block;
+  margin: auto;
+    width: 50%; */
   }
 }
 
+/* @media only screen and (min-width: 0px) and (max-width: 430px) {
+  body {
+  overflow-x: hidden;
+  overflow-x: clip;
+  width: 0%;  
+}
+} */
+
 body {
-  width: 0%;
+  /* overflow-x: hidden;
+  overflow-x: clip;
+  width: auto; */
 }
 
 @media only screen and (min-width: 0px) and (max-width: 490px) {
@@ -39,6 +58,11 @@ body {
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .main-title {
+      margin-right: 8.5%;
+      margin-left: 8.5%;
+
+      /* width: 100%; */
+
     font-size: clamp(13dvw, 14dvw, 15dvw);
   }
 }
@@ -75,15 +99,26 @@ h2 {
 .contact-info {
   font-size: larger;
   height: 1rem;
-  margin-bottom: 18%;
-  padding-top: 10%;
   white-space: nowrap;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 501px) {
   .contact-info {
+  font-size: small;
+    height: 5rem;
+      margin-bottom: 5%;
+  padding-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 502px) and (max-width:1600px) {
+  .contact-info {
     /* font-size: 5dvw; */
     height: 5rem;
+      margin-bottom: 4%;
+        line-height: calc(100% - 0.65);
+
+  padding-top: 2%;
   }
 }
 
@@ -113,6 +148,7 @@ h2 {
   background-color: rgb(227, 220, 211);
   margin-top: 3rem;
   margin-bottom: 3rem;
+  margin-right: 3rem;
   height: 18.5rem;
   max-width: 21rem;
   border: thick double;
@@ -156,7 +192,7 @@ h2 {
   position: inline;
   font-weight: 300;
   white-space: nowrap;
-  font-size: 78%;
+  font-size: 77%;
 }
 
 .j-from-projects {
@@ -167,6 +203,21 @@ h2 {
 
 .technologies {
   border: 2px inset black;
+}
+
+@media all and (max-width: 431px) {
+  .technologies {
+ position:inline;   
+/* left: 5rem; */
+/* margin-left: 10rem;
+padding-left: 100%; */
+  /* overflow-x: hidden;
+  overflow-x: clip;
+  width: 0%;   */
+       margin-right: 8.5%;
+      margin-left: 8.5%;
+        padding-left: 6.25%;
+}
 }
 
 .technologies-subsection-title {
@@ -212,9 +263,11 @@ h2 {
 }
 
 .intro-text {
+  margin-top: 3%;
   margin-bottom: 3%;
   padding-left: 6.25%;
-  /* margin-right: 9%; */
+       margin-right: 8.5%;
+      margin-left: 8.5%;
   text-align: left;
   font-size: clamp(2.75dvw, 3dvw, 3.25dvw);
 }
@@ -266,15 +319,16 @@ i {
 }
 
 cite {
-  font-size: 80%;
-  position: relative;
-  top: 1.25rem;
+  /* font-size: 80%; */
+  /* position: relative; */
+  /* top: 1.25rem; */
+      /* font-size: 2.5dvw; */
 }
 
 @media all and (max-width: 537px) {
   cite {
-    font-size: 3.5dvw;
-    position: sticky;
+    font-size: 1.5dvw;
+    /* position: sticky; */
   }
 }
 

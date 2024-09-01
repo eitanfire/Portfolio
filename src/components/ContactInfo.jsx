@@ -24,12 +24,12 @@ const ContactInfo = () => {
   };
 
   return (
-    <Container className="">
-      <Row className="contact-info">
+    <Container className="contact-info">
+      <Row className="">
         <Col className="col-4 col-md-4 phone-contact">
           <PhoneContact />
         </Col>
-        <Col className="col-4 col-md-3 credential-contact">
+        <Col className="col-4 col-md-4 credential-contact">
           <CredentialInfo />
         </Col>
         <Col className="col-4 col-md-4 email-contact">
