@@ -3,7 +3,7 @@ import { Container, Col, Row } from "reactstrap";
 const Technologies = () => {
   return (
     <Container className="technologies">
-      <Row>
+      <Row >
         <Col>
           <section className="technologies-section">
             <h3 className="technologies-subsection-title">Frontend</h3>
