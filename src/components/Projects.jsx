@@ -288,11 +288,10 @@ const Projects = () => {
         <Col className="description col col-12 col-xl-8">
           <p>
             Body Therapy Arts has been offering a range of holistic services to
-            Encinitas, CA for over 30 years.
-     
-            Clients can use the Google map integrated into the site to locate the business. I have set up a CI/CD
-            pipeline to streamline maintenance and development. I am currently
-            converting this app to TypeScript.
+            Encinitas, CA for over 30 years. Clients can use the Google map
+            integrated into the site to locate the business. I have set up a
+            CI/CD pipeline to streamline maintenance and development. I am
+            currently converting this app to TypeScript.
           </p>
         </Col>
       </Row>
@@ -501,7 +500,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-1">
               <Col>
                 <img
                   className="screenshots"
@@ -532,7 +531,7 @@ const Projects = () => {
             </Col>
           </a>
         </Col>
-        <Col className="description col col-12 col-xl-8">
+        <Col className="description single-page-description col col-12 col-xl-7">
           <p>
             A few years ago I started the tradition of a Halloween costume
             contest at my school. Students compete by showing off their costumes

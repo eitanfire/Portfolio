@@ -167,6 +167,7 @@ h2 {
 
 .leaderboard-project-links-md {
   position: relative;
+background-color:darkorange;
 }
 
 .xl-project-links-rightside {
@@ -336,4 +337,8 @@ i {
   .row-content-by-spaced-out-tech-icons {
     padding-top: 5rem;
   }
+}
+
+.single-page-links-and-screenshot {
+  padding-right: 22%;
 }
