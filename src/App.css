@@ -229,12 +229,20 @@ background-color:darkorange;
 }
 
 .title {
-  font-size: clamp(3dvw, 5dvw, 12dvw);
+    font-size: clamp(4dvw, 4.5dvw, 5dvw);
   text-align: left;
   padding-top: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid black;
+}
+
+.halloween-contest-leaderboard-title-sm-to-lg {
+  font-size: clamp(4dvw, 4.5dvw, 5dvw);
+}
+
+.halloween-contest-leaderboard-title-xxl {
+  font-size: clamp(4dvw, 4.5dvw, 4dvw);
 }
 
 .description {

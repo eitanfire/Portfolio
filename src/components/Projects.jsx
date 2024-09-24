@@ -426,8 +426,11 @@ const Projects = () => {
           </p>
         </Col>
       </Row>
-      <h2 className="title">
+      <h2 className="halloween-contest-leaderboard-title-sm-to-lg title d-none d-sm-block d-xxl-none">
         {/* 👻  */}
+        Halloween Contest Leaderboard
+      </h2>
+      <h2 className="halloween-contest-leaderboard-title-xxl title d-none d-xxl-block">
         Halloween Contest Leaderboard
       </h2>
       {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
