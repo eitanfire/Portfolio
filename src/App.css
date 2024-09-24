@@ -237,7 +237,7 @@ background-color:darkorange;
   border-bottom: 1px solid black;
 }
 
-.halloween-contest-leaderboard-title-sm-to-lg {
+.halloween-contest-leaderboard-title-xs-to-lg {
   font-size: clamp(4dvw, 4.5dvw, 5dvw);
 }
 
