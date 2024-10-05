@@ -1,7 +1,5 @@
-import { useState } from "react";
-import { Container, Col, Row, Card, CardBody } from "reactstrap";
+import { Container } from "reactstrap";
 import Projects from "./components/Projects";
-import DeclarativeProjects from "./components/DeclarativeProjects";
 import Technologies from "./components/Technologies";
 import ConactInfo from "./components/ContactInfo";
 import CiteIcons8 from "./components/CiteIcons8";

@@ -167,7 +167,7 @@ h2 {
 
 .leaderboard-project-links-md {
   position: relative;
-background-color:darkorange;
+  background-color: darkorange;
 }
 
 .xl-project-links-rightside {
@@ -229,7 +229,7 @@ background-color:darkorange;
 }
 
 .title {
-    font-size: clamp(4dvw, 4.5dvw, 5dvw);
+  font-size: clamp(4dvw, 4.5dvw, 5dvw);
   text-align: left;
   padding-top: 1rem;
   margin-top: 1rem;
