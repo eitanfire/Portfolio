@@ -8,12 +8,12 @@ const ContactInfo = () => {
   const [isEmailVisible, setEmailVisible] = useState(false);
 
   const handleMagnifyingGlassClick = (event) => {
-    event.preventDefault(); // Prevent the default behavior of the click event
+    event.preventDefault();
     setEmailVisible(true);
   };
 
   const handleCopyClick = (event) => {
-    event.preventDefault(); // Prevent the default behavior of the click event
+    event.preventDefault();
 
     const emailInput = document.getElementById("emailInput");
     const email = emailInput.textContent.trim(); // Get the text content of the span and trim any whitespace
