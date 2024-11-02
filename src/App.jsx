@@ -21,9 +21,8 @@ function App() {
         full-stack developer role. I am passionate about creating responsive and
         mobile-first design websites and web applications.
       </p>
-      <Technologies />
-      {/* <DeclarativeProjects /> */}
       <Projects />
+      <Technologies />
       <CiteIcons8 />
       <ConactInfo />
     </Container>

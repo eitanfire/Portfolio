@@ -2,8 +2,13 @@ import { Container, Col, Row } from "reactstrap";
 
 const Technologies = () => {
   return (
-    <Container className="technologies">
-      <Row>
+    <>
+      <h3>Technical Competencies</h3>
+      <Container className="technologies">
+        AWS, CI/CD, CSS, Express, Firebase, Git, GitHub, GraphSQL, JavaScript,
+        JSON, JSX, NodeJS, NoSQL, React, React Native, Redux, RESTful web
+        services, Ruby, Ruby on Rails, Semantic HTML, SolidJS, SST, TypeScript
+        {/* <Row>
         <Col>
           <section className="technologies-section">
             <h3 className="technologies-subsection-title">Frontend</h3>
@@ -25,8 +30,9 @@ const Technologies = () => {
             NoSQL, NodeJS, Express, Firebase, Ruby, RESTful web services, JSON
           </section>
         </Col>
-      </Row>
-    </Container>
+      </Row> */}
+      </Container>
+    </>
   );
 };
 
