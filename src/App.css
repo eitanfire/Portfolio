@@ -201,6 +201,7 @@ h2 {
 
 .technologies {
   border: 2px inset black;
+  margin-bottom: 1rem;
 }
 
 @media all and (max-width: 501px) {
