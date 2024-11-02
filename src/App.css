@@ -4,13 +4,6 @@
   outline: solid #f00 1px !important;
 } */
 
-#root {
-  position: inline;
-  text-align: center;
-  color: #414141;
-  background-color: rgb(238, 238, 238);
-}
-
 @import url("https://fonts.googleapis.com/css?family=Questrial|Quicksand|Raleway|Roboto");
 body,
 #text-container,
@@ -20,6 +13,13 @@ body,
     Roboto  */ /* 'Raleway',  */ /* 'Quicksand'  */
       sans-serif;
   font-size: 13px;
+}
+
+#root {
+  position: inline;
+  text-align: center;
+  color: #414141;
+  background-color: rgb(238, 238, 238);
 }
 
 @media only screen and (min-width: 0px) and (max-width: 490px) {
