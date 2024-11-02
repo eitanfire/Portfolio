@@ -6,8 +6,9 @@ const Technologies = () => {
       <h3>Technical Competencies</h3>
       <Container className="technologies">
         AWS, CI/CD, CSS, Express, Firebase, Git, GitHub, GraphQL, JavaScript,
-        JSON, JSX, NodeJS, NoSQL, React, React Native, Redux, RESTful web
-        services, Ruby, Ruby on Rails, Semantic HTML, SolidJS, SST, TypeScript
+        JSON, JSX, NodeJS, NoSQL, React, React Native, PostgREST, Redux, RESTful
+        web services, Ruby, Ruby on Rails, Semantic HTML, SolidJS, SST,
+        TypeScript
         {/* <Row>
         <Col>
           <section className="technologies-section">
