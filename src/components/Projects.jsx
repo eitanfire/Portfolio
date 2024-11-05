@@ -31,7 +31,6 @@ const Projects = () => {
         {/* 🚀  */}
         Teach League
       </h2>
-      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-6 hstack">
@@ -177,7 +176,6 @@ const Projects = () => {
         {/* 🧘🏽‍♀️ */}
         Body Therapy Arts
       </h2>
-      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-7 hstack">
@@ -297,7 +295,6 @@ const Projects = () => {
         {/* 👨🏻‍🏫  */}
         Class Dashboard
       </h2>
-      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col col-md-12 col-lg-7 hstack">
@@ -431,7 +428,6 @@ const Projects = () => {
       <h2 className="halloween-contest-leaderboard-title-xxl title d-none d-xxl-block">
         Halloween Contest Leaderboard
       </h2>
-      {/* <h3 className="technologies-utilized-title">Technologies Utilized</h3> */}
       <div className="tech-icons">
         <Row>
           <Col className="col-6 hstack">
