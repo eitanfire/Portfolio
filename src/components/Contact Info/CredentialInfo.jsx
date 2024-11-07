@@ -7,7 +7,7 @@ const CredentialInfo = () => {
         <Col>
           {/* {" • "} */}
           <a
-            href="https://drive.google.com/file/d/12qCB8QA41-RbLyfJ8hla0fmuwe7MdUiI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oip4i-8qzz0MqjB4UiQ3gEICl_sH7yLQ/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
