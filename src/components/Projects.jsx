@@ -62,7 +62,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
-          <br></br>
+         <br/>
           <div className="project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/legendary-quest.git"
@@ -87,7 +87,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
-            <br></br>
+           <br/>
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 href="https://github.com/eitanfire/legendary-quest.git"
@@ -111,7 +111,7 @@ const Projects = () => {
                   alt="Teach League screenshot"
                 ></img>
               </Col>
-              <br></br>
+             <br/>
               <Col>
                 <img
                   className="screenshots"
@@ -128,7 +128,7 @@ const Projects = () => {
                   alt="Teach League screenshot"
                 ></img>
               </Col>
-              <br></br>
+             <br/>
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
@@ -204,7 +204,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
-          <br></br>
+         <br/>
           <div className="project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/body-therapy-arts"
@@ -229,7 +229,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
-            <br></br>
+           <br/>
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 href="https://github.com/eitanfire/body-therapy-arts.git"
@@ -253,7 +253,7 @@ const Projects = () => {
                   alt="Body Therapy Arts screenshot"
                 ></img>
               </Col>
-              <br></br>
+             <br/>
               <Col>
                 <img
                   className="screenshots"
@@ -270,7 +270,7 @@ const Projects = () => {
                   alt="Body Therapy Arts screenshot"
                 ></img>
               </Col>
-              <br></br>
+             <br/>
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
@@ -318,7 +318,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
-          <br></br>
+         <br/>
           <div className="project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/Eitans-Website"
@@ -343,7 +343,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
-            <br></br>
+           <br/>
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 href="https://github.com/eitanfire/Eitans-Website"
@@ -363,7 +363,7 @@ const Projects = () => {
                   alt="Class Dashboard screenshot"
                 ></img>
               </Col>
-              <br></br>
+             <br/>
               <Col>
                 <img
                   className="screenshots"
@@ -380,7 +380,7 @@ const Projects = () => {
                   alt="Class Dashboard screenshot"
                 ></img>
               </Col>
-              <br></br>
+             <br/>
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
@@ -454,7 +454,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
-          <br></br>
+         <br/>
           <div className="project-links d-md-none d-lg-block">
             <a
               // className="btn btn-social-icon btn-github"
@@ -480,7 +480,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
-            <br></br>
+           <br/>
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 // className="btn btn-social-icon btn-github"
@@ -524,7 +524,7 @@ const Projects = () => {
                     alt="Leaderboard screenshot"
                   ></img>
                 </Col>
-                <br></br>
+               <br/>
               </Col>
             </Col>
           </a>
