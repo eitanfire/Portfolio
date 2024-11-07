@@ -2,7 +2,7 @@ import { Container, Col, Row } from "reactstrap";
 
 const CredentialInfo = () => {
   return (
-    <Container className="">
+    <Container>
       <Row>
         <Col>
           {/* {" • "} */}
