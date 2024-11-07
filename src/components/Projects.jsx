@@ -509,6 +509,7 @@ const Projects = () => {
             <Col className="vstack">
               <Col className="hstack ">
                 <Col className="d-none d-md-block col-md-1 d-xl-none">
+                //TODO - be sure all screen sizes format uniformly
                   {/* using transparent image here for correct formatting */}
                   <img
                     className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
