@@ -32,19 +32,19 @@ body,
   .main-title {
     margin-right: 8.5%;
     margin-left: 8.5%;
-    font-size: clamp(12.5dvw, 13dvw, 13.5dvw);
+    font-size: clamp(8.5dvw, 9dvw, 9.5dvw);
   }
 }
 
 @media only screen and (min-width: 401px) and (max-width: 1800px) {
   .main-title {
-    font-size: clamp(14dvw, 14.5dvw, 15dvw);
+    font-size: clamp(10dvw, 10.5dvw, 11dvw);
   }
 }
 
 @media only screen and (min-width: 1801px) {
   .main-title {
-    font-size: clamp(12.5dvw, 13dvw, 13.5dvw);
+    font-size: clamp(11.5dvw, 12dvw, 12.5dvw);
     margin-right: 10%;
   }
 }
@@ -194,8 +194,8 @@ h2 {
 }
 
 .j-from-projects {
-  font-family: "Raleway", sans-serif !important;
-  font-size: 90%;
+  font-family: "Raleway", sans-serif;
+  font-size: 93%;
   font-weight: 375;
 }
 
