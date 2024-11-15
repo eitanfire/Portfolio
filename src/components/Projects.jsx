@@ -55,7 +55,7 @@ const Projects = () => {
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a
-              href="https://teach-league.web.app/"
+              href="https://teachleague.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -80,7 +80,7 @@ const Projects = () => {
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                href="https://teach-league.web.app/"
+                href="https://teachleague.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -99,7 +99,7 @@ const Projects = () => {
             </div>
           </Col>
           <a
-            href="https://teach-league.web.app/"
+            href="https://teachleague.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -144,7 +144,7 @@ const Projects = () => {
             This web app has educators covered from the beginning of class with
             writing prompts{" "}
             <a
-              href="https://teach-league.web.app/warmups"
+              href="https://teachleague.com/warmups"
               target="_blank"
               rel="noreferrer"
             >
@@ -314,7 +314,7 @@ const Projects = () => {
       <Row className="row-content row-content-by-spaced-out-tech-icons">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
-            <a href="https://eitans.website/" target="_blank" rel="noreferrer">
+            <a href="https://eitans.web.app/" target="_blank" rel="noreferrer">
               <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
@@ -336,7 +336,7 @@ const Projects = () => {
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                href="https://eitans.website/"
+                href="https://eitans.web.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -354,7 +354,7 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <a href="https://eitans.website/" target="_blank" rel="noreferrer">
+          <a href="https://eitans.web.app/" target="_blank" rel="noreferrer">
             <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
               <Col>
                 <img
@@ -409,7 +409,7 @@ const Projects = () => {
             leveraged this same API to keep all other date-related information
             seamlessly updated such as my years teaching on the{" "}
             <a
-              href="https://eitans.website/read-more"
+              href="https://eitans.web.app/read-more"
               target="_blank"
               rel="noreferrer"
             >
