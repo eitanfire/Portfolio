@@ -59,7 +59,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -84,7 +84,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -201,7 +201,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -226,7 +226,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -315,7 +315,7 @@ const Projects = () => {
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a href="https://eitans.web.app/" target="_blank" rel="noreferrer">
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -340,7 +340,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -451,7 +451,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -477,7 +477,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
