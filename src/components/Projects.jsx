@@ -59,7 +59,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -84,7 +84,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -151,24 +151,17 @@ const Projects = () => {
               powered by AI
             </a>{" "}
             to the rest of the school year with a database of high-quality
-            curricula I have built and curated over 14 years of experience as a
-            teacher fully searchable by topic. Followers who want to experience
-            curated content featuring cutting-edge teaching practices can opt-in
-            to an emailed newsletter. Ultimately this platform will elevate the
-            voices of all educators in the chat forums, but{" "}
-            <a href="https://fakerjs.dev/" target="_blank" rel="noreferrer">
-              Faker.js
-            </a>{" "}
-            has been excellent in the meantime for adding Lorem Ipsum and
-            generic user data as I have been designing this project. This app
+            curricula I have built and curated over nearly 15 years of experience as a
+            teacher. This site
             also uses the Google Classroom API to give teachers an emergency
             lesson plan they can easily assign to their students.
           </p>
           <p>
+          Followers who want to experience
+            curated content featuring cutting-edge teaching practices can opt-in
+            to an emailed newsletter.
             Users can click on the light bulb to toggle between a light and dark
-            theme. Attention is paid to maximizing accessibility and ease of use
-            in the interface for all users. For example, check out how the tab
-            title changes based on which page you are viewing.
+            theme.
           </p>
         </Col>
       </Row>
@@ -201,7 +194,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -226,7 +219,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -315,7 +308,7 @@ const Projects = () => {
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
             <a href="https://eitans.website/" target="_blank" rel="noreferrer">
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -340,7 +333,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -451,7 +444,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Demo
+              <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
          <br/>
@@ -477,7 +470,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Demo
+                <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
            <br/>
@@ -541,16 +534,9 @@ const Projects = () => {
             and that’s when I determined to solve this problem with programming.
           </p>
           <p>
-            I found a tutorial for creating a scoreboard using React,
-            JavaScript, CSS, and HTML. I aim to write clean code in a functional
-            style and I also don't hesitate to tackle class-based components
-            found in legacy code such as those used by the tutorial. Using its
-            initial guidance, I personalized my solution by successfully
-            creating a leaderboard that pairs participants’ names and scores, as
-            well as the link to the music videos they selected. I also ensured
-            the data was saved on local storage to prevent any loss in the event
-            of an accidental browser refresh. With all my bases covered, I was
-            free to MC the contest!
+           The data is saved on local storage to prevent any loss in the event
+            of an accidental browser refresh. With all my bases covered, I have been
+            freed to MC the contest!
           </p>
         </Col>
       </Row>
