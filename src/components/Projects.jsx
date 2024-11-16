@@ -59,7 +59,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Site
+              <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
          <br/>
@@ -84,7 +84,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Site
+                <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
            <br/>
@@ -201,7 +201,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Site
+              <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
          <br/>
@@ -226,7 +226,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Site
+                <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
            <br/>
@@ -314,8 +314,8 @@ const Projects = () => {
       <Row className="row-content row-content-by-spaced-out-tech-icons">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
-            <a href="https://eitans.web.app/" target="_blank" rel="noreferrer">
-              <i className="fa fa-circle-play"></i> Live Site
+            <a href="https://eitans.website/" target="_blank" rel="noreferrer">
+              <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
          <br/>
@@ -336,11 +336,11 @@ const Projects = () => {
           >
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
-                href="https://eitans.web.app/"
+                href="https://eitans.website/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Site
+                <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
            <br/>
@@ -354,7 +354,7 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <a href="https://eitans.web.app/" target="_blank" rel="noreferrer">
+          <a href="https://eitans.website/" target="_blank" rel="noreferrer">
             <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
               <Col>
                 <img
@@ -409,7 +409,7 @@ const Projects = () => {
             leveraged this same API to keep all other date-related information
             seamlessly updated such as my years teaching on the{" "}
             <a
-              href="https://eitans.web.app/read-more"
+              href="https://eitans.website/read-more"
               target="_blank"
               rel="noreferrer"
             >
@@ -451,7 +451,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa fa-circle-play"></i> Live Site
+              <i className="fa fa-circle-play"></i> Live Demo
             </a>
           </div>
          <br/>
@@ -477,7 +477,7 @@ const Projects = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-circle-play"></i> Live Site
+                <i className="fa fa-circle-play"></i> Live Demo
               </a>
             </div>
            <br/>
@@ -509,7 +509,7 @@ const Projects = () => {
             <Col className="vstack">
               <Col className="hstack ">
                 <Col className="d-none d-md-block col-md-1 d-xl-none">
-                //TODO - be sure all screen sizes format uniformly
+                {/* TODO - be sure all screen sizes format uniformly */}
                   {/* using transparent image here for correct formatting */}
                   <img
                     className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
