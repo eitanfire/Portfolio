@@ -15,11 +15,90 @@ body,
   font-size: 13px;
 }
 
-#root {
-  position: inline;
-  text-align: center;
-  color: #414141;
-  background-color: rgb(238, 238, 238);
+:root {
+  --base-font-size: 1rem;
+  --base-letter-spacing: 2px;
+  --base-padding-top: 2%;
+  --base-height: 5rem;
+  --base-margin-bottom: 4%;
+  --intro-text-size: clamp(2.75dvw, 3dvw, 3.25dvw);
+  --intro-margin: 8.5%;
+  --intro-padding-left: 6.25%;
+  --description-ratio: 0.55;
+  --cite-ratio: 0.7;
+}
+
+.intro-text {
+  margin-top: var(--base-margin-bottom);
+  margin-bottom: var(--base-margin-bottom);
+  padding-left: var(--intro-padding-left);
+  margin-right: var(--intro-margin);
+  margin-left: var(--intro-margin);
+  text-align: left;
+  font-size: var(--intro-text-size);
+}
+
+.description {
+  text-align: left;
+  font-size: calc(var(--intro-text-size) * var(--description-ratio));
+}
+
+.contact-info {
+  letter-spacing: var(--base-letter-spacing);
+  white-space: nowrap;
+  height: var(--base-height);
+  margin-bottom: var(--base-margin-bottom);
+  padding-top: var(--base-padding-top);
+  font-size: var(--base-font-size);
+  line-height: calc(100% - 0.65);
+}
+
+@media all and (max-width: 501px) {
+  :root {
+    --intro-text-size: clamp(5.25dvw, 5.5dvw, 5.75dvw);
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 200px) {
+  :root {
+    --base-font-size: 0.65rem;
+    --base-letter-spacing: 0.125px;
+    --base-padding-top: 15%;
+    --base-margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 201px) and (max-width: 390px) {
+  :root {
+    --base-font-size: small;
+    --base-letter-spacing: 0.25px;
+    --base-padding-top: 5%;
+    --base-margin-bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 391px) and (max-width: 501px) {
+  :root {
+    --base-font-size: small;
+    --base-letter-spacing: 0.5px;
+    --base-padding-top: 3%;
+    --base-margin-bottom: 4.5%;
+  }
+}
+
+@media only screen and (min-width: 502px) and (max-width: 1440px) {
+  :root {
+    --base-padding-top: 2%;
+    --base-margin-bottom: 4%;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  :root {
+    --base-font-size: 1.5rem;
+    --base-padding-top: 2%;
+    --base-margin-bottom: 4%;
+  }
 }
 
 @media only screen and (min-width: 0px) and (max-width: 490px) {
@@ -49,12 +128,6 @@ body,
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 406px) {
-  .description {
-    font-size: 5dvw;
-  }
-}
-
 h1,
 h2 {
   text-shadow: 0px 2px white;
@@ -64,11 +137,6 @@ h2 {
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.contact-info {
-  letter-spacing: 2px;
-  white-space: nowrap;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 200px) {
@@ -202,14 +270,15 @@ h2 {
 .technologies {
   border: 2px inset black;
   margin-bottom: 1rem;
+  text-align: start;
 }
 
 @media all and (max-width: 501px) {
   .technologies {
     position: inline;
-    margin-right: 8.5%;
-    margin-left: 8.5%;
-    padding-left: 6.25%;
+    margin-right: var(--intro-margin);
+    margin-left: var(--intro-margin);
+    padding-left: var(--intro-padding-left);
   }
 }
 
@@ -246,10 +315,6 @@ h2 {
   font-size: clamp(4dvw, 4.5dvw, 4dvw);
 }
 
-.description {
-  text-align: left;
-}
-
 .project-links {
   font-size: 1.25rem;
   text-align: left;
@@ -263,19 +328,14 @@ h2 {
   margin-right: 2rem;
 }
 
-.intro-text {
-  margin-top: 3%;
-  margin-bottom: 3%;
-  padding-left: 6.25%;
-  margin-right: 8.5%;
-  margin-left: 8.5%;
+.description {
   text-align: left;
-  font-size: clamp(2.75dvw, 3dvw, 3.25dvw);
+  font-size: calc(var(--intro-text-size) * var(--description-ratio));
 }
 
 @media all and (max-width: 501px) {
-  .intro-text {
-    font-size: clamp(5.25dvw, 5.5dvw, 5.75dvw);
+  :root {
+    --intro-text-size: clamp(5.25dvw, 5.5dvw, 5.75dvw);
   }
 }
 
@@ -325,9 +385,14 @@ i {
   max-height: 100%;
 }
 
+cite {
+  text-align: center;
+  font-size: calc(var(--base-font-size) * var(--cite-ratio));
+}
+
 @media all and (max-width: 537px) {
-  cite {
-    font-size: 1.5dvw;
+  :root {
+    --cite-ratio: 0.8;
   }
 }
 

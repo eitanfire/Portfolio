@@ -2,7 +2,7 @@ import { Container } from "reactstrap";
 
 const CiteIcons8 = () => {
   return (
-    <Container>
+    <Container className="d-flex justify-content-center">
       <cite>
         <a
           target="_blank"
