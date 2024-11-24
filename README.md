@@ -1,5 +1,5 @@
 # Eitan Fire's Portfolio Page 
-<a href="https://bit.ly/eitans-portfolio" target="blank"><img align="right" src="https://cdn-icons-png.flaticon.com/512/943/943329.png" height="100" width="auto" /></a>
+<a href="https://portfolio.eitans.website/" target="blank"><img align="right" src="https://cdn-icons-png.flaticon.com/512/943/943329.png" height="100" width="auto" /></a>
 
 https://portfolio.eitans.website/
 
