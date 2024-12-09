@@ -1,4 +1,4 @@
-import { Container, Col, Row } from "reactstrap";
+import { Container } from "reactstrap";
 
 const Technologies = () => {
   return (
@@ -7,7 +7,7 @@ const Technologies = () => {
       <Container className="technologies">
         AWS, CI/CD, CSS, Express, Firebase, Git, GitHub, GraphQL, JavaScript,
         JSON, JSX, NodeJS, NoSQL, React, React Native, PostgREST, PostgreSQL, Redux, RESTful
-        web services, Ruby, Ruby on Rails, Semantic HTML, SolidJS, SST,
+        web services, Ruby, Ruby on Rails, Semantic HTML, SolidJS, SST, Supabase,
         TypeScript
       </Container>
     </>
