@@ -6,6 +6,7 @@ import mapsIcon from "./assets/img/icons8-google-maps-50.png";
 import classroomIcon from "./assets/img/icons8-google-classroom-32.png";
 import aIIcon from "./assets/img/icons8-bard-50.png";
 import typeScriptIcon from "./assets/img/icons8-typescript-50.png";
+import postgreSQLIcon from "./assets/img/icons8-postgresql-50.png";
 
 export const icons = [
   { className: "fa-brands fa-html5", text: "HTML" },
@@ -18,10 +19,14 @@ export const icons = [
   { className: "png-icon", text: "Express", image: nodejsIcon },
   { className: "png-icon", text: "Redux", image: reduxIcon },
   { className: "png-icon", text: "Firestore", image: firestoreIcon },
-  { className: "fa-solid fa-lock fa-lg", text: "Firebase Auth" },
+  { className: "png-icon", text: "Firestore", image: firestoreIcon },
+  { className: "fa fa-solid fa-server", text: "SST" },
+  { className: "fa-solid fa-lock fa-lg", text: "OAuth" },
   { className: "png-icon", text: "Google Calendar API", image: calendarIcon },
   { className: "png-icon", text: "Google Maps API", image: mapsIcon },
   { className: "png-icon", text: "Google Classroom API", image: classroomIcon },
   { className: "png-icon", text: "Google Gemini API", image: aIIcon },
   { className: "fa fa-github", text: "GitHub" },
+  { className: "fa fa-aws fa-lg", text: "AWS" },
+  { className: "png-icon", text: "PostgreSQL", image: postgreSQLIcon },
 ];

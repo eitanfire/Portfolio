@@ -3,7 +3,7 @@ import { Container } from "reactstrap";
 const Technologies = () => {
   return (
     <>
-      <h3>Technical Competencies</h3>
+      <h3 className="mt-3">Technical Competencies</h3>
       <Container className="technologies">
         AWS, CI/CD, CSS, Express, Firebase, Git, GitHub, GraphQL, JavaScript,
         JSON, JSX, NodeJS, NoSQL, React, React Native, PostgREST, PostgreSQL, Redux, RESTful

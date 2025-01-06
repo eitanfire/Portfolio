@@ -1,3 +1,5 @@
+import LeetrbooAuth from "../assets/img/leetrboo_auth.png";
+import LeetrbooApp from "../assets/img/leetrbooApp.png";
 import TL from "../assets/img/tl-ss.png";
 import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
@@ -27,6 +29,111 @@ const Projects = () => {
 
   return (
     <Container className="projects">
+      <h2 className="title">leetrboo</h2>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-6 hstack">
+            {/* {renderIconsByText("HTML")} */}
+            {renderIconsByText("Bootstrap")}
+            {/* {renderIconsByText("CSS")} */}
+            {renderIconsByText("TypeScript")}
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+            {/* {renderIconsByText("Express")} */}
+          </Col>
+          <Col className="col-12 col-lg-5 col-lg-6 hstack">
+            {/* {renderIconsByText("Redux")} */}
+            {renderIconsByText("SST")}
+            {renderIconsByText("OAuth")}
+            {renderIconsByText("PostgreSQL")}
+            {renderIconsByText("AWS")}
+          </Col>
+        </Row>
+      </div>
+      <Row className="row-content row-content-by-spaced-out-tech-icons">
+        <Col className="col">
+          <div className="project-links d-md-none d-lg-block">
+            <a href="https://leetr.boo/" target="_blank" rel="noreferrer">
+              <i className="fa fa-circle-play"></i> Live Site
+            </a>
+          </div>
+          <br />
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://github.com/eitanfire/leetrboo.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div>
+        </Col>
+        <Col>
+          <Col
+            className="col col-12 
+        hstack"
+          >
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a href="https://leetr.boo/" target="_blank" rel="noreferrer">
+                <i className="fa fa-circle-play"></i> Live Site
+              </a>
+            </div>
+            <br />
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a
+                href="https://github.com/eitanfire/leetrboo.git"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-github"></i> GitHub
+              </a>
+            </div>
+          </Col>
+          <a href="https://leetr.boo/" target="_blank" rel="noreferrer">
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src={LeetrbooAuth}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+              <br />
+              <Col>
+                <img
+                  className="screenshots"
+                  src={LeetrbooApp}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+            </Col>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={LeetrbooAuth}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+              <br />
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src={LeetrbooApp}
+                  alt="Teach League screenshot"
+                ></img>
+              </Col>
+            </Col>
+          </a>
+        </Col>
+        <Col className="description col col-12 col-xl-8">
+          <p>
+            Whether it's for a Halloween costume contest or a karaoke
+            competition this leaderboard app will help you facilitate your next
+            event.
+          </p>
+        </Col>
+      </Row>
       <h2 className="title">
         {/* 🚀  */}
         Teach League
@@ -41,12 +148,12 @@ const Projects = () => {
             {renderIconsByText("React")}
             {renderIconsByText("Google Gemini API")}
             {renderIconsByText("NodeJS")}
-            {renderIconsByText("Express")}
+            {/* {renderIconsByText("Express")} */}
           </Col>
           <Col className="col-12 col-lg-5 col-lg-6 hstack">
             {renderIconsByText("Redux")}
             {renderIconsByText("Firestore")}
-            {renderIconsByText("Firebase Auth")}
+            {renderIconsByText("OAuth")}
             {renderIconsByText("Google Classroom API")}
           </Col>
         </Row>
@@ -54,15 +161,11 @@ const Projects = () => {
       <Row className="row-content row-content-by-spaced-out-tech-icons">
         <Col className="col">
           <div className="project-links d-md-none d-lg-block">
-            <a
-              href="https://teachleague.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://teachleague.com/" target="_blank" rel="noreferrer">
               <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
-         <br/>
+          <br />
           <div className="project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/legendary-quest.git"
@@ -87,7 +190,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
-           <br/>
+            <br />
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 href="https://github.com/eitanfire/legendary-quest.git"
@@ -98,11 +201,7 @@ const Projects = () => {
               </a>
             </div>
           </Col>
-          <a
-            href="https://teachleague.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://teachleague.com/" target="_blank" rel="noreferrer">
             <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
               <Col>
                 <img
@@ -111,7 +210,7 @@ const Projects = () => {
                   alt="Teach League screenshot"
                 ></img>
               </Col>
-             <br/>
+              <br />
               <Col>
                 <img
                   className="screenshots"
@@ -128,7 +227,7 @@ const Projects = () => {
                   alt="Teach League screenshot"
                 ></img>
               </Col>
-             <br/>
+              <br />
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
@@ -151,15 +250,14 @@ const Projects = () => {
               powered by AI
             </a>{" "}
             to the rest of the school year with a database of high-quality
-            curricula I have built and curated over nearly 15 years of experience as a
-            teacher. This site
-            also uses the Google Classroom API to give teachers an emergency
-            lesson plan they can easily assign to their students.
+            curricula I have built and curated over nearly 15 years of
+            experience as a teacher. This site also uses the Google Classroom
+            API to give teachers an emergency lesson plan they can easily assign
+            to their students.
           </p>
           <p>
-          Followers who want to experience
-            curated content featuring cutting-edge teaching practices can opt-in
-            to an emailed newsletter.
+            Followers who want to experience curated content featuring
+            cutting-edge teaching practices can opt-in to an emailed newsletter.
             Users can click on the light bulb to toggle between a light and dark
             theme.
           </p>
@@ -197,7 +295,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
-         <br/>
+          <br />
           <div className="project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/body-therapy-arts"
@@ -222,7 +320,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
-           <br/>
+            <br />
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 href="https://github.com/eitanfire/body-therapy-arts.git"
@@ -246,7 +344,7 @@ const Projects = () => {
                   alt="Body Therapy Arts screenshot"
                 ></img>
               </Col>
-             <br/>
+              <br />
               <Col>
                 <img
                   className="screenshots"
@@ -263,7 +361,7 @@ const Projects = () => {
                   alt="Body Therapy Arts screenshot"
                 ></img>
               </Col>
-             <br/>
+              <br />
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
@@ -311,7 +409,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
-         <br/>
+          <br />
           <div className="project-links d-md-none d-lg-block">
             <a
               href="https://github.com/eitanfire/Eitans-Website"
@@ -336,7 +434,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
-           <br/>
+            <br />
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 href="https://github.com/eitanfire/Eitans-Website"
@@ -356,7 +454,7 @@ const Projects = () => {
                   alt="Class Dashboard screenshot"
                 ></img>
               </Col>
-             <br/>
+              <br />
               <Col>
                 <img
                   className="screenshots"
@@ -373,7 +471,7 @@ const Projects = () => {
                   alt="Class Dashboard screenshot"
                 ></img>
               </Col>
-             <br/>
+              <br />
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
@@ -414,8 +512,8 @@ const Projects = () => {
           </p>
         </Col>
       </Row>
-      <h2 className="halloween-contest-leaderboard-title-xs-to-lg title d-block d-xxl-none">
-        {/* 👻  */}
+      {/* <h2 className="halloween-contest-leaderboard-title-xs-to-lg title d-block d-xxl-none">
+        👻 
         Halloween Contest Leaderboard
       </h2>
       <h2 className="halloween-contest-leaderboard-title-xxl title d-none d-xxl-block">
@@ -424,13 +522,10 @@ const Projects = () => {
       <div className="tech-icons">
         <Row>
           <Col className="col-6 hstack">
-            {/* {renderIconsByText("HTML")} */}
             {renderIconsByText("Bootstrap")}
-            {/* {renderIconsByText("CSS")} */}
             {renderIconsByText("React")}
           </Col>
           <Col className="col-6 mx-auto hstack">
-            {/* {renderIconsByText("Javascript")} */}
             {renderIconsByText("NodeJS")}
             {renderIconsByText("Express")}
           </Col>
@@ -447,7 +542,7 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
-         <br/>
+          <br />
           <div className="project-links d-md-none d-lg-block">
             <a
               // className="btn btn-social-icon btn-github"
@@ -473,7 +568,7 @@ const Projects = () => {
                 <i className="fa fa-circle-play"></i> Live Site
               </a>
             </div>
-           <br/>
+            <br />
             <div className="project-links-md d-none d-md-block d-lg-none">
               <a
                 // className="btn btn-social-icon btn-github"
@@ -502,9 +597,8 @@ const Projects = () => {
             <Col className="vstack">
               <Col className="hstack ">
                 <Col className="d-none d-md-block col-md-1 d-xl-none">
-                {/* TODO - be sure all screen sizes format uniformly */}
-                  {/* using transparent image here for correct formatting */}
-                  <img
+                  TODO - be sure all screen sizes format uniformly
+                   <img
                     className="transparent-screenshots-md-lg leaderboard-screenshot-md screenshots-md-lg"
                     src={Leaderboard}
                     alt="Leaderboard screenshot"
@@ -517,7 +611,7 @@ const Projects = () => {
                     alt="Leaderboard screenshot"
                   ></img>
                 </Col>
-               <br/>
+                <br />
               </Col>
             </Col>
           </a>
@@ -534,12 +628,12 @@ const Projects = () => {
             and that’s when I determined to solve this problem with programming.
           </p>
           <p>
-           The data is saved on local storage to prevent any loss in the event
-            of an accidental browser refresh. With all my bases covered, I have been
-            freed to MC the contest!
+            The data is saved on local storage to prevent any loss in the event
+            of an accidental browser refresh. With all my bases covered, I have
+            been freed to MC the contest!
           </p>
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };
