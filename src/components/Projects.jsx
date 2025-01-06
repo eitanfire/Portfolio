@@ -126,11 +126,21 @@ const Projects = () => {
             </Col>
           </a>
         </Col>
-        <Col className="description col col-12 col-xl-8">
+        <Col className="description single-page-description col col-12 col-xl-7">
           <p>
-            Whether it's for a Halloween costume contest or a karaoke
-            competition this leaderboard app will help you facilitate your next
-            event.
+            A few years ago I started the tradition of a Halloween costume
+            contest at my school. Students compete by showing off their costumes
+            while I project an accompanying music video they’ve selected in the
+            background. Having tracked student scores manually for years, I
+            envisioned a program that could not only track scores but also
+            broadcast participants’ standings to spectators in real-time. I
+            could not find an app that already provided this kind of leaderboard
+            and that’s when I determined to solve this problem with programming.
+          </p>
+          <p>
+            The data is saved on Supabase to prevent any loss in the event
+            of an accidental browser refresh. With all my bases covered, I have
+            been freed to MC the contest!
           </p>
         </Col>
       </Row>
