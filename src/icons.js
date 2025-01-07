@@ -19,7 +19,6 @@ export const icons = [
   { className: "png-icon", text: "Express", image: nodejsIcon },
   { className: "png-icon", text: "Redux", image: reduxIcon },
   { className: "png-icon", text: "Firestore", image: firestoreIcon },
-  { className: "png-icon", text: "Firestore", image: firestoreIcon },
   { className: "fa fa-solid fa-server", text: "SST" },
   { className: "fa-solid fa-lock fa-lg", text: "OAuth" },
   { className: "png-icon", text: "Google Calendar API", image: calendarIcon },

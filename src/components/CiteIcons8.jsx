@@ -7,6 +7,14 @@ const CiteIcons8 = () => {
         <a
           target="_blank"
           rel="noreferrer"
+          href="https://icons8.com/icon/set/postgresql/windows"
+        >
+          PostgreSQL
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          rel="noreferrer"
           href="https://icons8.com/icon/FQlr_bFSqEdG/node-js"
         >
           Node Js
