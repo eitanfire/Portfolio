@@ -7,33 +7,9 @@ const CiteIcons8 = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://icons8.com/icon/set/postgresql/windows"
-        >
-          PostgreSQL
-        </a>
-        {", "}
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://icons8.com/icon/FQlr_bFSqEdG/node-js"
-        >
-          Node Js
-        </a>
-        {", "}
-        <a
-          target="_blank"
-          rel="noreferrer"
           href="https://icons8.com/icon/SQEEoDcpUD6c/cloud-firestore"
         >
           Firestore
-        </a>
-        {", "}
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://icons8.com/icon/set/google-maps/ios"
-        >
-          Google Maps
         </a>
         {", "}
         <a
@@ -47,17 +23,41 @@ const CiteIcons8 = () => {
         <a
           target="_blank"
           rel="noreferrer"
+          href="https://icons8.com/icons/set/google-classroom"
+        >
+          Google Classroom
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          rel="noreferrer"
           href="https://icons8.com/icon/set/bard/family-ios"
         >
           Google Gemini
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://icons8.com/icon/set/google-maps/ios"
+        >
+          Google Maps
+        </a>
+        {", "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://icons8.com/icon/FQlr_bFSqEdG/node-js"
+        >
+          Node Js
         </a>
         {" & "}
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://icons8.com/icons/set/google-classroom"
+          href="https://icons8.com/icon/set/postgresql/windows"
         >
-          Google Classroom
+          PostgreSQL
         </a>{" "}
         icons by{" "}
         <a target="_blank" rel="noreferrer" href="https://icons8.com">
