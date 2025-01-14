@@ -22,7 +22,7 @@ const EmailContact = () => {
 
   return (
     <div>
-      <a href="mailto:eitanfire@gmail.com">
+      <a href="mailto:eitan@eitans.website">
         <i className="fa fa-envelope-o"></i> Email
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
@@ -35,7 +35,7 @@ const EmailContact = () => {
           style={{ cursor: "pointer" }}
           onClick={handleCopyClick}
         >
-          eitanfire@gmail.com{" "}
+          eitan@eitans.website{" "}
         </Col>
       )}
     </div>
