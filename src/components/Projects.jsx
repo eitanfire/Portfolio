@@ -4,7 +4,6 @@ import TL from "../assets/img/tl-ss.png";
 import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import About from "../assets/img/class-website-about-me-sm-ss.png";
-import Leaderboard from "../assets/img/leaderboard--ss.png";
 import { Container, Col, Row } from "reactstrap";
 import { icons } from "../icons";
 import BTAHomepage from "../assets/img/body-therapy-arts-homepage-ss.png";
