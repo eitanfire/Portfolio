@@ -137,9 +137,9 @@ const Projects = () => {
             and that’s when I determined to solve this problem with programming.
           </p>
           <p>
-            The data is saved on Supabase to prevent any loss in the event
-            of an accidental browser refresh. With all my bases covered, I have
-            been freed to MC the contest!
+            The data is saved on Supabase to prevent any loss in the event of an
+            accidental browser refresh. With all my bases covered, I have been
+            freed to MC the contest!
           </p>
         </Col>
       </Row>
@@ -259,7 +259,7 @@ const Projects = () => {
               powered by AI
             </a>{" "}
             to the rest of the school year with a database of high-quality
-            curricula I have built and curated over nearly 15 years of
+            curricula I have built and curated over 15 years of
             experience as a teacher. This site also uses the Google Classroom
             API to give teachers an emergency lesson plan they can easily assign
             to their students.
