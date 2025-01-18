@@ -5,12 +5,12 @@ const PhoneContact = () => {
   const [isPhoneVisible, setPhoneVisible] = useState(false);
 
   const handleMagnifyingGlassClick = (event) => {
-    event.preventDefault(); // Prevent the default behavior of the click event
+    event.preventDefault(); 
     setPhoneVisible(true);
   };
 
   const handleCopyClick = (event) => {
-    event.preventDefault(); // Prevent the default behavior of the click event
+    event.preventDefault();
 
     const phoneInput = document.getElementById("phoneInput");
     const phone = phoneInput.textContent.trim(); // Get the text content of the span and trim any whitespace
