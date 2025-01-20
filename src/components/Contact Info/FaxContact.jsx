@@ -22,7 +22,7 @@ const FaxContact = () => {
   return (
     <div>
       <a href="tel:7604158620">
-        <i className="fa fa-fax"></i> Fax
+        <i className="fa fa-fax me-1"></i> Fax
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
         <i className="fa fa-search">&nbsp;</i>

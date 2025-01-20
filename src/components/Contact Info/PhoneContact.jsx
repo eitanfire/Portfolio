@@ -23,14 +23,14 @@ const PhoneContact = () => {
   return (
     <div>
       <a href="tel:+13038177843">
-        <i className="fa fa-phone"></i>Phone
+        <i className="fa fa-phone me-1"></i>Phone
       </a>{" "}
       <a href="#" onClick={handleMagnifyingGlassClick}>
         <i className="fa fa-search">&nbsp;</i>
       </a>{" "}
       {isPhoneVisible && (
-        <Col 
-        className="12"
+        <Col
+          className="12"
           id="phoneInput"
           style={{ cursor: "pointer" }}
           onClick={handleCopyClick}

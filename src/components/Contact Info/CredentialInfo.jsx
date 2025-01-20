@@ -10,7 +10,7 @@ const CredentialInfo = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-solid fa-image-portrait fa-sm"></i>Resume
+            <i className="fa-solid fa-image-portrait fa-sm me-1"></i>Resume
           </a>
         </Col>
         <Col>
@@ -19,7 +19,7 @@ const CredentialInfo = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa fa-linkedin"></i>LinkedIn
+            <i className="fa fa-linkedin me-1"></i>LinkedIn
           </a>
         </Col>
       </Row>
