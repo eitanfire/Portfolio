@@ -125,7 +125,7 @@ const Projects = () => {
             </Col>
           </a>
         </Col>
-        <Col className="description single-page-description col col-12 col-xl-7">
+        <Col className="description single-page-description col col-12 col-xl-8">
           <p>
             A few years ago I started the tradition of a Halloween costume
             contest at my school. Students compete by showing off their costumes
