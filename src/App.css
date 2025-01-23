@@ -8,10 +8,7 @@
 body,
 #text-container,
 #markdown-container {
-  font-family: "Questrial",
-    /* 'Questrial',
-    Roboto  */ /* 'Raleway',  */ /* 'Quicksand'  */
-      sans-serif;
+  font-family: "Questrial", sans-serif;
   font-size: 13px;
 }
 
