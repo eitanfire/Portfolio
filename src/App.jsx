@@ -17,9 +17,9 @@ function App() {
         </span>
       </h1>
       <p className="intro-text">
-        I'm a software engineer with teaching experience. I am passionate about
-        creating responsive and mobile-first design websites and web
-        applications.
+        As a software engineer with a background in teaching, I craft
+        responsive, mobile-first web apps focused on intuitive user experiences
+        using modern frameworks.
       </p>
       <Projects />
       <Technologies />
