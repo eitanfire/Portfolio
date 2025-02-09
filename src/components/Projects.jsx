@@ -259,10 +259,10 @@ const Projects = () => {
               powered by AI
             </a>{" "}
             to the rest of the school year with a database of high-quality
-            curricula I have built and curated over 15 years of
-            experience as a teacher. This site also uses the Google Classroom
-            API to give teachers an emergency lesson plan they can easily assign
-            to their students.
+            curricula I have built and curated over 15 years of experience as a
+            teacher. This site also uses the Google Classroom API to give
+            teachers an emergency lesson plan they can easily assign to their
+            students.
           </p>
           <p>
             Followers who want to experience curated content featuring
