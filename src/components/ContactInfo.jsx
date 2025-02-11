@@ -1,28 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import EmailContact from "../components/Contact Info/EmailContact";
 import PhoneContact from "../components/Contact Info/PhoneContact";
 import CredentialInfo from "./Contact Info/CredentialInfo";
 import { Container, Col, Row } from "reactstrap";
 
 const ContactInfo = () => {
-  const [isEmailVisible, setEmailVisible] = useState(false);
-
-  const handleMagnifyingGlassClick = (event) => {
-    event.preventDefault();
-    setEmailVisible(true);
-  };
-
-  const handleCopyClick = (event) => {
-    event.preventDefault();
-
-    const emailInput = document.getElementById("emailInput");
-    const email = emailInput.textContent.trim(); // Get the text content of the span and trim any whitespace
-    navigator.clipboard.writeText(email); // Copy the trimmed email to the clipboard
-    setEmailVisible(false);
-    localStorage.setItem("copiedEmail", email);
-    alert("Email address copied!");
-  };
-
   return (
     <Container className="contact-info">
       <Row className="">

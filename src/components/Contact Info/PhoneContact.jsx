@@ -1,45 +1,14 @@
-import React, { useState } from "react";
-import { Col } from "reactstrap";
+import React from "react";
+import ContactItem from "./ContactItem";
 
-const PhoneContact = () => {
-  const [isPhoneVisible, setPhoneVisible] = useState(false);
-
-  const handleMagnifyingGlassClick = (event) => {
-    event.preventDefault(); 
-    setPhoneVisible(true);
-  };
-
-  const handleCopyClick = (event) => {
-    event.preventDefault();
-
-    const phoneInput = document.getElementById("phoneInput");
-    const phone = phoneInput.textContent.trim(); // Get the text content of the span and trim any whitespace
-    navigator.clipboard.writeText(phone); // Copy the trimmed email to the clipboard
-    setPhoneVisible(false);
-    localStorage.setItem("copiedPhone", phone);
-    alert("Phone number copied!");
-  };
-
-  return (
-    <div>
-      <a href="tel:+13038177843">
-        <i className="fa fa-phone me-1"></i>Phone
-      </a>{" "}
-      <a href="#" onClick={handleMagnifyingGlassClick}>
-        <i className="fa fa-search">&nbsp;</i>
-      </a>{" "}
-      {isPhoneVisible && (
-        <Col
-          className="12"
-          id="phoneInput"
-          style={{ cursor: "pointer" }}
-          onClick={handleCopyClick}
-        >
-          (303) 817-7843
-        </Col>
-      )}
-    </div>
-  );
-};
+const PhoneContact = () => (
+  <ContactItem
+    type="Phone"
+    value="+13038177843"
+    formattedValue="(303) 817-7843"
+    icon="fa-phone"
+    storageKey="copiedPhone"
+  />
+);
 
 export default PhoneContact;

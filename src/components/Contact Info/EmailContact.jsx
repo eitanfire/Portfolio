@@ -1,45 +1,13 @@
-import React, { useState } from "react";
-import { Col } from "reactstrap";
+import React from "react";
+import ContactItem from "./ContactItem";
 
-const EmailContact = () => {
-  const [isEmailVisible, setEmailVisible] = useState(false);
-
-  const handleMagnifyingGlassClick = (event) => {
-    event.preventDefault();
-    setEmailVisible(true);
-  };
-
-  const handleCopyClick = (event) => {
-    event.preventDefault();
-
-    const emailInput = document.getElementById("emailInput");
-    const email = emailInput.textContent.trim();
-    navigator.clipboard.writeText(email);
-    setEmailVisible(false);
-    localStorage.setItem("copiedEmail", email);
-    alert("Email address copied!");
-  };
-
-  return (
-    <div>
-      <a href="mailto:eitan@eitans.website">
-        <i className="fa fa-envelope-o me-1"></i>Email
-      </a>{" "}
-      <a href="#" onClick={handleMagnifyingGlassClick}>
-        <i className="fa fa-search">&nbsp;</i>
-      </a>{" "}
-      {isEmailVisible && (
-        <Col
-          className="12"
-          id="emailInput"
-          style={{ cursor: "pointer" }}
-          onClick={handleCopyClick}
-        >
-          eitan@eitans.website{" "}
-        </Col>
-      )}
-    </div>
-  );
-};
+const EmailContact = () => (
+  <ContactItem
+    type="Email"
+    value="eitan@eitans.website"
+    icon="fa-envelope-o"
+    storageKey="copiedEmail"
+  />
+);
 
 export default EmailContact;
