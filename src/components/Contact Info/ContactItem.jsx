@@ -4,19 +4,11 @@ import { Col } from "reactstrap";
 const ContactItem = ({ type, value, formattedValue, icon, storageKey }) => {
   const [isVisible, setVisible] = useState(false);
 
-  const handleCopyClick = (event) => {
-    event.preventDefault();
-    navigator.clipboard.writeText(value);
-    setVisible(false);
-    localStorage.setItem(storageKey, value);
-    alert(`${type} copied!`);
-  };
-
-  const handleCopyIconClick = (event) => {
+  const handleCopy = (event) => {
     event.preventDefault();
     navigator.clipboard.writeText(value);
     localStorage.setItem(storageKey, value);
-    setVisible(true);
+    setVisible(!isVisible);
     alert(`${type} copied!`);
   };
 
@@ -37,7 +29,7 @@ const ContactItem = ({ type, value, formattedValue, icon, storageKey }) => {
         <i className={`fa ${icon} me-1`}></i>
         {type}
       </a>{" "}
-      <a href="#" onClick={handleCopyIconClick}>
+      <a href="#" onClick={handleCopy}>
         <i className="fa fa-copy">&nbsp;</i>
       </a>{" "}
       {isVisible && (
@@ -45,7 +37,7 @@ const ContactItem = ({ type, value, formattedValue, icon, storageKey }) => {
           className="12"
           id={`${type.toLowerCase()}Input`}
           style={{ cursor: "pointer" }}
-          onClick={handleCopyClick}
+          onClick={handleCopy}
         >
           {formattedValue || value}
         </Col>
