@@ -51,6 +51,14 @@ const CiteIcons8 = () => {
         >
           Node Js
         </a>
+        {", "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://icons8.com/icon/1KG4cIaExbcv/portfolio"
+        >
+          Portfolio
+        </a>{" "}
         {" & "}
         <a
           target="_blank"
