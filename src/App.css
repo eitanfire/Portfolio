@@ -25,6 +25,10 @@ body,
   --cite-ratio: 0.7;
 }
 
+a {
+  text-decoration:none;
+}
+
 .intro-text {
   margin-top: var(--base-margin-bottom);
   margin-bottom: var(--base-margin-bottom);
