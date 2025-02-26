@@ -1,5 +1,5 @@
-import LeetrbooAuth from "../assets/img/leetrboo_auth.png";
-import LeetrbooApp from "../assets/img/leetrbooApp.png";
+import LeetrbooAuth from "../assets/img/leetrboo-sign-in-ss.png";
+import LeetrbooApp from "../assets/img/leetrbooApp.png"
 import TL from "../assets/img/tl-ss.png";
 import TLLight from "../assets/img/tl-light-ss.png";
 import Class from "../assets/img/class-website-ss.png";
