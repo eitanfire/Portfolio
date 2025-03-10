@@ -6,7 +6,7 @@ const CredentialInfo = () => {
       <Row>
         <Col>
           <a
-            href="https://drive.google.com/file/d/12qCB8QA41-RbLyfJ8hla0fmuwe7MdUiI/view?usp=sharing"
+            href="https://drive.google.com/file/d/1UOGOintz7_z0JLO-1mC55AYr8dZj2tU_/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
