@@ -103,7 +103,7 @@ a {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 490px) {
-  .technologies-subsection-title {
+  .technologies-utilized-title {
     font-size: clamp(6.75dvw, 7dvw, 7.25dvw);
   }
 }
