@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <MantineProvider defaultColorScheme="auto" >
+    <MantineProvider defaultColorScheme="auto">
       <Container className="wrapper col col-12">
         <ConactInfo />
         <h1 className="main-title">
