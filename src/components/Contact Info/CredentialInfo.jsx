@@ -6,11 +6,11 @@ const CredentialInfo = () => {
       <Row>
         <Col>
           <a
-            href="https://drive.google.com/file/d/1Kls0aCfy_ioK-FNput7ajP5wkw5DMUxJ/view?usp=sharing"
+            href="dist/assets/Eitan Fire's Résumé.pdf"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-solid fa-image-portrait fa-sm me-1"></i>Resume
+            <i className="fa-solid fa-image-portrait fa-sm me-1"></i>Résumé
           </a>
         </Col>
         <Col>
