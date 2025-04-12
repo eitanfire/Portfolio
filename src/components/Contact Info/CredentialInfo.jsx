@@ -6,7 +6,7 @@ const CredentialInfo = () => {
       <Row>
         <Col>
           <a
-            href="dist/assets/Eitan Fire's Résumé.pdf"
+            href="src/assets/img/Eitan Fire's Résumé.pdf"
             target="_blank"
             rel="noreferrer"
           >
