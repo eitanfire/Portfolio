@@ -1,4 +1,3 @@
-import reduxIcon from "./assets/img/icons8-redux-50.png";
 import firestoreIcon from "./assets/img/icons8-firestore-48.png";
 import nodejsIcon from "./assets/img/icons8-node-js-32.png";
 import calendarIcon from "./assets/img/icons8-google-calendar-50.png";
@@ -15,15 +14,19 @@ export const icons = [
   { className: "fa-brands fa-js", text: "JavaScript" },
   { className: "png-icon", text: "TypeScript", image: typeScriptIcon },
   { className: "fa-brands fa-react", text: "React" },
+  { className: "fa-solid fa-palette", text: "Mantine UI" },
   { className: "fa-brands fa-node fa-x", text: "NodeJS" },
   { className: "png-icon", text: "Express", image: nodejsIcon },
-  { className: "png-icon", text: "Redux", image: reduxIcon },
   { className: "png-icon", text: "Firestore", image: firestoreIcon },
   { className: "fa fa-solid fa-server", text: "SST" },
   { className: "fa-solid fa-lock fa-lg", text: "OAuth" },
+  { className: "fa-solid fa-robot", text: "OpenAI API" },
   { className: "png-icon", text: "Google Calendar API", image: calendarIcon },
+  { className: "fa-brands fa-google-drive", text: "Google Drive API" },
   { className: "png-icon", text: "Google Maps API", image: mapsIcon },
   { className: "png-icon", text: "Google Classroom API", image: classroomIcon },
+  { className: "fa-brands fa-youtube", text: "YouTube API" },
+  { className: "fa-solid fa-chalkboard", text: "Canvas API" },
   { className: "png-icon", text: "Google Gemini API", image: aIIcon },
   { className: "fa fa-github", text: "GitHub" },
   { className: "fa fa-aws fa-lg", text: "AWS" },

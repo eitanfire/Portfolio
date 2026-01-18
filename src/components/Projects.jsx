@@ -151,19 +151,21 @@ const Projects = () => {
         <Row>
           <Col className="col col-md-12 col-lg-6 hstack">
             {/* {renderIconsByText("HTML")} */}
-            {renderIconsByText("Bootstrap")}
+            {renderIconsByText("Mantine UI")}
             {/* {renderIconsByText("CSS")} */}
             {/* {renderIconsByText("Javascript")} */}
             {renderIconsByText("React")}
-            {renderIconsByText("Google Gemini API")}
+            {renderIconsByText("OpenAI API")}
             {renderIconsByText("NodeJS")}
             {/* {renderIconsByText("Express")} */}
           </Col>
           <Col className="col-12 col-lg-5 col-lg-6 hstack">
-            {renderIconsByText("Redux")}
             {renderIconsByText("Firestore")}
             {renderIconsByText("OAuth")}
             {renderIconsByText("Google Classroom API")}
+            {renderIconsByText("Google Drive API")}
+            {renderIconsByText("YouTube API")}
+            {renderIconsByText("Canvas API")}
           </Col>
         </Row>
       </div>

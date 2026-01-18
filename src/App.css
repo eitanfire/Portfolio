@@ -363,7 +363,7 @@ i {
 }
 
 .fa-lock {
-  height: 1.5rem;
+  font-size: 0.875rem !important;
 }
 
 .project-links .google-api-icon {
@@ -379,6 +379,17 @@ i {
   .tech-icons {
     font-size: 1.5dvw;
   }
+}
+
+@media all and (max-width: 537px) {
+  .fa-lock {
+    font-size: 1.4625rem !important;
+  }
+}
+
+.tech-icons i,
+.tech-icons img {
+  margin-bottom: 0.35rem;
 }
 
 .wrapper {

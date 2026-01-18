@@ -4,9 +4,9 @@
     "tech-icons": [
       { "className": "fa-brands fa-html5", "icon": null, "title": "HTML" },
       {
-        "className": "fa-brands fa-bootstrap",
+        "className": "fa-solid fa-palette",
         "icon": null,
-        "title": "Bootstrap"
+        "title": "Mantine UI"
       },
       { "className": "fa-brands fa-css3-alt", "icon": null, "title": "CSS" },
       { "className": "fa-brands fa-js", "icon": null, "title": "Javascript" },
@@ -19,11 +19,6 @@
       },
       {
         "className": "png-icon",
-        "icon": "../assets/img/icons8-redux-50.png",
-        "title": "Redux"
-      },
-      {
-        "className": "png-icon",
         "icon": "../assets/img/icons8-firestore-48.png",
         "title": "Firestore"
       },
@@ -33,14 +28,34 @@
         "title": "Firebase Auth"
       },
       {
+        "className": "fa-solid fa-robot",
+        "icon": null,
+        "title": "OpenAI API"
+      },
+      {
         "className": "png-icon",
         "icon": "../assets/img/icons8-google-calendar-50.png",
         "title": "Google Calendar API"
       },
       {
+        "className": "fa-brands fa-google-drive",
+        "icon": null,
+        "title": "Google Drive API"
+      },
+      {
         "className": "png-icon",
         "icon": "../assets/img/icons8-google-classroom-32.png",
         "title": "Google Classroom API"
+      },
+      {
+        "className": "fa-brands fa-youtube",
+        "icon": null,
+        "title": "YouTube API"
+      },
+      {
+        "className": "fa-solid fa-chalkboard",
+        "icon": null,
+        "title": "Canvas API"
       }
     ],
     "project-links": [
