@@ -33,7 +33,7 @@ const Projects = () => {
         <Row>
           <Col className="col col-md-12 col-lg-6 hstack">
             {/* {renderIconsByText("HTML")} */}
-            {renderIconsByText("Bootstrap")}
+            {renderIconsByText("Mantine UI")}
             {/* {renderIconsByText("CSS")} */}
             {renderIconsByText("TypeScript")}
             {renderIconsByText("React")}
@@ -46,6 +46,7 @@ const Projects = () => {
             {renderIconsByText("OAuth")}
             {renderIconsByText("PostgreSQL")}
             {renderIconsByText("AWS")}
+            {renderIconsByText("YouTube API")}
           </Col>
         </Row>
       </div>
