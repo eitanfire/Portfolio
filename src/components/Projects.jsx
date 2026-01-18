@@ -1,7 +1,7 @@
 import LeetrbooAuth from "../assets/img/leetrboo-sign-in-ss.png";
 import LeetrbooApp from "../assets/img/leetrbooApp.png"
-import TL from "../assets/img/tl-ss.png";
-import TLLight from "../assets/img/tl-light-ss.png";
+import TL from "../assets/img/tl.png";
+import TLAccount from "../assets/img/tl-account-ss.png";
 import Class from "../assets/img/class-website-ss.png";
 import About from "../assets/img/class-website-about-me-sm-ss.png";
 import { Container, Col, Row } from "reactstrap";
@@ -215,7 +215,7 @@ const Projects = () => {
               <Col>
                 <img
                   className="screenshots"
-                  src={TLLight}
+                  src={TL}
                   alt="Teach League screenshot"
                 ></img>
               </Col>
@@ -223,7 +223,7 @@ const Projects = () => {
               <Col>
                 <img
                   className="screenshots"
-                  src={TL}
+                  src={TLAccount}
                   alt="Teach League screenshot"
                 ></img>
               </Col>
@@ -232,7 +232,7 @@ const Projects = () => {
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
-                  src={TLLight}
+                  src={TL}
                   alt="Teach League screenshot"
                 ></img>
               </Col>
@@ -240,7 +240,7 @@ const Projects = () => {
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
-                  src={TL}
+                  src={TLAccount}
                   alt="Teach League screenshot"
                 ></img>
               </Col>
