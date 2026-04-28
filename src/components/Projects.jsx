@@ -1,5 +1,5 @@
 import LeetrbooAuth from "../assets/img/leetrboo-sign-in-ss.png";
-import LeetrbooApp from "../assets/img/leetrbooApp.png"
+import LeetrbooApp from "../assets/img/leetrbooApp.png";
 import TL from "../assets/img/tl.png";
 import TLAccount from "../assets/img/tl-account-ss.png";
 import Class from "../assets/img/class-website-ss.png";
@@ -394,6 +394,184 @@ const Projects = () => {
           </p>
         </Col>
       </Row>
+      <h2 className="title">Mishpokhe Geshikhte</h2>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-7 hstack">
+            {renderIconsByText("HTML")}
+            {renderIconsByText("CSS")}
+            {renderIconsByText("JavaScript")}
+          </Col>
+          <Col className="col col-sm-11 col-10 mx-auto col-lg-5 hstack">
+            {renderIconsByText("React")}
+            {renderIconsByText("Firestore")}
+          </Col>
+        </Row>
+      </div>
+      <Row className="row-content row-content-by-spaced-out-tech-icons">
+        <Col className="col">
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://mishpokhe-geshikhte.web.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-circle-play"></i> Live Site
+            </a>
+          </div>
+        </Col>
+        <Col>
+          <Col
+            className="col col-12 
+        hstack"
+          >
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a
+                href="https://mishpokhe-geshikhte.web.app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-circle-play"></i> Live Site
+              </a>
+            </div>
+          </Col>
+          <a
+            href="https://mishpokhe-geshikhte.web.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app"
+                  alt="Mishpokhe Geshikhte screenshot"
+                ></img>
+              </Col>
+              <br />
+              <Col>
+                <img
+                  className="screenshots"
+                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app/archive"
+                  alt="Mishpokhe Geshikhte screenshot"
+                ></img>
+              </Col>
+            </Col>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app"
+                  alt="Mishpokhe Geshikhte screenshot"
+                ></img>
+              </Col>
+              <br />
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app/archive"
+                  alt="Mishpokhe Geshikhte screenshot"
+                ></img>
+              </Col>
+            </Col>
+          </a>
+        </Col>
+        <Col className="description col col-12 col-xl-8">
+          <p>
+            Mishpokhe Geshikhte is a family-history archive dedicated to Wladek
+            "Wolf" Karmiol, preserving documents, letters, and manuscripts in a
+            browsable digital collection.
+          </p>
+          <p>
+            The project focuses on readability, respectful storytelling, and
+            easy navigation across biographies and primary-source materials so
+            family and community members can explore the history from anywhere.
+          </p>
+        </Col>
+      </Row>
+      {/* <h2 className="title">Shadow Paws</h2>
+      <div className="tech-icons">
+        <Row>
+          <Col className="col col-md-12 col-lg-7 hstack">
+            {renderIconsByText("HTML")}
+            {renderIconsByText("CSS")}
+            {renderIconsByText("JavaScript")}
+          </Col>
+          <Col className="col col-sm-11 col-10 mx-auto col-lg-5 hstack">
+            {renderIconsByText("React")}
+            {renderIconsByText("NodeJS")}
+          </Col>
+        </Row>
+      </div>
+      <Row className="row-content row-content-by-spaced-out-tech-icons">
+        <Col className="col">
+          <div className="project-links d-md-none d-lg-block">
+            <a href="https://shadowpaws.co" target="_blank" rel="noreferrer">
+              <i className="fa fa-circle-play"></i> Live Site
+            </a>
+          </div>
+        </Col>
+        <Col>
+          <Col
+            className="col col-12 
+        hstack"
+          >
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a href="https://shadowpaws.co" target="_blank" rel="noreferrer">
+                <i className="fa fa-circle-play"></i> Live Site
+              </a>
+            </div>
+          </Col>
+          <a href="https://shadowpaws.co" target="_blank" rel="noreferrer">
+            <Col className="screenshot-container col d-md-none d-xl-block col-xl-2">
+              <Col>
+                <img
+                  className="screenshots"
+                  src="https://image.thum.io/get/width/1200/https://shadowpaws.co"
+                  alt="Shadow Paws screenshot"
+                ></img>
+              </Col>
+              <br />
+              <Col>
+                <img
+                  className="screenshots"
+                  src="https://image.thum.io/get/width/1200/https://shadowpaws.co"
+                  alt="Shadow Paws screenshot"
+                ></img>
+              </Col>
+            </Col>
+            <Col className="hstack">
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src="https://image.thum.io/get/width/1200/https://shadowpaws.co"
+                  alt="Shadow Paws screenshot"
+                ></img>
+              </Col>
+              <br />
+              <Col className="d-none d-md-block d-xl-none">
+                <img
+                  className="screenshots-md-lg"
+                  src="https://image.thum.io/get/width/1200/https://shadowpaws.co"
+                  alt="Shadow Paws screenshot"
+                ></img>
+              </Col>
+            </Col>
+          </a>
+        </Col>
+        <Col className="description col col-12 col-xl-8">
+          <p>
+            Shadow Paws is a branded web presence for a pet-centered project,
+            designed to communicate services clearly and guide visitors toward
+            next actions quickly on desktop and mobile.
+          </p>
+          <p>
+            I focused on building a clean, trustworthy layout with concise
+            content hierarchy so the most important information is easy to scan
+            and access.
+          </p>
+        </Col>
+      </Row> */}
       <h2 className="title">
         {/* 👨🏻‍🏫  */}
         Class Dashboard
