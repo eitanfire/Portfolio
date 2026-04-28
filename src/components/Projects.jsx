@@ -419,6 +419,16 @@ const Projects = () => {
               <i className="fa fa-circle-play"></i> Live Site
             </a>
           </div>
+          <br />
+          <div className="project-links d-md-none d-lg-block">
+            <a
+              href="https://github.com/eitanfire/mishpokhe-geshikhte"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-github"></i> GitHub
+            </a>
+          </div>
         </Col>
         <Col>
           <Col
@@ -432,6 +442,16 @@ const Projects = () => {
                 rel="noreferrer"
               >
                 <i className="fa fa-circle-play"></i> Live Site
+              </a>
+            </div>
+            <br />
+            <div className="project-links-md d-none d-md-block d-lg-none">
+              <a
+                href="https://github.com/eitanfire/mishpokhe-geshikhte"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-github"></i> GitHub
               </a>
             </div>
           </Col>
