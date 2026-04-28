@@ -8,6 +8,8 @@ import { Container, Col, Row } from "reactstrap";
 import { icons } from "../icons";
 import BTAHomepage from "../assets/img/body-therapy-arts-homepage-ss.png";
 import BTAServices from "../assets/img/body-therapy-arts-services-ss.png";
+import MishpokheHomepage from "../assets/img/mg-homepage.png";
+import MishpokheArchive from "../assets/img/mg-archive.png";
 
 const Projects = () => {
   const renderIconsByText = (text) => {
@@ -464,7 +466,7 @@ const Projects = () => {
               <Col>
                 <img
                   className="screenshots"
-                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app"
+                  src={MishpokheHomepage}
                   alt="Mishpokhe Geshikhte screenshot"
                 ></img>
               </Col>
@@ -472,7 +474,7 @@ const Projects = () => {
               <Col>
                 <img
                   className="screenshots"
-                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app/archive"
+                  src={MishpokheArchive}
                   alt="Mishpokhe Geshikhte screenshot"
                 ></img>
               </Col>
@@ -481,7 +483,7 @@ const Projects = () => {
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
-                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app"
+                  src={MishpokheHomepage}
                   alt="Mishpokhe Geshikhte screenshot"
                 ></img>
               </Col>
@@ -489,7 +491,7 @@ const Projects = () => {
               <Col className="d-none d-md-block d-xl-none">
                 <img
                   className="screenshots-md-lg"
-                  src="https://image.thum.io/get/width/1200/https://mishpokhe-geshikhte.web.app/archive"
+                  src={MishpokheArchive}
                   alt="Mishpokhe Geshikhte screenshot"
                 ></img>
               </Col>
