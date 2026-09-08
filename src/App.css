@@ -285,6 +285,15 @@ h2 {
 
 .technologies-subsection-title {
   text-align: left;
+  font-weight: 600;
+}
+
+.technologies-group {
+  margin-bottom: 0.5rem;
+}
+
+.technologies-group:last-child {
+  margin-bottom: 0;
 }
 
 .technologies-title {
