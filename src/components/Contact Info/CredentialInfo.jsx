@@ -6,7 +6,7 @@ const CredentialInfo = () => {
       <Row>
         <Col>
           <a
-            href="https://drive.google.com/file/d/12FYQXpEyk89EgXJc7SMa6uQBUkbglBTJ/view?usp=sharing"
+            href="/Eitan-Fire-Resume.pdf"
             target="_blank"
             rel="noreferrer"
           >
