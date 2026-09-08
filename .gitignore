@@ -48,6 +48,9 @@ build/Release
 # Dependency directories
 node_modules/
 
+# Build output (rebuilt by CI on every push)
+dist/
+
 # Optional npm cache directory
 .npm
 
