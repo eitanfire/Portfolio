@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import HomePage from "./home/HomePage.jsx";
+import ProductPage from "./ProductPage.jsx";
+import "./product.css";
 
-// The previous home page (App.jsx, Projects.jsx) is kept in src/ for reference but no longer rendered.
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HomePage />
+    <ProductPage />
   </React.StrictMode>
 );

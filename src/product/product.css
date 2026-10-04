@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Questrial&display=swap");
+
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --ink: #1b1d22;
+  --ink-2: #4a4f59;
+  --ink-3: #6f7480;
+  --rule: #e6e2da;
+  --accent: #1f6f5c;
+  --accent-soft: #e4f1ec;
+  --shadow: 0 1px 2px rgba(20, 22, 28, 0.06), 0 8px 24px rgba(20, 22, 28, 0.08);
+  --radius: 14px;
+  --measure: 1120px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121418;
+    --surface: #1a1d23;
+    --ink: #eef0f3;
+    --ink-2: #c3c8d1;
+    --ink-3: #9aa1ad;
+    --rule: #2c3038;
+    --accent: #6cc4a8;
+    --accent-soft: #1c2e29;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.page {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+/* Top bar */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.brand {
+  font-family: "Questrial", sans-serif;
+  font-size: 20px;
+  color: var(--ink);
+  letter-spacing: 0.5px;
+}
+
+.top-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  font-size: 15px;
+}
+
+.top-links a {
+  color: var(--ink-2);
+}
+
+/* Hero */
+.hero {
+  padding: 72px 0 56px;
+  max-width: 820px;
+}
+
+.kicker {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hero h1 {
+  margin: 0 0 20px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: clamp(36px, 5.6vw, 60px);
+  line-height: 1.08;
+  letter-spacing: -0.5px;
+}
+
+.lede {
+  margin: 0 0 32px;
+  font-size: clamp(18px, 2vw, 21px);
+  color: var(--ink-2);
+}
+
+.jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jump a {
+  display: inline-block;
+  padding: 8px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 15px;
+}
+
+.jump a:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.case-num {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-3);
+  margin-right: 4px;
+}
+
+/* Case studies */
+.case {
+  padding: 64px 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 16px;
+}
+
+.case-head {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.case h2 {
+  margin: 0 0 12px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: clamp(28px, 3.6vw, 40px);
+  line-height: 1.15;
+}
+
+.one-line {
+  margin: 0;
+  font-size: 19px;
+  color: var(--ink-2);
+}
+
+.shots {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  gap: 24px;
+  align-items: end;
+  margin-bottom: 40px;
+}
+
+.shot {
+  margin: 0;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.shot-phone {
+  border-radius: 22px;
+}
+
+.case-body {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.case-body h3 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.case-body p {
+  margin: 0 0 22px;
+  color: var(--ink);
+}
+
+.case-body ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.case-body li {
+  margin-bottom: 12px;
+}
+
+.case-body li::marker {
+  color: var(--accent);
+}
+
+.case-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  font-weight: 500;
+}
+
+/* How I work */
+.practices {
+  padding: 64px 0 24px;
+  border-top: 1px solid var(--rule);
+}
+
+.practices h2 {
+  margin: 0 0 28px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: clamp(28px, 3.6vw, 40px);
+}
+
+.practice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.practice {
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+
+.practice h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.practice p {
+  margin: 0;
+  color: var(--ink-2);
+}
+
+.foot {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-2);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .case-body {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .shots {
+    grid-template-columns: minmax(0, 1fr) 150px;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  .page {
+    padding: 0 16px 48px;
+  }
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero {
+    padding: 44px 0 40px;
+  }
+  .jump {
+    gap: 8px;
+  }
+  .jump a {
+    padding: 6px 11px;
+    font-size: 14px;
+  }
+  .case {
+    padding: 44px 0;
+  }
+  .shots {
+    grid-template-columns: 1fr;
+  }
+  .shot-phone {
+    display: none;
+  }
+  .practice-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Secondary screenshot inside a case study */
+.extra {
+  margin: -16px 0 40px;
+  max-width: 760px;
+}
+
+.extra figcaption {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--ink-3);
+}
+
+/* Labs */
+.labs {
+  padding: 64px 0;
+  border-top: 1px solid var(--rule);
+  scroll-margin-top: 16px;
+}
+
+.labs h2 {
+  margin: 0 0 12px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-size: clamp(28px, 3.6vw, 40px);
+}
+
+.labs-intro {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.lab-list {
+  display: grid;
+  gap: 24px;
+}
+
+.lab {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 28px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+}
+
+.lab-img {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  overflow: hidden;
+  align-self: start;
+}
+
+.lab-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lab-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.lab h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.lab-status {
+  flex-shrink: 0;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lab dl {
+  margin: 0 0 14px;
+}
+
+.lab dt {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.lab dd {
+  margin: 2px 0 0;
+}
+
+.lab-link {
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .lab {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
