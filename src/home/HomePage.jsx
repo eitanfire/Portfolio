@@ -75,7 +75,7 @@ const projects = [
     title: "Mishpokhe Geshikhte",
     kind: "Family-history archive",
     img: "/home/mishpokhe.jpg",
-    alt: "Mishpokhe Geshikhte home page featuring Wladek \"Wolf\" Karmiol and a carousel of archived documents.",
+    alt: "Mishpokhe Geshikhte home page: Wladek \"Wolf\" Karmiol's name over a 1940 group photograph from the Lodz ghetto.",
     summary:
       "A browsable collection of the documents, letters and manuscripts of Wladek \"Wolf\" Karmiol, a Yiddish storyteller and survivor of the Lodz ghetto, built for readability and respectful storytelling.",
     tech: ["React", "JavaScript", "Firestore"],
