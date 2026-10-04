@@ -38,7 +38,7 @@ const projects = [
     alt: "Teach League planner asking 'What do you want your students to know?' with three example learning goals.",
     summary:
       "Planning starts from one question: what do you want your students to know? Generation is grounded in curriculum I've curated over 17 years, and emergency lessons assign straight to Google Classroom.",
-    tech: ["React", "Node.js", "Firestore", "OpenAI API", "Google Classroom API"],
+    tech: ["React", "Node.js", "Firestore", "Gemini API", "Google Classroom API"],
     links: [
       { label: "teachleague.com", href: "https://teachleague.com/" },
       { label: "GitHub", href: "https://github.com/eitanfire/legendary-quest" },
